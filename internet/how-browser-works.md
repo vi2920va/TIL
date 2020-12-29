@@ -23,7 +23,7 @@ description: 브라우저의 작동원리
 * Networking
   * 웹 서버와 통신이 가능하게 하는 네트워크
 * UI Backend
-  * UI 구동이 가능하게 하는 UI 백엔
+  * UI 구동이 가능하게 하는 UI 백엔드
 * JavaScript Interpreter
   * JavaScript 코드를 파싱하고 실행하는 자바스크립트 해석기
 * DataPersistence
