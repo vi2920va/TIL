@@ -1,8 +1,4 @@
----
-description: 인터넷은 어떻게 작동하는 가?
----
-
-# How does the Internet work ?
+# 인터넷 통신 원리
 
 ![internet](../.gitbook/assets/.png.png)
 

@@ -1,8 +1,4 @@
----
-description: HTTP란 무엇인가 ?
----
-
-# What is HTTP ?
+# HTTP 프로토콜의 이해
 
 ![http://](../.gitbook/assets/s.svg)
 

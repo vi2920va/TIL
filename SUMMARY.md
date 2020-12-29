@@ -4,7 +4,7 @@
 
 ## INTERNET
 
-* [How does the Internet work ?](internet/how-does-the-internet-work.md)
-* [What is HTTP ?](internet/what-is-http.md)
-* [How browser works ?](internet/how-browser-works.md)
+* [인터넷 통신 원리](internet/how-does-the-internet-work.md)
+* [HTTP 프로토콜의 이해](internet/what-is-http.md)
+* [브라우저의 작동 원리](internet/how-browser-works.md)
 
