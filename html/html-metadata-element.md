@@ -1,29 +1,67 @@
-# HTML Metadata element
+# HEAD \(1\) - &lt;title&gt;, &lt;base&gt;, &lt;style&gt;
 
-### &lt;meta&gt; Element
+### `<head>` Element 
 
-해당 문서에 대한 정보인 메타데이터\(metadata\)집합을 정의할 때 사용한다. 
+ `<head>` 요소는 해당 문서에 대한 정보인 메타 데이터\(meta data\)의 집합을 정의할 때 사용한다.
 
-`<meta>`요소는 `<base>`,`<link>`,`<script>`,`<style>`,`<title>` 요소와 같은 메타데이터 관련 요소들이 나타낼 수 없는 다양한 종류의 메다데이터를 제공할 때 사용되며, 이렇게 제공된 정보는 브라우저나 검색 엔진, 다른 웹 서비스에서 사용된다. 이러한 `<meta>`요소는 언제나`<head>`요소 내부에 위치해야 된다.
+다음과 같은 요소들은 `<head>` 요소에 포함 되어야 한다.
+
+* `<title>`, `<style>`,`<base>`,`<link>`, `<meta>`, `<script>`, `<noscript>`
+* `<script>`,`<noscript>` 요소는 `<head>` 뿐만 아니라 `<body>` 요소에 포함 시킬 수 있다.
+
+###  `<title>` Element 
+
+`<title>` 요소는 해당 문서의 제목\(title\)을 정의할 때 사용한다.
+
+`<title>` 요소는 브라우저의 제목 표시줄, 탭의 제목으로 사용되며 즐겨찾기 등록 시 해당 페이지에 대한 즐겨찾기 이름으로 사용되기도 한다.
+
+또한 검색 엔진에 의한 검색 결과 페이지에서도 해당 페이지의 제목으로 나타난다.
+
+모든 HTML 문서에는 `<title>` 요소가 반드시 필요하며 두 개 이상의 `<title>` 요소를 사용할 수 없다.
+
+만약 `<title>` 요소가 존재하지 않으면, 해당 문서는 HTML 유효성 검사를 통과하지 못한다.
+
+### `<base>` Element
+
+ `<base>` 요소는 문서의 모든 상대 주소\(relative URL\)에 대한 기본 URL\(base URL\)과 `target` 속성 값을 정의할 때 사용한다.
+
+하나의 문서에는 단 하나의 `<base>` 요소만 존재할 수 있다.
+
+`<base>` 요소는 반드시 `<head>` 요소 내에 위치해야 한다.
+
+`<base>` 요소는 반드시 `href`, `target` 속성 중에서 하나 이상의 속성 값을 명시 해야 한다.
 
 ```markup
-<!-- 검색 엔진을 위한 키워드 -->
-<meta name="keyword" content="HTML, meta, element">
-
-<!-- 웹 페이지 대한 설명 -->
-<meta name="description" content="HTML meta element part">
-
-<!-- 문서의 저자 -->
-<meta name="author" content="peridot2029">
-
-<!-- 5초 뒤에 다른 페이지 리다이렉트 -->
-<meta http-equiv="refresh" content="5;url=https://github.com/peridot2029">
-
-<!-- 모든 장치에서 웹 사이트가 잘 보이도록 뷰포트 설정 -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<base href="https://github.com">
+</head>
+<body>
+	<!-- https://github.com/vi2920va -->
+	<a href="./vi2920va">GIT</a>
+</body>
 ```
 
-### 
+### `<style>` Element 
+
+이 요소는 HTML 문서의 스타일 정보를 정의 할 때 사용한다.
+
+`<style>` 요소는 해당 요소가 포함된 HTML 문서 콘텐츠에 적용되는 CSS를 명시한다.
+
+HTML 문서는 여러 개의 `<style>` 요소를 사용할 수 있다.
+
+별도의 파일로 지정된 외부 스타일 시트는 `<link>` 요소를 사용하여 참조한다.
+
+#### Reference
+
+head element[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/head)
+
+title element[ ](https://developer.mozilla.org/ko/docs/Web/HTML/Element/head)[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/title)
+
+style element[ ](https://developer.mozilla.org/ko/docs/Web/HTML/Element/head)[→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/style)
+
+base element[ ](https://developer.mozilla.org/ko/docs/Web/HTML/Element/head)[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/base)
+
+Document Metadata[ →HTML 5.2 표준 기술 사양﻿](https://html.spec.whatwg.org/multipage/semantics.html)
 
 
 
