@@ -4,7 +4,7 @@
 
 ### HTTP 개요
 
-HTTP는[ **H**yer**T**ext **T**ransfer **P**rotocol](https://ko.wikipedia.org/wiki/HTTP)의 약자로 하이퍼텍스트 문서를 교환하기 위하여 사용된 통신 규약이다. 즉, 웹 **서버와 클라이언트 간의 통신하기 위한 통신 규약** 이다.
+HTTP\([ **H**yer**T**ext **T**ransfer **P**rotocol](https://ko.wikipedia.org/wiki/HTTP)\)는 하이퍼텍스트 문서를 교환하기 위하여 사용된 통신 규약이다. 즉, 웹 **서버와 클라이언트 간의 통신하기 위한 통신 규약** 이다.
 
 HTTP는 웹에서만 사용 프로트콜로 TCP/IP 기반으로 한 지점에서 다른 지점\(서버와 클라이언트\)으로 요청과 응답을 전송한다.
 
@@ -12,7 +12,7 @@ HTTP는 웹에서만 사용 프로트콜로 TCP/IP 기반으로 한 지점에서
 
 * HTTP 메시지는 HTTP 서버와 HTTP 클라이언트에 의해서 해석이 된다.
 * TCP/IP를 이용하는 [응용 프로토콜\(application protocol\) ](https://ko.wikipedia.org/wiki/%EC%9D%91%EC%9A%A9_%EA%B3%84%EC%B8%B5)이다.
-* HTTP는 연결 상태를 유지하지 않는 비연결 프로트콜 이므로 이러한 단점을 해결하기 위해서 Cookie와 Session이 등장하게 된다.
+* HTTP는 연결 상태를 유지하지 않는 비연결 프로트콜 이므로 이러한 단점을 해결하기 위해서 쿠키\(cookie\)와 세션\(session\)이 등장하게 된다.
 * HTTP는 연결을 유지하지 않는 프로토콜 이기 때문에 요청\(request\)/응답\(response\)방식으로 동작한다.
 
 ![HTTP - request, response](../.gitbook/assets/image-1-.png)
