@@ -1,4 +1,4 @@
-# HEAD \(2\) - &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;
+# &lt;head&gt; \(2\) - &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;
 
 ### `<meta>` Element 
 

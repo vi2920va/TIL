@@ -1,4 +1,4 @@
-# HEAD \(1\) - &lt;title&gt;, &lt;base&gt;, &lt;style&gt;
+# &lt;head&gt; \(1\) - &lt;title&gt;, &lt;base&gt;, &lt;style&gt;
 
 ### `<head>` Element 
 
