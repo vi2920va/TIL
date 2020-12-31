@@ -26,15 +26,25 @@
 <q>짧은 인용구를 정의할 때 사용되고, 브라우저는 앞/뒤에 큰 따옴표를 표시한다.</q>
 ```
 
-### HTML Line Break 정
+### HTML Line Break 정의
 
-HTML 소스 코드에서 엔더\(enter\)를 사용하여도 브라우저 화면에는 실제로 적용되지 않는다. 따라서 텍스트 내의 줄 바꿈을 하고 싶을 때는 &lt;br&gt; 요소를 사용한다.
+HTML 소스 코드에서 엔더\(enter\)를 사용하여도 브라우저 화면에는 실제로 적용되지 않는다. 따라서 텍스트 내의 줄 바꿈을 하고 싶을 때는`<br>`요소를 사용한다.
 
 #### 1\) br Element
 
 `<br>` 요소는 주소\(address\) 또는 시\(poem\)등 줄바꿈이 중요한 텍스트에 유용하게 사용된다.
 
-`<br>` 요소는 빈 요소\(empty element\)이다.
+`<br>`요소는 빈 요소\(empty element\)이다.
+
+#### Reference
+
+ blockquote element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/blockquote)
+
+ q element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
+
+br element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+
 
 
 
