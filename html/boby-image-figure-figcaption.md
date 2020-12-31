@@ -12,6 +12,8 @@ HTML문서에서 이미지를 삽입할 때는 `<img>`요소를 사용한다.
 
 `src` 속성은 이미지가 저장된 주소의 URL이고, `alt`속성은 이미지 대체 텍스트 이다.
 
+`<img>`요소는 빈 요소\(empty element\)이다.
+
 ```markup
 <img src="./image/example.svg" alt="example file">
 ```
