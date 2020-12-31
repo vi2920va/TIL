@@ -72,13 +72,13 @@ HTML 리스트는 크게 3가지로 나뉜다.
 
 #### Reference 
 
-&lt;ul&gt;: The Unordered List element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+ul element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 
-&lt;ol&gt;: The Ordered List element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+ol element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 
-&lt;dl&gt;: The Description List element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+dl element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
 
-&lt;dt&gt;: The Description Term element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
+dt element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
 
-&lt;dd&gt;: The Description Details element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd)
+dd element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd)
 
