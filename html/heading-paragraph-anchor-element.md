@@ -1,4 +1,4 @@
-# Heading, Paragraph, Anchor Element
+# BOBY : Heading, Paragraph, Anchor
 
 ### HTML Headings Element 정의
 
@@ -45,11 +45,11 @@ HTML 문서에서 문자의 단락을 표현하기 `<p>` 요소를 사용한다.
 
 #### Reference
 
-&lt;h1&gt;–&lt;h6&gt;: The HTML Section Heading elements [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+h1 ~ h6 elements [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 
-&lt;p&gt;: The Paragraph element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+p element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
-&lt;a&gt;: The Anchor element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+a element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 
 
