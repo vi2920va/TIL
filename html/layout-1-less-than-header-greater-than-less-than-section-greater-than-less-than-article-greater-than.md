@@ -1,78 +1,88 @@
-# Section, Main Element
+# BOBY : Section
 
 ### 
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
 
-### 1. Root Setion Element  <a id="1-root-setion-element"></a>
+### HTML Section Elements <a id="1-root-setion-element"></a>
 
-`<body>` 문서 안에서 단 한 번만 사용 가능하다.
+### 1. html/root element <a id="1-root-setion-element"></a>
 
-### 2. `<section>` Element  <a id="2-less-than-section-greater-than-element"></a>
+HTML문서에서 `<html>`요소는 문서의 **최상단 요소\(root element\)**를 나타내며 "루트 요소"라고 부른다.  모든 다른 요소들은 `<html>`요소의 자손이다.
 
-섹션 요소는 일반적인 컨테이너 요소가 아니므로, 문서 개요에 명시적으로 나열되는 경우에만 섹션 요소가 적합다는 규칙이 있다.
+`<head>` 요소는 해당 문서에 대한 정보인 메타 데이터\(meta data\)의 집합을 정의할 때 사용한다.
 
-#### 1\) `<section>` Elemenet <a id="1-less-than-section-greater-than-elemenet"></a>
+#### 1\) head element
 
-`<section>`요소는 문서, 애플리케이션 일반적인 섹션을 의미한다.
+`<head>`요소는 `<html>` 요소의 첫 번째 요소로 해당 문서에 대한 정보 메타 데이터\(meta data\)의 집합을 정의한다.
 
-이 컨텍스트의 섹션은 주제별로 그룹화된 콘텐츠 이다.
+#### 2\) body element
 
-웹 사이트의 섹션은 소개\(introduction\), 뉴스 항목\(news item\), 연락처 정보\(contact information\)를 위한 섹션으로 나눌 수 있다.
+`<body>`요소는 `<html>` 요소의 두번째 요소로 본문 영역을 표시한다. 본문 영역은 실제 콘텐츠가 표현되는 공간이 문서의 텍스트, 하이퍼링크, 이미지, 리스트 등과 같은 모든 콘텐츠 영역을 정의한다.
 
-콘텐츠가 사이트에 포함된 독립적인 섹션 성향이 크다면,`<section>` element 대신`<artcle>`element를 사용하는 것을 권장한다.
+HTML문서에는 단 하나의 `<body>` 요소만 존재할 수 있다.
 
-#### 2\) `<article>` Element <a id="2-less-than-article-greater-than-element"></a>
+### 2. section elements  <a id="2-less-than-section-greater-than-element"></a>
 
-`<article>` element는 문서 페이지, 애플리케이션, 사이트 등에 포함된 독립적인 섹션을 의미한다.
+HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<header>,<footer>` 등 다양한 구조관련된 요소가 새롭게 추가되었다.
 
-잡지, 신문, 논문, 에세이, 보고서, 블로그, 기타 소설 미디어 일 수 있다.
+#### 1\) header element
 
-`<article>`내부에 `<section>` element를 포함할 수 있고, 반대로 `<section>` 내부에 `<article>`를 포함할 수도 있다.
+웹 페이지 제목, 로고, 목차, 검색등을 포함하는데 `<header>`요소를 사용한다.
+
+`<header>` 요소는 섹션 요소가 아니다. 즉, 섹션 요소 내부에 넣어도 되고 필요에 따라서 묶어 분리해서 사용해도 된다.
+
+#### 2\) nav element
+
+웹 페이지의 포함된 탐색 링크를 포함하는 요소이다. 
+
+`<nav>`요소는 비순차 목록 `<ul>`요소를 사용한다.
+
+웹 페이지 모든 링크 `<nav>`요소에 포함하는 것 아니며 주로 탐색하는 링크만을 포함한다.
+
+나머지 링크는 하단에 위치한 `<footer>`요소만 으로도 충분하다.
+
+#### 3\) section elemenet <a id="1-less-than-section-greater-than-elemenet"></a>
+
+&lt;section&gt;요소는 내용적 흐름과 구조를 만들기 위해 내용을 나누는 용도이다.
+
+소개\(introduction\), 뉴스 항목\(news item\), 연락처 정보\(contact information\)등과 같은 관련이 있는 내용을`<section>`요소로 묶어서 주제별로 표시한다.
+
+`<section>`요소는 독립적인 영역이라 `<section>`내에 `<header>`와`<footer>`요소를 둘 수 있다.
+
+콘텐츠 포함된 독립적인 성향이 크다면 `<section>`요소 대신에 `<article>`요소를 사용하는것을 권장한다.
+
+#### 4\) article element <a id="2-less-than-article-greater-than-element"></a>
+
+`<article>`요소는 본문과 별개로 구성되어 다른 영역에 영향을 주거나 받지 않고 독립적으로 배포되거나 재사용 할 수 있다.
+
+`<article>`요소는 잡지, 신문, 논문, 보고서, 블로그 기타 소설 미디어 일 수 있다.
+
+`<article>`내부에 `<section>` 요소를 포함할 수 있고, 반대로 `<section>` 내부에 `<article>`를 포함할 수도 있다.
 
 웹 접근성이 측면에서 반드시 **제목 \(h1 ~ h6\)를 포함** 시켜 식별해야 한다.
 
-#### 3\) `<aside>` Element <a id="3-less-than-aside-greater-than-element"></a>
+#### 5\) aside element <a id="3-less-than-aside-greater-than-element"></a>
 
-`<aside>` element는 웹 사이트 사이드바에 해당 되는 부 콘텐츠\(메인 콘텐츠와 분리된\) 섹션을 말한다.
+`<aside>` 요소는 웹 사이트 사이드바에 해당 되는 부분으로 본문 내용과 직접적인 관련성이 적거나 없는 내용으로 구성된다.
 
-#### 4\) `<nav>` Element <a id="4-less-than-nav-greater-than-element"></a>
+#### 6\) main element <a id="4-less-than-nav-greater-than-element"></a>
 
-다른 페이지로 이동하는 링크 또는 사이트 내 탐색 링크를 포함하는 섹션 요소이다.
+`<main>`요소는 문서의 `<body>`요소 안에서 메인 콘텐츠에 해당된다.
 
-`<nav>` element에는 비 순차 목록 `<ul>`를 사용한다.
+`<main>`요소는 문서 내에서 한 번만 나오는 것을 사용한다. 즉, 2개 이상 이면 안되고 사용하지 않는 `<main>`요소는 화면에서 감춤\(hidden\)처리한다.
 
-사이트의 모든 링크를`<nav>`에 포함하는 것은 아니며, 주로 사이트 탐색하는 링크를 포함한다.
-
-사이트의 하단에 위치한 `<footer>`만으로도 링크는 충분하다.
-
-### 3. Inside Sections Element <a id="3-inside-sections-element"></a>
-
-섹션 내부에 사용되는 요소는 `<header>, <footer>, <main>` 요소들이 있다.
-
-`<header>, <footer>`는 section elements가 아니다.
-
-즉, 섹션 요소 내부에 넣어도 되고 넣어지 않아도 된다. 묶어서 분리해야 할때 넣으면 된다.
-
-#### 1\) `<header>`Element <a id="1-less-than-header-greater-than-element"></a>
-
-`<header>` element는 일반적으로 섹션의 제목, 목차, 검색, 로고를 포함하는데 사용한다.
-
-#### 2\) `<footer>`Element <a id="2-less-than-footer-greater-than-element"></a>
-
-`<footer>` element는 일반적으로 섹션의 저자, 링크, 저작권 정보 등을 포함하는 데 사용한다.
-
-#### 3\) `<main>` Element <a id="3-less-than-main-greater-than-element"></a>
-
-문서 또는 애플리케이션 `<body>` element 안에서 메인 콘텐츠에 해당 된다.
-
-`<main>`element는 섹션의 요소가 아니며, 보이는 요소가 2개 이상이면 안된다.
-
-즉, 사용하지 않는`<main>`element는 화면에서 감춤\(hidden\) 처리해야 한다.
-
-또한 `<article>, <aside>, <nav>`요소는 메인 요소를 자식으로 포함할 수 없다.
+또한 `<main>`요소는`<article>, <aside>, <nav>`요소는 &lt;main&gt; 요소를 자식으로 포함할 수 없다.
 
 반대로 메인 요소는 섹션 요소들을 포함할 수 있다. 메인 내부에는`<header>, <footer>`를 직접적으로 포함하지는 않는다.
+
+#### 7\) footer element
+
+`<footer>` 요소는 일반적으로 섹션의 저자, 링크, 저작권 정보 등을 포함하는 데 사용한다.
+
+`<footer>`요소 또한 섹션 요소가 아니며, 섹션 요소 내부에 넣어도 되고 필요에 따라서 묶어 분리해서 사용해도 된다.
+
+
 
 
 
