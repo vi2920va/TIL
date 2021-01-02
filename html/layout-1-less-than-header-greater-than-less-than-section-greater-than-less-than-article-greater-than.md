@@ -44,9 +44,9 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 #### 3\) section elemenet <a id="1-less-than-section-greater-than-elemenet"></a>
 
-&lt;section&gt;요소는 내용적 흐름과 구조를 만들기 위해 내용을 나누는 용도이다.
+`<section>`요소는 **내용적 흐름과 구조를 만들기 위해 내용을 나누는 용도**이다.
 
-소개\(introduction\), 뉴스 항목\(news item\), 연락처 정보\(contact information\)등과 같은 관련이 있는 내용을`<section>`요소로 묶어서 주제별로 표시한다.
+**소개\(introduction\), 뉴스 항목\(news item\), 연락처 정보\(contact information\)등과 같은 관련이 있는 내용을**`<section>`**요소로 묶어서 주제별로 표시한다.**
 
 `<section>`요소는 독립적인 영역이라 `<section>`내에 `<header>`와`<footer>`요소를 둘 수 있다.
 
@@ -54,13 +54,20 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 #### 4\) article element <a id="2-less-than-article-greater-than-element"></a>
 
-`<article>`요소는 본문과 별개로 구성되어 다른 영역에 영향을 주거나 받지 않고 독립적으로 배포되거나 재사용 할 수 있다.
+`<article>`요소는 **본문과 별개로 구성되어 다른 영역에 영향을 주거나 받지 않고 독립적으로 배포**되거나 `재사용 할 수 있다.`
 
-`<article>`요소는 잡지, 신문, 논문, 보고서, 블로그 기타 소설 미디어 일 수 있다.
+`<article>`요소는 **잡지, 신문, 논문, 보고서, 블로그 기타 소설 미디어 일 수 있다.**
 
 `<article>`내부에 `<section>` 요소를 포함할 수 있고, 반대로 `<section>` 내부에 `<article>`를 포함할 수도 있다.
 
-웹 접근성이 측면에서 반드시 **제목 \(h1 ~ h6\)를 포함** 시켜 식별해야 한다.
+**웹 접근성이 측면에서 반드시 제목 \(h1 ~ h6\)를 포함 시켜 식별해야 한다.**
+
+```markup
+<article>
+	<h2>기사제목</h2>
+		...
+</article>
+```
 
 #### 5\) aside element <a id="3-less-than-aside-greater-than-element"></a>
 
