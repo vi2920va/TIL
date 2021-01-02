@@ -97,9 +97,9 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 #### Reference 
 
-html element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/strong)
+html element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/html)
 
-head element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/strong)
+head element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
 
 body element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
 
