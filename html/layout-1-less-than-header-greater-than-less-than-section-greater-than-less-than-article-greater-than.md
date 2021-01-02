@@ -64,7 +64,7 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 ```markup
 <article>
-	<h2>기사제목</h2>
+	<h2>기사 제목</h2>
 		...
 </article>
 ```
@@ -77,17 +77,47 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 `<main>`요소는 문서의 `<body>`요소 안에서 메인 콘텐츠에 해당된다.
 
-`<main>`요소는 문서 내에서 한 번만 나오는 것을 사용한다. 즉, 2개 이상 이면 안되고 사용하지 않는 `<main>`요소는 화면에서 감춤\(hidden\)처리한다.
+`<main>`요소는 보이는 요소가 2개 이상이면 안된다. 즉, 사용되지 않는 `<main>`요소는 화면에서 **감춤\(hidden\)**처리해야 한다.
 
-또한 `<main>`요소는`<article>, <aside>, <nav>`요소는 &lt;main&gt; 요소를 자식으로 포함할 수 없다.
+`<article>, <aside>, <nav>`요소는 `<main>`요소를 자식으로 포함할 수 없다. 반대로 `<main>`요소는 섹션 요소들을 포함할 수 있다.
 
-반대로 메인 요소는 섹션 요소들을 포함할 수 있다. 메인 내부에는`<header>, <footer>`를 직접적으로 포함하지는 않는다.
+`<main>`요소 내부에는 `<header>,<footer>` 요소를 직접적으로 포함하지 않는다.
+
+```markup
+<main>...</main>
+<main hidden>...</main>
+<main hidden>...</main>
+```
 
 #### 7\) footer element
 
 `<footer>` 요소는 일반적으로 섹션의 저자, 링크, 저작권 정보 등을 포함하는 데 사용한다.
 
 `<footer>`요소 또한 섹션 요소가 아니며, 섹션 요소 내부에 넣어도 되고 필요에 따라서 묶어 분리해서 사용해도 된다.
+
+#### Reference 
+
+html element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/strong)
+
+head element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/strong)
+
+body element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+
+header element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+
+section element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+nav element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+
+article element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+aside element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+
+main element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+
+footer element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+
+
 
 
 
