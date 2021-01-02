@@ -113,7 +113,7 @@ article element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/E
 
 aside element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
-main element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+main element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
 
 footer element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 
