@@ -111,7 +111,7 @@ nav element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 article element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-aside element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+aside element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
 
 main element [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
 
