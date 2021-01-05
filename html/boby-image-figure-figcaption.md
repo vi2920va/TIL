@@ -1,6 +1,6 @@
 # BOBY : image, figure, figcaption
 
-### HTML image 정의
+### HTML image 
 
 HTML 문서는 이미지\(image\)를 포함하지 않고 연결하여 사용한다. 
 
