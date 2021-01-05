@@ -12,11 +12,11 @@ HTML 문서에 이미지를 포함\(링크\)
 
 | attribute | description |
 | :--- | :--- |
-| src | 이미지 파일 경로 설정 |
-| alt | 이미지 대체 텍스트 설정 |
-| width | 이미지 너비 설정 |
-| height | 이미지 높이 설정 |
-| usemap | 이미지 맵 연결 설정 |
+| `src` | 이미지 파일 경로 설정 |
+| `alt` | 이미지 대체 텍스트 설정 |
+| `width` | 이미지 너비 설정 |
+| `height` | 이미지 높이 설정 |
+| `usemap` | 이미지 맵 연결 설정 |
 
 
 
@@ -62,13 +62,13 @@ HTML 문서에 이미지를 포함\(링크\)
 
 | attribute | description |
 | :--- | :--- |
-| src | 비디오 파일 경로 설정 |
-| poster | 포스터 이미지 경로 설정 |
-| preload | 사용자 경험 향상\(메다테이터/ 비디오 다운로드\)에 관한 설정 |
-| controls | 재상 컨트롤 표시 설정 |
-| autoplay | 자동 재생 설정 |
-| loop | 반복 설정 |
-| muted | 음소거 설정 |
+| `src` | 비디오 파일 경로 설정 |
+| `poster` | 포스터 이미지 경로 설정 |
+| `preload` | 사용자 경험 향상\(메다테이터/ 비디오 다운로드\)에 관한 설정 |
+| `controls` | 재상 컨트롤 표시 설정 |
+| `autoplay` | 자동 재생 설정 |
+| `loop` | 반복 설정 |
+| `muted` | 음소거 설정 |
 
 ```markup
 <video src="videofile.mp4" poster="posterimage.jpg">
@@ -85,14 +85,14 @@ HTML 문서에 이미지를 포함\(링크\)
 
 | attribute | description |
 | :--- | :--- |
-| src | 오디오 파일 경로 설 |
-| volume | 볼륨 조절 설정\(0.0 ~ 1.0\) |
-| muted | 음소거 설정 |
-| poster | 포스터 이미지 경로 설정 |
-| preload | 사용자 경험 향상\(메다테이터/ 비디오 다운로드\)에 관한 설정 |
-| controls | 재생 컨트롤 표시 설정 |
-| autoplay | 자동 재생 설정 |
-| loop | 반복 설정 |
+| `src` | 오디오 파일 경로 설정 |
+| `volume` | 볼륨 조절 설정\(0.0 ~ 1.0\) |
+| `muted` | 음소거 설정 |
+| `poster` | 포스터 이미지 경로 설정 |
+| `preload` | 사용자 경험 향상\(메다테이터/ 비디오 다운로드\)에 관한 설정 |
+| `controls` | 재생 컨트롤 표시 설정 |
+| `autoplay` | 자동 재생 설정 |
+| `loop` | 반복 설정 |
 
 ```markup
 <audio src="audiofile.mp3">
@@ -126,10 +126,10 @@ HTML 문서에 이미지를 포함\(링크\)
 
 | attribute | description |
 | :--- | :--- |
-| src | 프레임 소스 설정 |
-| width | 프레임 너비 설정 |
-| height | 프레임 높이 설정 |
-| allowfullscreen | 프레임 전체화면 설정 |
+| `src` | 프레임 소스 설정 |
+| `width` | 프레임 너비 설정 |
+| `height` | 프레임 높이 설정 |
+| `allowfullscreen` | 프레임 전체화면 설정 |
 
 ```markup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0wlXaHmmOVc?rel=0&amp;showinfo=0"
@@ -159,13 +159,13 @@ HTML 문서에 이미지를 포함\(링크\)
 
 | attribute | description |
 | :--- | :--- |
-| shape | 핫스팟 모양 설정 |
-| coords | 모양의 좌표 값 설정 |
-| href | 하이퍼링크 설정 |
-| target | 새 창\(탭\) 열림 설정 |
-| alt | 대체 텍스트 설정 |
-| hreflang | 연결된 페이지의 언어 속성 설정 |
-| download | canvas 데이터 다운로드 설정 |
+| `shape` | 핫스팟 모양 설정 |
+| `coords` | 모양의 좌표 값 설정 |
+| `href` | 하이퍼링크 설정 |
+| `target` | 새 창\(탭\) 열림 설정 |
+| `alt` | 대체 텍스트 설정 |
+| `hreflang` | 연결된 페이지의 언어 속성 설정 |
+| `download` | canvas 데이터 다운로드 설정 |
 
 #### 10\) svg element
 
