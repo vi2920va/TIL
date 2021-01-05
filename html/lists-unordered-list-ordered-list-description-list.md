@@ -1,6 +1,6 @@
 # LISTS : Unordered list, Ordered list,Description list
 
-### HTML 목록 정의
+### HTML 목록 
 
 HTML에서 여러 요소들을 일렬로 나열한 목록을 리스트\(list\)라고 한다. 
 
@@ -53,7 +53,7 @@ HTML 리스트는 크게 3가지로 나뉜다.
 </ol>
 ```
 
-#### 3\) 정의 목\(Description List\)
+#### 3\) 정의 목록\(Description List\)
 
 `<dl>`요소는사전 처럼 용어를 설명하는 목록 HTML 리스트를 정의할 때 사용한다.
 
