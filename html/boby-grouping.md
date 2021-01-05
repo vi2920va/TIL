@@ -31,7 +31,7 @@ grouping content는 무엇인가를 감싸는데 경우에 사용된다.
 
 #### Reference 
 
-pre - 지정된 텍스트 서식 보존요소[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/pre)
+pre element[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/pre)
 
 grouping content[ →HTML5.2 표준 기술 사양](https://html.spec.whatwg.org/multipage/grouping-content.html)
 
