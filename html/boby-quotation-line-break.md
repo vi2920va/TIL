@@ -1,6 +1,6 @@
 # BOBY : Quotation, Line Break
 
-### HTML Quotation 정의
+### HTML Quotation
 
 글을 쓰거나, 신문기사 및 다른 글을 인용하는 경우에 인용임을 표시하는 인용문과 인용구을 사용한다. 
 
@@ -50,7 +50,7 @@
 <p><cite>Mona Lisa</cite> 레오나르도 다 빈치, 1503년</p>
 ```
 
-### HTML Line Break 정의
+### HTML Line Break 
 
 HTML 소스 코드에서 엔더\(enter\)를 사용하여도 브라우저 화면에는 실제로 적용되지 않는다. 따라서 텍스트 내의 줄 바꿈을 하고 싶을 때는`<br>`요소를 사용한다.
 
