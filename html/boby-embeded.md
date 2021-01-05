@@ -22,9 +22,9 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 2\) picture element
 
-&lt;picture&gt;요소는 다양한 스크린 환경\(스마트폰, 데스크탑, TV 등\)에 맞는 이미지를 화면에 적절하게 표시해 주기 위해 사용한다. 이 요소를 사용할 때에는 1개 이상의 &lt;img&gt;를 포함하는 요소와 &lt;picture&gt;요소의 자식으로 0개 이상의&lt;source&gt;요소가 필요에 따라 사용할 수 있다.
+`<picture>`요소는 다양한 스크린 환경\(스마트폰, 데스크탑, TV 등\)에 맞는 이미지를 화면에 적절하게 표시해 주기 위해 사용한다. 이 요소를 사용할 때에는 1개 이상의 `<img>`를 포함하는 요소와 `<picture>`요소의 자식으로 0개 이상의`<source>`요소가 필요에 따라 사용할 수 있다.
 
-&lt;source&gt;요소를 사용할 수 없을 경우에는 &lt;img&gt;요소가 화면에 표시하게 된다.
+`<source>`요소를 사용할 수 없을 경우에는 `<img>`요소가 화면에 표시하게 된다.
 
 ```markup
 <!-- source attribute : media -->
@@ -42,7 +42,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 3\) source element
 
-&lt;picture&gt;, &lt;audio&gt;, &lt;video&gt; 요소의 다중 미디어 리소스를 지정하기 위해 사용
+`<picture>, <audio>, <video>` 요소의 다중 미디어 리소스를 지정하기 위해 사용
 
 ```markup
 <video src="videofile.mp4" poster="posterimage.jpg" controls>
@@ -56,7 +56,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 4\) video element
 
-동영상 콘텐츠를 HTML 문서에 포함하기 위해서 사용한다. src 속성이나 &lt;socurce&gt;요소를 이용해 여러 개의 동영상 소소 중 하나를 표시.
+동영상 콘텐츠를 HTML 문서에 포함하기 위해서 사용한다. src 속성이나 `<socurce>`요소를 이용해 여러 개의 동영상 소소 중 하나를 표시.
 
 #### ① video element attribute
 
@@ -79,7 +79,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 5\) audio element
 
-&lt;audio&gt;요소도 &lt;video&gt;요소와 유사하게 사용된다.
+`<audio>`요소도 `<video>`요소와 유사하게 사용된다.
 
 #### ① audio element attribute
 
@@ -104,7 +104,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 6\) track element
 
-&lt;track&gt;요소는 비디오 또는 오디오 재생 시에 자막을 표시하도록 해주는 요소로 default 속성을 설정하지 않을 경우에는 자막을 사용 하지 않는다.
+`<track>`요소는 비디오 또는 오디오 재생 시에 자막을 표시하도록 해주는 요소로 `default`속성을 설정하지 않을 경우에는 자막을 사용 하지 않는다.
 
 ```markup
 <video src="videofile.mp4" poster="posterimage.jpg">
@@ -142,7 +142,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 8\) map element
 
-이미지 맵\(클릭 가능한 링크 영역\)을 정의하기 위해 &lt;area&gt;요소와 함께 사용한다.
+이미지 맵\(클릭 가능한 링크 영역\)을 정의하기 위해 `<area>`요소와 함께 사용한다.
 
 ```markup
 <img src="products-map.jpg" alt="제품 모음" usemap="#products-map">
@@ -153,7 +153,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### 9\) area element
 
-이미지의 핫스팟 지역 정의, 하이퍼링크 설정, &lt;map&gt;요소 내부에서만 사용 가능하다.
+이미지의 핫스팟 지역 정의, 하이퍼링크 설정, `<map>`요소 내부에서만 사용 가능하다.
 
 #### ① area element attribute
 
