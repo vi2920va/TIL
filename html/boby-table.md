@@ -1,6 +1,6 @@
 # BOBY : Table
 
-### 1. `<table>` Element
+### 1. table Element
 
 `<table>` 요소는 데이터를 포함하는 셀\(cell\)들의 **행\(row\)**과 **열\(colum\)**로 구성된 **2차원 테이블**을 정의할때 사용한다. 
 
