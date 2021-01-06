@@ -2,67 +2,149 @@
 
 ### 1. button element
 
-`<button>` 요소는 클릭한 버튼을 나태낸다.
+`<button>` 요소는 클릭할 수 있는 버튼을 정의할 때 사용한다.
 
 #### 1\) button element attributes
 
-#### 📝**autofocus**
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">attribute</th>
+      <th style="text-align:left">value</th>
+      <th style="text-align:left">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>autofocus</code>
+      </td>
+      <td style="text-align:left">autofocus</td>
+      <td style="text-align:left">&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xB85C;&#xB4DC;&#xB420; &#xB54C; &#xC790;&#xB3D9;&#xC73C;&#xB85C;
+        &#xD3EC;&#xCEE4;&#xC2A4; &#xBC84;&#xD2BC;&#xC73C;&#xB85C; &#xC774;&#xB3D9;&#xB428;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>disabled</code>
+      </td>
+      <td style="text-align:left">disabled</td>
+      <td style="text-align:left">&#xD574;&#xB2F9; &#xBC84;&#xD2BC;&#xC774; &#xBE44;&#xD65C;&#xC131;&#xB428;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>form</code>
+      </td>
+      <td style="text-align:left">forn id</td>
+      <td style="text-align:left">&#xD574;&#xB2F9; &#xBC84;&#xD2BC;&#xC774; &#xD3EC;&#xD568;&#xB420; &#xD558;&#xB098;
+        &#xC774;&#xC0C1;&#xC758; <code>&lt;form&gt;</code>&#xC694;&#xC18C;&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>formaction</code>
+      </td>
+      <td style="text-align:left">URL</td>
+      <td style="text-align:left">
+        <p>&#xD3FC; &#xB370;&#xC774;&#xD130;(form data)&#xAC00; &#xC11C;&#xBC84;&#xB85C;
+          &#xC81C;&#xCD9C;&#xB420; &#xB54C; &#xD574;&#xB2F9; &#xB370;&#xC774;&#xD130;&#xAC00;
+          &#xB3C4;&#xCC29;&#xD560; URL&#xC744;</p>
+        <p>&#xBA85;&#xC2DC;</p>
+        <p>(&lt;button&gt; &#xC694;&#xC18C;&#xC758; type &#xC18D;&#xC131;&#xAC12;&#xC774;
+          &quot;submit&quot;&#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560;
+          &#xC218; &#xC788;&#xB2E4;.)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>formenctype</code>
+      </td>
+      <td style="text-align:left">
+        <p>application/x-www-form-urlencoded</p>
+        <p>multipart/form-data</p>
+        <p>text/plain</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
+          &#xB54C; &#xD574;&#xB2F9; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC778;&#xCF54;&#xB529;
+          &#xB418;&#xB294; &#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;</p>
+        <p>(&lt;button&gt; &#xC694;&#xC18C;&#xC758; type &#xC18D;&#xC131;&#xAC12;&#xC774;
+          &quot;submit&quot;&#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560;
+          &#xC218; &#xC788;&#xB2E4;.)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>formmethod</code>
+      </td>
+      <td style="text-align:left">
+        <p>get</p>
+        <p>post</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
+          &#xB54C; &#xC0AC;&#xC6A9;&#xD560; HTTP &#xBA54;&#xC11C;&#xB4DC;&#xB97C;
+          &#xBA85;&#xC2DC;.</p>
+        <p>(&lt;button&gt; &#xC694;&#xC18C;&#xC758; type &#xC18D;&#xC131;&#xAC12;&#xC774;
+          &quot;submit&quot;&#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560;
+          &#xC218; &#xC788;&#xB2E4;.)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>formnovalidate</code>
+      </td>
+      <td style="text-align:left">formnovalidate</td>
+      <td style="text-align:left">
+        <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
+          &#xB54C; &#xD574;&#xB2F9; &#xB370;&#xC774;&#xD130;&#xC758; &#xC720;&#xD6A8;&#xC131;
+          &#xAC80;&#xC0AC;&#xB97C; &#xD558;&#xC9C0; &#xC54A;&#xC74C;&#xC744; &#xBA85;&#xC2DC;.</p>
+        <p>(&lt;button&gt; &#xC694;&#xC18C;&#xC758; type &#xC18D;&#xC131;&#xAC12;&#xC774;
+          &quot;submit&quot;&#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560;
+          &#xC218; &#xC788;&#xB2E4;.)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>formtarget</code>
+      </td>
+      <td style="text-align:left">
+        <p>_blank</p>
+        <p>_self</p>
+        <p>_parent</p>
+        <p>_top</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB41C;
+          &#xD6C4; &#xBC1B;&#xC740; &#xC751;&#xB2F5;(response) &#xB370;&#xC774;&#xD130;&#xB97C;
+          &#xC5B4;&#xB514;&#xC5D0; &#xD45C;&#xC2DC;&#xD560;&#xC9C0; &#xBA85;&#xC2DC;.</p>
+        <p>(&lt;button&gt; &#xC694;&#xC18C;&#xC758; type &#xC18D;&#xC131;&#xAC12;&#xC774;
+          &quot;submit&quot;&#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560;
+          &#xC218; &#xC788;&#xB2E4;.)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>name</code>
+      </td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left">&#xD574;&#xB2F9; &#xBC84;&#xD2BC;&#xC758; &#xC774;&#xB984;(name)&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>type</code>
+      </td>
+      <td style="text-align:left">
+        <p>button</p>
+        <p>reset</p>
+        <p>submit</p>
+      </td>
+      <td style="text-align:left">&#xD574;&#xB2F9; &#xBC84;&#xD2BC;&#xC758; &#xD0C0;&#xC785;(type)&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>value</code>
+      </td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left">&#xD574;&#xB2F9; &#xBC84;&#xD2BC;&#xC758; &#xCD08;&#xAE30;&#xAC12;(value)&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+  </tbody>
+</table>
 
-페이지 로드 후, 버튼에 포커스가 위치해야 하는지 나타낸다.
-
-문서 내에서 **하나의 요소만** `autofocus` 특성을 가질 수 있다.
-
-#### 📝**disabled**
-
-버튼과 사용자의 상호작용, 즉 누르거나 클릭하는 것을 막는다.
-
-#### 📝**form**
-
-버튼을 연결할 `<form>`요소, 같은 문서에 존재하는 `<form>` 요소의 `id` 특성 값을 사용해야 한다
-
-`form` 특성을 정의하지 않았으나, 조상 중에 `<form>` 요소가 존재하면 해당 `<form>` 과 연결된다.
-
-#### 📝**formaction**
-
-`<button>`이 submit 인 경우, 제출할 정보를 URL
-
-지정한 경우, 버튼의 양식 소유자가 가진 `action` 특성 보다 우선 시 한다.
-
-#### 📝**formmethod**
-
-`<button>`이 submit 인 경우, `formmethod` 특성은 양식을 서버로 제출할 때 사용할 HTTP 메서드를 지정한다.
-
-#### 📝**formnovalidate**
-
-`<form>`이 submit 인 경우, `formnovalidate` 특성은 양식을 제출할 때 유효성 검사를 하지 않겠다는 것을 지정한다.
-
-지정한 경우, 버튼의 양식 소유자 가진 `novalidate` 특성 보다 우선시 한다.
-
-#### 📝**name**
-
-버튼의 이름, 제출할때 버튼 value 특성과 함께 양식 데이터의 일부를 구성한다.
-
-#### 📝**type**
-
-* submit : 버튼이 서버로 양식 데이터를 제출한다. 지정하지 않은 경우, 기본 값이며, 유효 하지 않은 값일 때도 사용한다.
-* reset : `<input type="reset">` 처럼, 모든 컨트롤 값을 초기값으로 되돌린다.
-* button : 기본 행동이 없으며, 클릭 했을 때 아무것도 하지 않는다. 클라이언트 측 스크립트와 연결할 수 있다.
-
-#### 📝**value**
-
-버튼의 초기값, 제출 할 때, `value` 특성과 함께 양식 데이터의 일부를 구성한다.
-
-#### 📝o**ther usage notes**
-
-`<button>` 요소는 `<input>` 보다 스타일을 적용하기 훨씬 수월하다.
-
-`<input>`은 `value` 특성에 text value 밖에 지정할 수 없다.
-
-`<button>`은 내부 HTML 콘텐츠에 \(`<em>,<strong>,<img>`도\) 더 해 `::after`와 `::before` 가상 요소를 사용하는 복잡한 렌더링도 가능하다.
-
-서버에 제출할 버튼이 아니라면, `type` 특성을 `button`으로 반드시 지정해야 한다.
-
-#### 1\) button 접근성 고려사항
+#### 2\) button 접근성 고려사항
 
 #### 📝**icon button**
 
@@ -96,17 +178,13 @@
 
 ### 2. select element
 
-`<select>` element는 옵션 메뉴를 제공하는 컨트롤을 나타낸다.
+`<select>` 요소는 옵션 메뉴를 제공하는 드롭다운 리스트\(drop down list\)를 정의할 때 사용한다.
 
-`<select>` 는 `<label>`과 연결해 접근성을 향상 시킬 수 있다.
+`<select>` 요소 내부의 `<option>`요소는 드롭다운 리스트에서 사용되는 각각의 옵션을 정의한다.
 
-`<option>` 은 자신이 선택 됐을 때 사용할 `value` 특성이 필요하다.
+`<select>` 는 `<label>`과 연결해 접근성을 향상 시킨다.
 
-그러나 `value` 특성을 지정하지 않은 경우, 대신 자기 안에 텍스트를 값으로 사용한다.
-
-`<selected>` 특성을 지정하면 해당 옵션을 선택한 상태로 페이지를 불러온다.
-
-`<option>` 요소를 `<optiongroup>` 요소 안에 배치하면 드롭 다운 내에서 옵션 그룹으로 나눌 수 있다.
+이러한 &lt;select&gt;요소는 사용자로부터 입력 받기 위한 폼에 사용될 수 있다.
 
 ```markup
 <label for="coffe-select">Click Coffee Menu :</label>
@@ -118,6 +196,46 @@
   <option value="strawberry-yogurt">Strawberry Yogurt</option>
 </select>
 ```
+
+#### 1\) select element attributes
+
+| attribute | value | description |
+| :--- | :--- | :--- |
+| `autofocus` | autofocus | 페이지가 로드될 때 자동으로 포커스가 드롭다운 리스트로 이동됨을 명시. |
+| `disabled` | disabled | 해당 드롭다운 리스트가 비활성됨을 명시. |
+| `form` | form id | 해당 드롭다운 리스타가 포함될 하나의 `<form>` 요소를 명시. |
+| `multiple` | multiple | 사용자가 한 번에 두 개 이상 옵션을 선택할 수 있음을 명시. |
+| `name` | text | 드롭다운 리스트 이름을 명시. |
+| `required` | required | 폼 데이터가 서버로 제출되기 전 사용자가 반드시 드롭다운 리스트의 값을 선택해야 함을 명시. |
+| `size` | number | 드롭다운 리스트에서 한 번에 보일 옵션의 개수를 명시. |
+
+### 3.  option element <a id="reference"></a>
+
+`<option>`요소는 옵션 메뉴를 제공라는 드롭 다운 리스트에서 사용되는 하나의 옵션을 정의할 때 사용한다.이러한 `<option>`요소는 `<select>`요소 또는 `<datalist>`요소 내부에서만 위치할 수 있다.
+
+`<option>`요소는 아무런 속성도 명시하지 않은 채 사용할 수 있지만, 서버로 제출되는 값을 명시하는 `value` 속성은 명시하는 것이 일반적이다. 만약 옵션의 개수가 많다면 `<optgroup>`요소를 사용하여 관련된 옵션들을 좀 더 보기 좋게 서로 묶어준다.
+
+#### 1\) option element attributes
+
+| attribute | value | description |
+| :--- | :--- | :--- |
+| `disabled` | disabled | 해당 옵션이 비활성됨을 명시. |
+| `label` | text | 해당 옵션의 라벨\(label\)을 명시. |
+| `selected` | selected | 페이지가 로드될 때 옵션 중에서 미리 선택되어는지 옵션을 명시. |
+|  `value` | value | 해당 옵션이 선택될 때 서버로 제출되는 값을 명시. |
+
+### 4. optgroup element <a id="reference"></a>
+
+`<optgroup>`요소는 옵션 메뉴를 제공하는 드롭다운 리스트에서 사용되는 옵션들의 그룹을 정의할 때 사용한다.
+
+드롭다운 리스트에서 옵션의 수가 많을 경우 `<optgroup>` 요소를 사용하여 관련된 옵션끼리 각각의 그룹으로 묶어주면 사용자가 좀 더 쉽게 드롭다운 리스트를 사용할 수 있다.
+
+#### 1\) optgroup element attributes
+
+| attribute | value | description |
+| :--- | :--- | :--- |
+| `disabled` | disabled | 해당 옵션이 비활성됨을 명시. |
+| `label` | text | 해당 옵션의 라벨\(label\)을 명시. |
 
 ### Reference  <a id="reference"></a>
 

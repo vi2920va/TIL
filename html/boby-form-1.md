@@ -12,6 +12,7 @@
   <thead>
     <tr>
       <th style="text-align:left">attribute</th>
+      <th style="text-align:left">value</th>
       <th style="text-align:left">description</th>
     </tr>
   </thead>
@@ -19,31 +20,42 @@
     <tr>
       <td style="text-align:left"> <code>accept-charset</code>
       </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;&#xB54C;
         &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xBB38;&#xC790; &#xC778;&#xCF54;&#xB529;
-        &#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;&#xD55C;&#xB2E4;</td>
+        &#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>action</code>
       </td>
+      <td style="text-align:left">URL</td>
       <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
         &#xB54C; &#xD574;&#xB2F9; &#xB370;&#xC774;&#xD130;&#xAC00; &#xB3C4;&#xCC29;&#xD560;
-        URL&#xC744; &#xBA85;&#xC2DC;&#xD55C;&#xB2E4;.</td>
+        URL&#xC744; &#xBA85;&#xC2DC;.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>autocomplete</code>
       </td>
+      <td style="text-align:left">
+        <p>on</p>
+        <p>off</p>
+      </td>
       <td style="text-align:left"><code>&lt;form&gt;</code> &#xC694;&#xC18C;&#xC758; &#xC790;&#xB3D9; &#xC644;&#xC131;
         &#xAE30;&#xB2A5;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC9C0; &#xC5EC;&#xBD80;&#xB97C;
-        &#xBA85;&#xC2DC;&#xD55C;&#xB2E4;.</td>
+        &#xBA85;&#xC2DC;.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>enctype</code>
       </td>
       <td style="text-align:left">
+        <p>application/x-www-form-urlencoded</p>
+        <p>multipart/form-data</p>
+        <p>text/plain</p>
+      </td>
+      <td style="text-align:left">
         <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
           &#xB54C; &#xD574;&#xB2F9; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC778;&#xCF54;&#xB529;
-          &#xB418;&#xB294; &#xBC29;&#xBC95;&#xC744;&#xBA85;&#xC2DC;&#xD55C;&#xB2E4;.</p>
+          &#xB418;&#xB294; &#xBC29;&#xBC95;&#xC744;&#xBA85;&#xC2DC;.</p>
         <p>(&#xB2E8;, <code>&lt;form&gt;</code>&#xC694;&#xC18C;&#xC758; method &#xC18D;&#xC131;&#xAC12;&#xC774;
           post &#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560;
           &#xC218; &#xC788;&#xB2E4;.)</p>
@@ -52,22 +64,40 @@
     <tr>
       <td style="text-align:left"><code>method</code>
       </td>
+      <td style="text-align:left">
+        <p>get</p>
+        <p>post</p>
+      </td>
       <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
-        &#xB54C; &#xC0AC;&#xC6A9;&#xB418;&#xB294; HTTP method&#xB97C; &#xBA85;&#xC2DC;&#xD55C;&#xB2E4;.</td>
+        &#xB54C; &#xC0AC;&#xC6A9;&#xB418;&#xB294; HTTP method&#xB97C; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>name</code>
+      </td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left"><code>&lt;form&gt;</code> &#xC694;&#xC18C;&#xC758; &#xC774;&#xB984;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>novaildate</code>
       </td>
+      <td style="text-align:left">novalidate</td>
       <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
         &#xB54C; &#xD574;&#xB2F9; &#xB370;&#xC774;&#xD130;&#xC758; &#xC720;&#xD6A8;&#xC131;&#xC744;
-        &#xAC80;&#xC0AC;&#xD558;&#xC9C0; &#xC54A;&#xC74C;&#xC744; &#xBA85;&#xC2DC;&#xD55C;&#xB2E4;.</td>
+        &#xAC80;&#xC0AC;&#xD558;&#xC9C0; &#xC54A;&#xC74C;&#xC744; &#xBA85;&#xC2DC;</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>target</code>
       </td>
+      <td style="text-align:left">
+        <p>_blank</p>
+        <p>_self</p>
+        <p>_parent</p>
+        <p>_top</p>
+      </td>
       <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xD55C;
         &#xD6C4; &#xBC1B;&#xB294; &#xC751;&#xB2F5;&#xC774; &#xC5F4;&#xB9B4; &#xC704;&#xCE58;&#xB97C;
-        &#xBA85;&#xC2DC;&#xD55C;&#xB2E4;.</td>
+        &#xBA85;&#xC2DC;.</td>
     </tr>
   </tbody>
 </table>
@@ -76,7 +106,7 @@
 
 `<input>`요소는 사용자로 부터 입력을 받을 수 있는 입력 필력\(input fileld\)를 정의할 때 사용한다.
 
-`<input>`요소는 사용자가 데이터를 입력할 수 있는 입력 필드를 선언하기 위해 &lt;form&gt; 요소 내부에서 사용된다.
+`<input>`요소는 사용자가 데이터를 입력할 수 있는 입력 필드를 선언하기 위해 `<form>` 요소 내부에서 사용된다.
 
 #### 1\) input type
 
@@ -98,12 +128,12 @@
 | `password` | 비밀번호를 입력할 수 있는 입력 필드를 정의한다. |
 | `radio` | 라디오 버튼을 정의한다. |
 | `range` | 슬라이드 바를 조정하여 범위 내의 숫자를 선택할 수 있는 입력 필드를 정의한다. |
-| reset | 모든 폼 요소의 값을 초기값으로 되돌리는 리셋 버튼을 정의한다. |
+| `reset` | 모든 폼 요소의 값을 초기값으로 되돌리는 리셋 버튼을 정의한다. |
 | `search` | 검색어를 입력할 수 있는 텍스트 필드를 정의한다. |
 | `submit` | 서버의 폼 핸들러로 폼 데이터를 전송하는 제출 버튼을 정의한다. |
 | `tel` | 전화번호를 입력할 수 있는 입력 필드를 정의한다. |
 | `text` | `type` 속성의 기본 값으로 한 줄로 된 텍스트 필드를 정의한다. |
-| time | 시간을 선택할 수 있는 입력 필드를 정의한다. |
+| `time` | 시간을 선택할 수 있는 입력 필드를 정의한다. |
 | `url` | URL 주소를 입력할 수 있는 입력 필드를 정의한다. |
 | `week` | 날짜를 직접 입력하거나, 날짜를 선택할 수 있는 입력 필드를 정의한다.   입력 결과는 년도와 주가 포홤되며 이때 주 앞에는 "W" 문자가 추가되어 제출된다. |
 
