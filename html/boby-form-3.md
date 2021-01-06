@@ -2,55 +2,126 @@
 
 ### 1. textarea element
 
-`<textarea>` 요소는 멀티라인 일반 텍스트 편집 컨트롤을 나타낸다.
+`<textarea>` 요소는 사용자가 여러 줄의 텍스트를 입력할 수 있는 텍스트 영역을 정의할 때 사용한다. 텍스트 입력 영역에는 개수의 제한 없이 문자를 입력할 수 있으며, 입력된 문자는 고정폭 글꼴로 렌더링 된다.
+
+텍스트 영역의 크기는 `<textarea>`요소의 `cols`속성과 `rows`속성으로 지정할 수 있다.
 
 #### 1\) textarea element attribute
 
-| attribute | value | description |
-| :--- | :--- | :--- |
-|  |  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">attribute</th>
+      <th style="text-align:left">value</th>
+      <th style="text-align:left">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>autofocus</code>
+      </td>
+      <td style="text-align:left">autofocus</td>
+      <td style="text-align:left">&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xB85C;&#xB4DC;&#xB420; &#xB54C; &#xC790;&#xB3D9;&#xC73C;&#xB85C;
+        &#xD3EC;&#xCEE4;&#xC2A4;&#xAC00;&lt;textarea&gt;&#xC694;&#xC18C;&#xB85C;
+        &#xC774;&#xB3D9;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>cols</code>
+      </td>
+      <td style="text-align:left">number</td>
+      <td style="text-align:left">&#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED; &#xC911; &#xBCF4;&#xC774;&#xB294;
+        &#xC601;&#xC5ED;&#xC758; &#xB108;&#xBE44;&#xB97C; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>dirname</code>
+      </td>
+      <td style="text-align:left">textareaname.dir</td>
+      <td style="text-align:left">
+        <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
+          &#xB54C; &#xC11C;&#xBC84;&#xB85C; &#xBCF4;&#xB0BC; &#xD14D;&#xC2A4;&#xD2B8;
+          &#xC785;&#xB825; &#xC601;&#xC5ED;&#xC758; &#xD14D;&#xC2A4;&#xD2B8; &#xBC29;&#xD5A5;&#xC131;(text
+          directionality)&#xC744; &#xC800;&#xC7A5;&#xD560; &#xC774;&#xB984;&#xC744;
+          &#xBA85;&#xC2DC;.</p>
+        <p>(&#xC5B8;&#xC81C;&#xB098; &#xC774;&#xB984; &#xB4A4;&#xC5D0; &#x201C;.dir&#x201D;&#xB97C;
+          &#xCD94;&#xAC00;&#xD568;)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>disabled</code>
+      </td>
+      <td style="text-align:left">disabled</td>
+      <td style="text-align:left">&#xD574;&#xB2F9;&lt;textarea&gt;&#xC694;&#xC18C;&#xAC00; &#xBE44;&#xD65C;&#xC131;&#xB428;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>form</code>
+      </td>
+      <td style="text-align:left">form id</td>
+      <td style="text-align:left">&#xD574;&#xB2F9; <code>&lt;texrarea&gt;</code> &#xC694;&#xC18C;&#xAC00;
+        &#xD3EC;&#xD568;&#xB420; &#xD558;&#xB098; &#xC774;&#xC0C1;&#xC758; <code>&lt;form&gt;</code> &#xC694;&#xC18C;&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>maxlength</code>
+      </td>
+      <td style="text-align:left">number</td>
+      <td style="text-align:left"><code>&lt;textarea&gt;</code> &#xC694;&#xC18C;&#xC5D0; &#xD5C8;&#xC601;&#xB418;&#xB294;
+        &#xCD5C;&#xB300; &#xBB38;&#xC790;&#xC218;&#xB97C; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"> <code>name</code>
+      </td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left"><code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xC758; &#xC774;&#xB984;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>placeholder</code>
+      </td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left"><code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xC758; &#xC785;&#xB825;&#xB420;
+        &#xAC12;&#xC5D0; &#xB300;&#xD55C; &#xC9E7;&#xC740; &#xD78C;&#xD2B8;&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>readonly</code>
+      </td>
+      <td style="text-align:left">readonly</td>
+      <td style="text-align:left"><code>&lt;textarea&gt;</code> &#xC694;&#xC18C;&#xC758; &#xD14D;&#xC2A4;&#xD2B8;
+        &#xC785;&#xB825; &#xC601;&#xC5ED;&#xC774; &#xC77D;&#xAE30; &#xC804;&#xC6A9;&#xC784;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>required</code>
+      </td>
+      <td style="text-align:left">required</td>
+      <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB418;&#xAE30;
+        &#xC804; &#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED;&#xC774;
+        &#xBC18;&#xB4DC;&#xC2DC; &#xCC44;&#xC6CC;&#xC838; &#xC788;&#xC5B4;&#xC57C;
+        &#xD568;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>rows</code>
+      </td>
+      <td style="text-align:left">number</td>
+      <td style="text-align:left">&#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED; &#xC911; &#xBCF4;&#xC774;&#xB294;
+        &#xC601;&#xC5ED;&#xC758; &#xB77C;&#xC778;&#xC218;&#xB97C; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>wrap</code>
+      </td>
+      <td style="text-align:left">
+        <p>hard</p>
+        <p>soft</p>
+      </td>
+      <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
+        &#xB54C; &#xC785;&#xB825;&#xB41C; &#xD14D;&#xC2A4;&#xD2B8;&#xC758; &#xC904;
+        &#xBC14;&#xAFC8;(wrap)&#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+  </tbody>
+</table>
 
-#### 📝**autocapitalize**
-
-ios의 webKit에서 지원하는 비표준 속성, 텍스트 값을 입력 또는 편집할 때에 자동으로 대문자 표시할지 여부와 방법을 제어한다.
-
-#### 📝**cols**
-
-평균 문자 너비로 표시되는 텍스트 컨트롤 표시 너비이다. 지정된 경우 양의 정수 여야 한다. 지정되지 않은 경우 기본 값은 `20` 이다.
-
-#### 📝**maxlength**
-
-사용자가 입력할 수 있는 최대 문자 수, 이 값을 지정하지 않으면 사용자는 무제한의 문자를 입력할 수 있다.
-
-#### 📝**minlength**
-
-사용자가 입력해야 하는 최소 문자 수 이다.
-
-#### 📝**name**
-
-컨트롤의 이름
-
-#### 📝**placeholder**
-
-컨트롤 입력 할 수 있는 항목에 표시되는 텍스트
-
-#### 📝**readonly**
-
-Boolean, 사용자가 컨트롤 값을 수정 할 수 없다.
-
-#### 📝**required**
-
-Boolean, 사용자가 양식을 제출 하기 값을 입력해야 한다.
-
-#### 📝**rows**
-
-컨트롤에 표시되는 텍스트 줄 수
-
-#### 📝**wrap**
-
-컨트롤이 텍스트를 래핑하는 방법
-
-#### 2\) `<textarea>` CSS Styling
+#### 2\) textarea CSS styling
 
 `<textarea>`는 기본적 으로 `display` 값은 block 이다.
 
@@ -90,11 +161,11 @@ textarea:valid {
 }
 ```
 
-### 2. `<fieldset>` Element
+### 2. fieldset element
 
 `<fieldset>` 요소는 웹 양식의 컨트롤과 `<label>`을 묶을 때 사용한다.
 
-#### 1\)  `<fieldset>` CSS Styling
+#### 1\) fieldset CSS styling
 
 `<fieldset>`는 기본적 으로 `display` 값은 block 이다.
 
@@ -112,23 +183,23 @@ textarea:valid {
 </form>
 ```
 
-### 3. `<legend>` Element
+### 3. legend element
 
 `<legend>` 요소는 부모 `<fieldset>` 콘텐츠의 설명을 나타낸다.
 
-### 4. `<datalist>` Element
+### 4. datalist element
 
 `<datalist>` 요소는 다른 컨트롤에서 고를 수 있는 가능한, 혹은 추천하는 선택지를 나타내는 `<option>` 요소 여럿을 담는다.
 
-### 5. `<progress>` Element
+### 5. progress element
 
 `<progress>` 요소는 어느 작업의 완료 정도를 나타내며, 주로 진행 표시줄의 형태로 띈다.
 
-### 6. `<output>` Element
+### 6. output element
 
 `<output>` 요소는 웹 사이트나 앱에서 계산이나 사용자 행동의 결과를 삽입할 수 있는 컨트롤 데이터 요소 이다.
 
-### 7. `<meter>` Element
+### 7. meter element
 
 `<meter>` 요소는 특정 범위 내에서 스칼라 값, 또는 백분율 값을 나타낸다.
 
