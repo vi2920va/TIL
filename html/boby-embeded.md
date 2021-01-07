@@ -501,7 +501,12 @@ HTML 문서에 이미지를 포함\(링크\)
     <tr>
       <td style="text-align:center"><code>target</code>
       </td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">
+        <p>_blank</p>
+        <p>_self</p>
+        <p>_parent</p>
+        <p>_top</p>
+      </td>
       <td style="text-align:center">&#xC601;&#xC5ED;&#xC744; &#xD074;&#xB9AD;&#xD588;&#xC744; &#xB54C; &#xB300;&#xC0C1;
         URL&#xC758; &#xBB38;&#xC11C;&#xAC00; &#xC5F4;&#xB9B4; &#xC704;&#xCE58;&#xB97C;
         &#xBA85;&#xC2DC;.</td>
@@ -533,7 +538,7 @@ HTML 문서에 이미지를 포함\(링크\)
   </tbody>
 </table>
 
-#### 10\) svg ELEMENT 
+#### 10\) SVG ELEMENT 
 
 확장 가능한 벡터 그래픽\(SVG\)은 2차원의 벡터 그래픽을 기술하기 위한 XML 마크업 언어.
 
