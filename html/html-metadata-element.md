@@ -1,4 +1,4 @@
-# HEAD :  Title, Base, Style elements
+# HEAD :  title, base, style elements
 
 ### 1. HEAD ElEMENTS
 

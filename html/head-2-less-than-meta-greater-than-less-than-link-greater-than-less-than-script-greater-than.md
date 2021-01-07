@@ -1,6 +1,15 @@
-# HEAD : Meta, Link elements
+# HEAD : meta, link elements
 
-### META ElEMENT 
+### 1. HEAD ElEMENTS
+
+ `<head>` 요소는 해당 문서에 대한 정보인 메타 데이터\(meta data\)의 집합을 정의할 때 사용한다.
+
+다음과 같은 요소들은 `<head>` 요소에 포함 되어야 한다.
+
+* `<title>`, `<style>`,`<base>`,`<link>`, `<meta>`, `<script>`, `<noscript>`
+* `<script>`,`<noscript>` 요소는 `<head>` 뿐만 아니라 `<body>` 요소에 포함 시킬 수 있다.
+
+#### 4\) META ElEMENT 
 
  이 요소는 해당 문서에 대한 정보인 메타데이터\(meta data\)를 정의할 때 사용한다.
 
@@ -29,7 +38,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-###  LINK ElEMENT 
+####  5\) LINK ElEMENT 
 
 이 요소는 해당 문서와 외부 소스\(external resource\) 사이의 관계를 정의할 때 사용한다.
 
@@ -39,18 +48,80 @@
 
 주로 외부 스타일 시트\(external style sheet\)를 연결할 때 사용한다.
 
-#### 1\)  `<link>` Attribute
+#### ① LINK  ELEMENT - ATTRIBUTE
 
-| attribute | description |
-| :--- | :--- |
-| `crossorigin` | 해당 요소가 CORS 요청을 처리하는 방식을 명시 |
-| `href` | 링크될 외부 리소스\(external resource\)의 URL을 명시 |
-| `hreflang` | 링크된 문서의 언어를 명시 |
-| `media` | 링크된 문서를 표시할 미디어 장치를 명시 |
-| `sizes` | 시각적 미디어에서 리소스 포함된 아이콘의 크기를 명시   단, `<link>` 요소의 `rel` 속성 값이 **icon**인 경우에만 사용 가능 |
-| `type` | 링크된 외부 리소스의 미디어 타입을 명시 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">attribute</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
+      <th style="text-align:center">spec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>crossorigin</code>
+      </td>
+      <td style="text-align:center">
+        <p>anonymous</p>
+        <p>use-credentials</p>
+      </td>
+      <td style="text-align:center">&#xD574;&#xB2F9; &#xC694;&#xC18C;&#xAC00; CORS &#xC694;&#xCCAD;&#xC744;
+        &#xCC98;&#xB9AC;&#xD558;&#xB294; &#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center">HTML5</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>href</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xB9C1;&#xD06C;&#xB420; &#xC678;&#xBD80; &#xB9AC;&#xC18C;&#xC2A4;(external
+        resource)&#xC758; URL&#xC744; &#xBA85;&#xC2DC;</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>hreflang</code>
+      </td>
+      <td style="text-align:center">&#xC5B8;&#xC5B4;&#xCF54;&#xB4DC;</td>
+      <td style="text-align:center">&#xB9C1;&#xD06C;&#xB41C; &#xBB38;&#xC11C;&#xC758; &#xC5B8;&#xC5B4;&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>media</code>
+      </td>
+      <td style="text-align:center">media queries</td>
+      <td style="text-align:center">&#xB9C1;&#xD06C;&#xB41C; &#xBB38;&#xC11C;&#xB97C; &#xD45C;&#xC2DC;&#xD560;
+        &#xBBF8;&#xB514;&#xC5B4; &#xC7A5;&#xCE58;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>sizes</code>
+      </td>
+      <td style="text-align:center">width x hight any</td>
+      <td style="text-align:center">&#xC2DC;&#xAC01;&#xC801; &#xBBF8;&#xB514;&#xC5B4;&#xC5D0;&#xC11C; &#xB9AC;&#xC18C;&#xC2A4;
+        &#xD3EC;&#xD568;&#xB41C; &#xC544;&#xC774;&#xCF58;&#xC758; &#xD06C;&#xAE30;&#xB97C;
+        &#xBA85;&#xC2DC;.
+        <br />(<code>&lt;link&gt;</code> &#xC694;&#xC18C;&#xC758; <code>rel</code> &#xC18D;&#xC131;
+        &#xAC12;&#xC774; &quot;icon&quot;&#xC778; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC;
+        &#xC0AC;&#xC6A9; &#xAC00;&#xB2A5;)</td>
+      <td style="text-align:center">HTML5</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>type</code>
+      </td>
+      <td style="text-align:center">media type</td>
+      <td style="text-align:center">&#xB9C1;&#xD06C;&#xB41C; &#xC678;&#xBD80; &#xB9AC;&#xC18C;&#xC2A4;&#xC758;
+        &#xBBF8;&#xB514;&#xC5B4; &#xD0C0;&#xC785;&#xC744; &#xBA85;&#xC2DC;</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>
 
-#### 2\) `<link>` rel Attribute
+#### ② LINK ELEMENT - REL ATTRIBUTE
 
 `<link>` 요소에서 `rel` 속성은 현재 문서와 외부 리소스 사이의 관계를 명시한다.
 
