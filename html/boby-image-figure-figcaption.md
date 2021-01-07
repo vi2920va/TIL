@@ -18,7 +18,7 @@ HTML문서에서 이미지를 삽입할 때는 `<img>`요소를 사용한다.
 <img src="./image/example.svg" alt="example file">
 ```
 
-#### 2\). 이미지 파일 형식들
+#### 2\) 이미지 파일 형식들
 
 #### ① JPG IMAGE
 
