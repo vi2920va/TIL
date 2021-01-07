@@ -1,4 +1,4 @@
-# HTML 개요
+# HTML INTRO
 
 ### HTML 정의
 
@@ -40,7 +40,7 @@ HTML 문서는 기본적으 **HEAD영역**과 **BODY영역**으로  구분된다
 
 DOCTYPE은 HTML 문서에서`<html>`요소를 정의 하기 전에 가장 먼저 선언 되어야 한다. `DOCTYPE`은 HTML 요소는 아니지만 선언된 페이지의 HTML 버전을 웹 브라우저에게 알려주는 역할로 대/소문자를 구분하지 않는다.
 
-#### 2\) HEAD element
+#### 2\) HEAD ELEMENT
 
 해당 문서에 대한 정보인 메타데이터\(metadata\)집합을 정의할 때 사용한다. 
 
@@ -49,7 +49,7 @@ DOCTYPE은 HTML 문서에서`<html>`요소를 정의 하기 전에 가장 먼저
 * `<title>`, `<style>`,`<base>`,`<link>`, `<meta>`, `<script>`, `<noscript>`
 * `<script>`,`<noscript>` 요소는 `<head>` 뿐만 아니라 `<body>` 요소에 포함 시킬 수 있다.
 
-#### 3\) BODY element
+#### 3\) BODY ELEMENT
 
 `<body>`요소는 해당 HTML 문서에 텍스트, 이미지, 리스트 등과 같은 모든 콘텐츠 포함하는 영역을 정의할 때 사용한다.
 

@@ -15,7 +15,7 @@
 
 ## HTML
 
-* [HTML 개요](html/untitled.md)
+* [HTML INTRO](html/untitled.md)
 * [BOBY : heading, paragraph, anchor elements](html/heading-paragraph-anchor-element.md)
 * [IMAGES : img, figure, figcaption elements](html/boby-image-figure-figcaption.md)
 * [LISTS : ul, ol, dl elements](html/lists-unordered-list-ordered-list-description-list.md)
