@@ -32,7 +32,7 @@
 * [BOBY : Interactive control](html/boby-interactive-control.md)
 * [BOBY : Script elements](html/boby-scripting-elements.md)
 * [BOBY : User interaction attributes](html/boby-user-interaction-attributes.md)
-* [&lt;head&gt; \(1\) - &lt;title&gt;, &lt;base&gt;, &lt;style&gt;](html/html-metadata-element.md)
+* [HEAD :  title, base, style elements](html/html-metadata-element.md)
 * [&lt;head&gt; \(2\) - &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;](html/head-2-less-than-meta-greater-than-less-than-link-greater-than-less-than-script-greater-than.md)
 
 ## CSS

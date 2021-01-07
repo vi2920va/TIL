@@ -33,11 +33,62 @@ tabindex 속성은 키보드로 탐색할 수 있도록 설정하거나, 제외 
  	컴포넌트 제작 시, 비 포커스 요소에 포커스를 적용해야 할 경우 유용하게 사용된다
 -->
 <div tabindex="0"></div>
-<!-- [-1] 일반적인 포커스 순서에서 제외시킬 수 있다. (JavaScript 프로그래밍으로 포커스 처리 가능) 컴포넌트의 일부 요소를 일시적으로 포커스 순서에서 제외한 후, 목표에 따라 포커스를 다시 활성화 처리할 수 있다. 즉, 의도적으로 포커스를 가지지 못하게 만들어 놨다가 포커스를 주게끔 할 때 유용하게 사용할 수 있다. -->
+
+<!-- 
+	[-1] 일반적인 포커스 순서에서 제외시킬 수 있다. 
+	(JavaScript 프로그래밍으로 포커스 처리 가능) 
+	컴포넌트의 일부 요소를 일시적으로 포커스 순서에서 제외한 후, 
+	목표에 따라 포커스를 다시 활성화 처리할 수 있다. 
+	즉, 의도적으로 포커스를 가지지 못하게 만들어 놨다가 
+	포커스를 주게끔 할 때 유용하게 사용할 수 있다. 
+-->
 <ol class="toc">
 	<li><a href="#pinch">위기</a></li>
 	<li><a href="#overcome" tabindex="-1">극복</a></li>
 </ol>
 
 ```
+
+#### 3\) accsskey attribute
+
+accskey속성을 사용하면 단축키를 통해서 액션을 연결 시킬 수 있다. 즉 , 단축키를 지정해주는 것이다. 모든  HTML 요소는 accsskey 속성을 가질 수 있으며, 속성 값은 키보드 단축키로 설정된다. 하지만 accsskey 속성의 단축키는 브라우저와 운영체제 플랫폼에 의존하고 있어 운영체제마다 사용자 경험이 달라진다. 쉽게 말해서 windows  사용자와 Mac OSX 사용자가 사용자가 사용하는 단축키는 달라진다. 
+
+#### 브라우저 X 운영체제 플랫폼
+
+```bash
+# Windows
+	Chrome : Alt + 단축키 
+	IE 		 : Alt + 단축키 
+	Safari : Alt + 단축키 
+	Opera  : Alt + 단축키 
+	Firefox: Alt + Shift + 단축키
+
+# Mac OSX
+	Chrome : Control + Alt + 단축키 
+	Safari : Control + Alt + 단축키 
+	Opera  : Control + Alt + 단축키 
+	Firefox : Control + 단축키
+
+# Linux
+	Chrome : Alt + 단축키 
+	Opera  : Alt + 단축키 
+	Firefox: Alt + Shift + 단축키
+
+```
+
+#### 4\) contenteditable attribute
+
+기본적으로 HTML 요소들은 편집이 불가능 하지만 contenteditable 속성이 설정된 요소는 사용자가 직접 편집할 수 있도록 만들어 줄 수 있다. 값이 true 또는 빈 문자열\(""\)일 경우 편집을 허용하게 되고, 값이 fasle일 경우 편집을 허용하지 않는다. 예를 들어 사용자가 어떠한 위젯의 콘텐츠를 수정할 수 있는 권한을 주고하 할 때 내용을 수정할 수 있도록 해줄 수 있다.
+
+#### 5\) draggable attribute
+
+ 모든 HTML 요소는 draggable 속성을 가질 수 있다. 값이 true일 경우 드래그\(drag\) 가능하고, 값이 false 또는 빈 문자열\(""\)이면 드래그가 불가능 하다.
+
+```markup
+<p draggable="true">
+  ... 
+</p>
+```
+
+
 
