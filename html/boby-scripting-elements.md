@@ -1,6 +1,6 @@
-# BOBY : Scripting elements
+# BOBY : Script elements
 
-### 1.  Script elements
+### 1.  Script element
 
 JavaScript 코드 또는 파일을 HTML 문서에 작성하거나, 연결할 때 사용한다.
 
@@ -69,4 +69,21 @@ JavaScript 코드 또는 파일을 HTML 문서에 작성하거나, 연결할 때
     </tr>
   </tbody>
 </table>
+
+```markup
+<script src="js/app.js"></script>
+```
+
+### 2. noscript element
+
+사용자의 웹 브라우저 환경에서 스크립트를 지원되지 않거나, 스크립트가 꺼져있는 경우, 문서에 표시될 문구를 삽입한다.
+
+```markup
+<noscript>
+    <p>JavaScript를 지원하지 않습니다.</p>
+</noscript>
+
+```
+
+
 
