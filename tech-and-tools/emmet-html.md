@@ -1,6 +1,6 @@
 # EMMET : HTML
 
-### 
+![emmet](../.gitbook/assets/1_uytzdnlnsiuwev8h_a0bxa.png)
 
 ### 1. EMMET 
 
@@ -61,4 +61,8 @@
     <li class="item"></li>
 </ul>
 ```
+
+#### Reference
+
+Cheat Sheet [→\(SITE\)](https://docs.emmet.io/cheat-sheet/)
 
