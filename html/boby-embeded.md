@@ -442,11 +442,36 @@ HTML 문서에 이미지를 포함\(링크\)
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:center"><code>rel</code>
+      </td>
+      <td style="text-align:center">
+        <p>alternate</p>
+        <p>author bookmark</p>
+        <p>help</p>
+        <p>license</p>
+        <p>next</p>
+        <p>nofollow noreferrer</p>
+        <p>prefetch prev</p>
+        <p>search</p>
+        <p>tag</p>
+      </td>
+      <td style="text-align:center">&#xD604;&#xC7AC; &#xBB38;&#xC11C;&#xC640; &#xB300;&#xC0C1;&#xC758; URL
+        &#xC0AC;&#xC774;&#xC758; &#xC5F0;&#xAD00; &#xAD00;&#xACC4;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center">HTML5</td>
+    </tr>
+    <tr>
       <td style="text-align:center"><code>shape</code>
       </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#xD56B;&#xC2A4;&#xD31F; &#xBAA8;&#xC591; &#xC124;&#xC815;</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">
+        <p>default</p>
+        <p>rect</p>
+        <p>circle</p>
+        <p>poly</p>
+      </td>
+      <td style="text-align:center">&#xC601;&#xC5ED;&#xC758; &#xBAA8;&#xC591;&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center"><code>coords</code>
@@ -465,8 +490,9 @@ HTML 문서에 이미지를 포함\(링크\)
       <td style="text-align:center"></td>
     </tr>
     <tr>
-      <td style="text-align:center">media</td>
-      <td style="text-align:center">media</td>
+      <td style="text-align:center"><code>media</code>
+      </td>
+      <td style="text-align:center">media queries</td>
       <td style="text-align:center">&#xB300;&#xC0C1; URL&#xC774; &#xCD5C;&#xC801;&#xD654; &#xB418;&#xB294;
         &#xBBF8;&#xB514;&#xC5B4;&#xB098; &#xB9E4;&#xCCB4;&#xB97C; &#xBA85;&#xC2DC;.</td>
       <td
@@ -476,7 +502,9 @@ HTML 문서에 이미지를 포함\(링크\)
       <td style="text-align:center"><code>target</code>
       </td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">&#xC601;&#xC5ED;&#xC744; &#xD074;&#xB9AD;&#xD588;&#xC744; &#xB54C; &#xB300;&#xC0C1;
+        URL&#xC758; &#xBB38;&#xC11C;&#xAC00; &#xC5F4;&#xB9B4; &#xC704;&#xCE58;&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
       <td style="text-align:center"></td>
     </tr>
     <tr>
