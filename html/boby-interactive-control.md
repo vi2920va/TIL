@@ -10,13 +10,31 @@
 
 `<summary>`요소는 `<detalis>`요소에서 화면에 보일 제목\(visble heading\)을 명시할 때 사용한다. 이 제목을 마우스로 클릭함으로써 `<detalis>`요소를 보이도록 할 수도 있고 숨길 수도 있다.
 
-```text
-
+```markup
+<details>
+    <summary>today's exchange rate</summary>
+    <ul>
+        <li>dollar($) : 1,135.90</li>
+        <li>euro(€) : 1,284.08</li>
+        <li>en(￥) : 1,014.88</li>
+    </ul>
+</details>
 ```
 
 #### 2\) summary element
 
-&lt;summary&gt;요소
+`<summary>`요소는 `<details>`요소에 의해 생성되는 대화형 위젯에서 기본적으로 보이는 제목을 정의할 때 사용한다. `<summary>`요소는 반드시 `<detalis>`요소의 첫 번째 자식 요소이어야 하며, 이 제목을 마우스로 클릭함으로써 `<details>`요소를 보이도록 할 수도 있고 숨길 수도 있다.
+
+#### 3\) dialog element
+
+`<dialog>`요소는 대화 상자\(dialog box\)나 대화 윈도우\(dialog window\)를 정의할 때 사용한다. 이 요소는 웹 페이지에서 손 쉽게 팝업 대화 상자를 만들 수 있도록 해준다.
+
+```markup
+<dialog open>This is an open dialog window</dialog>
+```
+
+  
+
 
 
 
