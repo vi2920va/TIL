@@ -39,6 +39,7 @@
 
 * [CSS INTRO](css/untitled.md)
 * [CSS selector](css/css-selector.md)
+* [CSS typography](css/css-typography.md)
 
 ## JavaScript
 
