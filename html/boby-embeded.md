@@ -1,26 +1,124 @@
 # BOBY : embeded elements
 
-### 1. Embeded Elements
+### 1. EMBEDED ELEMENTS
 
 HTML 문서에 끼워 넣는\(embeded\) 이미지, 비디오, 웹 사이트, 이미지맵, SVG 벡터 그래픽 같은 콘텐츠 요소들
 
-#### 1\) img element
+#### 1\) IMG ELEMENT
 
 HTML 문서에 이미지를 포함\(링크\)
 
-#### ① img element attribute
+#### ① IMG ELEMENT -  ATTRIBUTES
 
-| attribute | description |
-| :--- | :--- |
-| `src` | 이미지 파일 경로 설정 |
-| `alt` | 이미지 대체 텍스트 설정 |
-| `width` | 이미지 너비 설정 |
-| `height` | 이미지 높이 설정 |
-| `usemap` | 이미지 맵 연결 설정 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">attribute</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
+      <th style="text-align:center">spec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><code>crossorigin</code>
+      </td>
+      <td style="text-align:center">
+        <p>anonymous</p>
+        <p>use-credentials</p>
+      </td>
+      <td style="text-align:center">&lt;canvas&gt;&#xC694;&#xC18C;&#xC5D0; &#xC0AC;&#xC6A9;&#xB420; &#xC774;&#xBBF8;&#xC9C0;&#xC5D0;
+        &#xAD50;&#xCC28; &#xCD9C;&#xCC98; &#xC811;&#xADFC;&#xC744; &#xD5C8;&#xC6A9;&#xD558;&#xB294;
+        &#xC81C;3&#xC758; &#xC0AC;&#xC774;&#xD2B8;&#xB85C; &#xBD80;&#xD130;&#xC758;
+        &#xC774;&#xBBF8;&#xC9C0; &#xD5C8;&#xC6A9; &#xC5EC;&#xBD80;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center">HTML5</td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>height</code>
+      </td>
+      <td style="text-align:center">px</td>
+      <td style="text-align:center">&#xC774;&#xBBF8;&#xC9C0; &#xB192;&#xC774;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>ismap</code>
+      </td>
+      <td style="text-align:center">ismap</td>
+      <td style="text-align:center">&#xD574;&#xB2F9; &#xC774;&#xBBF8;&#xC9C0;&#xAC00; &#xC11C;&#xBC84; &#xC0AC;&#xC774;&#xB4DC;
+        &#xC774;&#xBBF8;&#xC9C0;&#xB9F5;&#xC758; &#xC77C;&#xBD80;&#xC778;&#xC9C0;
+        &#xC5EC;&#xBD80;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>longesc</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xC774;&#xBBF8;&#xC9C0;&#xC5D0; &#xB300;&#xD55C; &#xBD80;&#xAC00;&#xC801;&#xC778;
+        &#xC124;&#xBA85;&#xC744; &#xC81C;&#xACF5;&#xD558;&#xB294; URL&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>sizes</code>
+      </td>
+      <td style="text-align:center">text</td>
+      <td style="text-align:center">&#xC11C;&#xB85C; &#xB2E4;&#xB978; &#xD398;&#xC774;&#xC9C0; &#xB808;&#xC774;&#xC544;&#xC6C3;&#xC5D0;
+        &#xB300;&#xD55C; &#xC774;&#xBBF8;&#xC9C0; &#xC18C;&#xC2A4;&#xC758; &#xD06C;&#xAE30;&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>src</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xC774;&#xBBF8;&#xC9C0; &#xC18C;&#xC2A4;&#xC758; URL&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>srcset</code>
+      </td>
+      <td style="text-align:center">text</td>
+      <td style="text-align:center">&#xAC01;&#xAC01; &#xB2E4;&#xB978; &#xD658;&#xACBD;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xB420;
+        &#xC774;&#xBBF8;&#xC9C0; &#xC18C;&#xC2A4;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>alt</code>
+      </td>
+      <td style="text-align:center">text</td>
+      <td style="text-align:center">&#xC774;&#xBBF8;&#xC9C0;&#xB97C; &#xAC00;&#xC838;&#xC624;&#xB294;&#xB370;
+        &#xC2E4;&#xD328;&#xD588;&#xC744; &#xACBD;&#xC6B0; &#xBCF4;&#xC5EC;&#xC904;
+        &#xB300;&#xCCB4; &#xD14D;&#xC2A4;&#xD2B8;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>width</code>
+      </td>
+      <td style="text-align:center">px</td>
+      <td style="text-align:center">&#xC774;&#xBBF8;&#xC9C0; &#xB108;&#xBE44;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>usemap</code>
+      </td>
+      <td style="text-align:center">#map name</td>
+      <td style="text-align:center">&#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8; &#xC0AC;&#xC774;&#xB4DC; &#xC774;&#xBBF8;&#xC9C0;
+        &#xB9F5;&#xC73C;&#xB85C; &#xC774;&#xBBF8;&#xC9C0;&#xB97C; &#xBA85;&#xC2DC;</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-#### 2\) picture element
+#### 2\) PICTURE ELEMENT 
 
 `<picture>`요소는 다양한 스크린 환경\(스마트폰, 데스크탑, TV 등\)에 맞는 이미지를 화면에 적절하게 표시해 주기 위해 사용한다. 이 요소를 사용할 때에는 1개 이상의 `<img>`를 포함하는 요소와 `<picture>`요소의 자식으로 0개 이상의`<source>`요소가 필요에 따라 사용할 수 있다.
 
@@ -40,7 +138,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </picture>
 ```
 
-#### 3\) source element
+#### 3\) SOURCE ELEMENT 
 
 `<picture>, <audio>, <video>` 요소의 다중 미디어 리소스를 지정하기 위해 사용
 
@@ -54,11 +152,11 @@ HTML 문서에 이미지를 포함\(링크\)
 </video>
 ```
 
-#### 4\) video element
+#### 4\) VIDEO ELEMENT 
 
 동영상 콘텐츠를 HTML 문서에 포함하기 위해서 사용한다. src 속성이나 `<socurce>`요소를 이용해 여러 개의 동영상 소소 중 하나를 표시.
 
-#### ① video element attribute
+#### ① VIDEO ELEMENT - ATTRIBUTES
 
 | attribute | description |
 | :--- | :--- |
@@ -77,11 +175,11 @@ HTML 문서에 이미지를 포함\(링크\)
 </video>
 ```
 
-#### 5\) audio element
+#### 5\) AUDIO ELEMENT 
 
 `<audio>`요소도 `<video>`요소와 유사하게 사용된다.
 
-#### ① audio element attribute
+#### ① AUDIO ELEMENT - ATTRIBUTES
 
 | attribute | description |
 | :--- | :--- |
@@ -102,7 +200,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </audio>
 ```
 
-#### 6\) track element
+#### 6\) track ELEMENT 
 
 `<track>`요소는 비디오 또는 오디오 재생 시에 자막을 표시하도록 해주는 요소로 `default`속성을 설정하지 않을 경우에는 자막을 사용 하지 않는다.
 
@@ -118,7 +216,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </audio>
 ```
 
-#### 7\) iframe element
+#### 7\) iframe ELEMENT 
 
 인라인 프레임\(inline frame\)에 다른 HTML 페이지를 포함하여 화면에 표시.
 
@@ -140,7 +238,7 @@ HTML 문서에 이미지를 포함\(링크\)
 	width="600" height="450" style="border: 0" allowfullscreen></iframe>
 ```
 
-#### 8\) map element
+#### 8\) map ELEMENT 
 
 이미지 맵\(클릭 가능한 링크 영역\)을 정의하기 위해 `<area>`요소와 함께 사용한다.
 
@@ -151,7 +249,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </map>
 ```
 
-#### 9\) area element
+#### 9\) area ELEMENT 
 
 이미지의 핫스팟 지역 정의, 하이퍼링크 설정, `<map>`요소 내부에서만 사용 가능하다.
 
@@ -167,7 +265,7 @@ HTML 문서에 이미지를 포함\(링크\)
 | `hreflang` | 연결된 페이지의 언어 속성 설정 |
 | `download` | canvas 데이터 다운로드 설정 |
 
-#### 10\) svg element
+#### 10\) svg ELEMENT 
 
 확장 가능한 벡터 그래픽\(SVG\)은 2차원의 벡터 그래픽을 기술하기 위한 XML 마크업 언어.
 
