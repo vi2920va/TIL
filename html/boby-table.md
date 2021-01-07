@@ -20,12 +20,50 @@
 
 #### 1\) th element attribute
 
-| attribute | description |
-| :--- | :--- |
-| `scope` | 행\(row\) 또는 열\(col\), 행 그룹\(rowgroup\), 열 그룹\(colgroup\)의 제목임을 명시한다. |
-| `abbr` | 제목 길이 축약\(abbreviation\)이 필요할때 사용한다. |
-| `colspan` | 세로로 열들을 병합 할 때 사용한다. |
-| `rowspan` | 가로로 행들을 병합 할 때 사용한다. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">attribute</th>
+      <th style="text-align:left">value</th>
+      <th style="text-align:left">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>scope</code>
+      </td>
+      <td style="text-align:left">
+        <p>col</p>
+        <p>colgroup</p>
+        <p>row rowgroup</p>
+      </td>
+      <td style="text-align:left">&#xD14C;&#xC774;&#xBE14;&#xC5D0;&#xC11C; &#xD5E4;&#xB354; &#xC140;&#xACFC;
+        &#xB370;&#xC774;&#xD130; &#xC140;&#xC744; &#xC5F0;&#xACB0;&#xD558;&#xB294;
+        &#xBC29;&#xBC95;&#xC744; &#xBA85;&#xC2DC;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>abbr</code>
+      </td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left">&#xC81C;&#xBAA9; &#xAE38;&#xC774; &#xCD95;&#xC57D;(abbreviation)&#xC774;
+        &#xD544;&#xC694;&#xD560;&#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>colspan</code>
+      </td>
+      <td style="text-align:left">number</td>
+      <td style="text-align:left">&#xC138;&#xB85C;&#xB85C; &#xC5F4;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
+        &#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>rowspan</code>
+      </td>
+      <td style="text-align:left">number</td>
+      <td style="text-align:left">&#xAC00;&#xB85C;&#xB85C; &#xD589;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
+        &#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 4. td element
 
@@ -35,11 +73,11 @@
 
 #### 1\) **td e**lement attribute
 
-| attribute | description |
-| :--- | :--- |
-| `headers` | 셀 지목을 하나 이상 연결하여 읽기 용이하도록 구성할 때 사용한다. |
-| `colspan` | 세로로 열들을 병합 할 때 사용한다. |
-| `rowspan` | 가로로 행들을 병합 할 때 사용한다. |
+| attribute | value | description |
+| :--- | :--- | :--- |
+| `headers` | header id | 해당 데이터 셀과 연관된 하나 이상의 헤더 셀을 명시. |
+| `colspan` | number | 세로로 열들을 병합 할 때 사용한다. |
+| `rowspan` | number | 가로로 행들을 병합 할 때 사용한다. |
 
 ### 5. caption element
 

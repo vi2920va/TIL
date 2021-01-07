@@ -20,7 +20,7 @@
     <tr>
       <td style="text-align:left"> <code>accept-charset</code>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">character set</td>
       <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;&#xB54C;
         &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xBB38;&#xC790; &#xC778;&#xCF54;&#xB529;
         &#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;.</td>
