@@ -4,7 +4,7 @@
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
 
-### 1. html/root element <a id="1-root-setion-element"></a>
+### 1.HTML /ROOT ELEMENT <a id="1-root-setion-element"></a>
 
 HTML문서에서 `<html>`요소는 문서의 **최상단 요소\(root element\)**를 나타내며 "루트 요소"라고 부른다.  모든 다른 요소들은 `<html>`요소의 자손이다.
 
