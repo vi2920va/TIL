@@ -38,6 +38,7 @@
 ## CSS
 
 * [CSS INTRO](css/untitled.md)
+* [CSS selector](css/css-selector.md)
 
 ## JavaScript
 
