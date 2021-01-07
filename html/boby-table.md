@@ -24,8 +24,8 @@
   <thead>
     <tr>
       <th style="text-align:left">attribute</th>
-      <th style="text-align:left">attribute value</th>
-      <th style="text-align:left">description</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
       <th style="text-align:left">spec</th>
     </tr>
   </thead>
@@ -33,12 +33,12 @@
     <tr>
       <td style="text-align:left"><code>scope</code>
       </td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>col</p>
         <p>colgroup</p>
         <p>row rowgroup</p>
       </td>
-      <td style="text-align:left">&#xD14C;&#xC774;&#xBE14;&#xC5D0;&#xC11C; &#xD5E4;&#xB354; &#xC140;&#xACFC;
+      <td style="text-align:center">&#xD14C;&#xC774;&#xBE14;&#xC5D0;&#xC11C; &#xD5E4;&#xB354; &#xC140;&#xACFC;
         &#xB370;&#xC774;&#xD130; &#xC140;&#xC744; &#xC5F0;&#xACB0;&#xD558;&#xB294;
         &#xBC29;&#xBC95;&#xC744; &#xBA85;&#xC2DC;</td>
       <td style="text-align:left"></td>
@@ -46,8 +46,8 @@
     <tr>
       <td style="text-align:left"><code>abbr</code>
       </td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left">&#xC81C;&#xBAA9; &#xAE38;&#xC774; &#xCD95;&#xC57D;(abbreviation)&#xC774;
+      <td style="text-align:center">text</td>
+      <td style="text-align:center">&#xC81C;&#xBAA9; &#xAE38;&#xC774; &#xCD95;&#xC57D;(abbreviation)&#xC774;
         &#xD544;&#xC694;&#xD560;&#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
       <td
       style="text-align:left"></td>
@@ -55,16 +55,16 @@
     <tr>
       <td style="text-align:left"><code>colspan</code>
       </td>
-      <td style="text-align:left">number</td>
-      <td style="text-align:left">&#xC138;&#xB85C;&#xB85C; &#xC5F4;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
+      <td style="text-align:center">number</td>
+      <td style="text-align:center">&#xC138;&#xB85C;&#xB85C; &#xC5F4;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
         &#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><code>rowspan</code>
       </td>
-      <td style="text-align:left">number</td>
-      <td style="text-align:left">&#xAC00;&#xB85C;&#xB85C; &#xD589;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
+      <td style="text-align:center">number</td>
+      <td style="text-align:center">&#xAC00;&#xB85C;&#xB85C; &#xD589;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
         &#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
       <td style="text-align:left"></td>
     </tr>
