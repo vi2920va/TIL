@@ -158,15 +158,76 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### ① VIDEO ELEMENT - ATTRIBUTES
 
-| attribute | description |
-| :--- | :--- |
-| `src` | 비디오 파일 경로 설정 |
-| `poster` | 포스터 이미지 경로 설정 |
-| `preload` | 사용자 경험 향상\(메다테이터/ 비디오 다운로드\)에 관한 설정 |
-| `controls` | 재상 컨트롤 표시 설정 |
-| `autoplay` | 자동 재생 설정 |
-| `loop` | 반복 설정 |
-| `muted` | 음소거 설정 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">attribute</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>src</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xBE44;&#xB514;&#xC624; &#xD30C;&#xC77C;&#xC758; &#xC704;&#xCE58;(URL)&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>poster</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xBE44;&#xB514;&#xC624;&#xB97C; &#xB2E4;&#xC6B4;&#xB85C;&#xB4DC; &#xD558;&#xB294;
+        &#xB3D9;&#xC548;&#xC774;&#xB098; &#xC0AC;&#xC6A9;&#xC790;&#xAC00; &#xC7AC;&#xC0C1;
+        &#xBC84;&#xD2BC;&#xC744; &#xB204;&#xB97C; &#xB54C; &#xAE4C;&#xC9C0; &#xD45C;&#xC2DC;&#xD560;
+        &#xC774;&#xBBF8;&#xC9C0;&#xB97C; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>preload</code>
+      </td>
+      <td style="text-align:center">
+        <p>auto</p>
+        <p>metadata none</p>
+      </td>
+      <td style="text-align:center">&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xB85C;&#xB4DC; &#xB420; &#xB54C; &#xC624;&#xB514;&#xC624;
+        &#xD30C;&#xC77C;&#xC774; &#xAC19;&#xC774; &#xB85C;&#xB4DC;&#xB418;&#xC5B4;&#xC57C;
+        &#xD558;&#xB294;&#xC9C0; &#xC5EC;&#xBD80;&#xC640; &#xADF8; &#xBC29;&#xBC95;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>controls</code>
+      </td>
+      <td style="text-align:center">control</td>
+      <td style="text-align:center">&#xD50C;&#xB808;&#xC774; &#xBC84;&#xD2BC;&#xC774;&#xB098; &#xC815;&#xC9C0;
+        &#xBC84;&#xD2BC;&#xACFC; &#xAC19;&#xC774; &#xBE44;&#xB514;&#xC624;&#xC758;
+        &#xC2E4;&#xD589;&#xC744; &#xC81C;&#xC5B4;&#xD560; &#xC218; &#xC788;&#xB294;
+        &#xC81C;&#xC5B4;&#xAE30;&#xAC00; &#xD45C;&#xC2DC;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>autoplay</code>
+      </td>
+      <td style="text-align:center">autoplay</td>
+      <td style="text-align:center">&#xBE44;&#xB514;&#xC624;&#xAC00; &#xC2E4;&#xD589;&#xB420; &#xC900;&#xBE44;&#xAC00;
+        &#xB05D;&#xB098;&#xB294; &#xB300;&#xB85C; &#xC790;&#xB3D9;&#xC73C;&#xB85C;
+        &#xC2E4;&#xD589;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>loop</code>
+      </td>
+      <td style="text-align:center">loop</td>
+      <td style="text-align:center">&#xBE44;&#xB514;&#xC624;&#xAC00; &#xC7AC;&#xC0DD;&#xC774; &#xB05D;&#xB098;&#xBA74;
+        &#xB610;&#xB2E4;&#xC2DC; &#xC7AC;&#xC0DD;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>muted</code>
+      </td>
+      <td style="text-align:center">muted</td>
+      <td style="text-align:center">&#xBE44;&#xB514;&#xC624;&#xC758; &#xC74C;&#xC131; &#xCD9C;&#xB825;&#xC774;
+        &#xC74C;&#xC18C;&#xAC70;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+  </tbody>
+</table>
 
 ```markup
 <video src="videofile.mp4" poster="posterimage.jpg">
@@ -181,16 +242,68 @@ HTML 문서에 이미지를 포함\(링크\)
 
 #### ① AUDIO ELEMENT - ATTRIBUTES
 
-| attribute | description |
-| :--- | :--- |
-| `src` | 오디오 파일 경로 설정 |
-| `volume` | 볼륨 조절 설정\(0.0 ~ 1.0\) |
-| `muted` | 음소거 설정 |
-| `poster` | 포스터 이미지 경로 설정 |
-| `preload` | 사용자 경험 향상\(메다테이터/ 비디오 다운로드\)에 관한 설정 |
-| `controls` | 재생 컨트롤 표시 설정 |
-| `autoplay` | 자동 재생 설정 |
-| `loop` | 반복 설정 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">attribute</th>
+      <th style="text-align:left">attribute value</th>
+      <th style="text-align:left">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>src</code>
+      </td>
+      <td style="text-align:left">URL</td>
+      <td style="text-align:left">&#xC624;&#xB514;&#xC624; &#xD30C;&#xC77C;&#xC758; &#xC704;&#xCE58;(URL)&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>muted</code>
+      </td>
+      <td style="text-align:left">muted</td>
+      <td style="text-align:left">&#xC624;&#xB514;&#xC624;&#xC758; &#xC74C;&#xC131; &#xCD9C;&#xB825;&#xC774;
+        &#xC74C;&#xC18C;&#xAC70;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>preload</code>
+      </td>
+      <td style="text-align:left">
+        <p>auto</p>
+        <p>metadata none</p>
+      </td>
+      <td style="text-align:left">&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xB85C;&#xB4DC;&#xB420; &#xB54C; &#xC624;&#xB514;&#xC624;
+        &#xD30C;&#xC77C;&#xC774; &#xAC19;&#xC774; &#xB85C;&#xB4DC;&#xB418;&#xC5B4;&#xC57C;
+        &#xD558;&#xB294;&#xC9C0; &#xC5EC;&#xBD80;&#xC640; &#xADF8; &#xBC29;&#xBC95;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>controls</code>
+      </td>
+      <td style="text-align:left">controls</td>
+      <td style="text-align:left">&#xD50C;&#xB808;&#xC774; &#xBC84;&#xD2BC;&#xC774;&#xB098; &#xC815;&#xC9C0;
+        &#xBC84;&#xD2BC;&#xACFC; &#xAC19;&#xC774; &#xC624;&#xB514;&#xC624;&#xC758;
+        &#xC2E4;&#xD589;&#xC744; &#xC81C;&#xC5B4;&#xD560;&#xC218; &#xC788;&#xB294;
+        &#xC81C;&#xC5B4;&#xAE30;&#xAC00; &#xD45C;&#xC2DC;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>autoplay</code>
+      </td>
+      <td style="text-align:left">autoplay</td>
+      <td style="text-align:left">&#xC624;&#xB514;&#xC624;&#xAC00; &#xC2E4;&#xD589;&#xB420; &#xC900;&#xBE44;&#xAC00;
+        &#xB05D;&#xB098;&#xB294; &#xB300;&#xB85C; &#xC790;&#xB3D9;&#xC73C;&#xB85C;
+        &#xC2E4;&#xD589;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>loop</code>
+      </td>
+      <td style="text-align:left">loop</td>
+      <td style="text-align:left">&#xC624;&#xB514;&#xC624;&#xC758; &#xC7AC;&#xC0DD;&#xC774; &#xB05D;&#xB098;&#xBA74;
+        &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xB610;&#xB2E4;&#xC2DC; &#xC7AC;&#xC0DD;&#xB428;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+    </tr>
+  </tbody>
+</table>
 
 ```markup
 <audio src="audiofile.mp3">
@@ -200,7 +313,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </audio>
 ```
 
-#### 6\) track ELEMENT 
+#### 6\) TRACK ELEMENT 
 
 `<track>`요소는 비디오 또는 오디오 재생 시에 자막을 표시하도록 해주는 요소로 `default`속성을 설정하지 않을 경우에는 자막을 사용 하지 않는다.
 
@@ -216,18 +329,81 @@ HTML 문서에 이미지를 포함\(링크\)
 </audio>
 ```
 
-#### 7\) iframe ELEMENT 
+#### 7\) IFRAME ELEMENT 
 
 인라인 프레임\(inline frame\)에 다른 HTML 페이지를 포함하여 화면에 표시.
 
-#### ① iframe element attribute
+#### ①  IFRAME ELEMENT - ATTRIBUTES
 
-| attribute | description |
-| :--- | :--- |
-| `src` | 프레임 소스 설정 |
-| `width` | 프레임 너비 설정 |
-| `height` | 프레임 높이 설정 |
-| `allowfullscreen` | 프레임 전체화면 설정 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">attribute</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
+      <th style="text-align:center">spec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><code>src</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xC694;&#xC18C;&#xC5D0; &#xBCF4;&#xC77C; &#xBB38;&#xC11C;&#xC758; URL&#xB97C;
+        &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>width</code>
+      </td>
+      <td style="text-align:center">px</td>
+      <td style="text-align:center">&lt;iframe&gt;&#xC694;&#xC18C;&#xC758; &#xB108;&#xBE44;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>height</code>
+      </td>
+      <td style="text-align:center">px</td>
+      <td style="text-align:center">&lt;iframe&gt;&#xC694;&#xC18C;&#xC758; &#xB192;&#xC774;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>name</code>
+      </td>
+      <td style="text-align:center">text</td>
+      <td style="text-align:center">&lt;iframe&gt;&#xC694;&#xC18C;&#xC758; &#xC774;&#xB984;&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>sandbox</code>
+      </td>
+      <td style="text-align:center">
+        <p>allow-forms</p>
+        <p>allow-pointer-lock</p>
+        <p>allow-popups</p>
+        <p>allow-same-origin</p>
+        <p>allow-scripts</p>
+        <p>allow-top-navigation</p>
+      </td>
+      <td style="text-align:center"><code>&lt;frame&gt;</code>&#xC694;&#xC18C;&#xC5D0; &#xBCF4;&#xC77C; &#xCF58;&#xD150;&#xCE20;&#xC5D0;
+        &#xB300;&#xD55C; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xC81C;&#xD55C; &#xC0AC;&#xD56D;(restrictions)&#xB4E4;&#xC758;
+        &#xC9D1;&#xD569;&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center">HTML5</td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>srcdoc</code>
+      </td>
+      <td style="text-align:center">html code</td>
+      <td style="text-align:center"><code>&lt;frame&gt;</code> &#xC694;&#xC18C;&#xC5D0; &#xBCF4;&#xC77C; &#xC6F9;
+        &#xD398;&#xC774;&#xC9C0;&#xC758; HTML &#xCF54;&#xB4DC;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center">HTML5</td>
+    </tr>
+  </tbody>
+</table>
 
 ```markup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0wlXaHmmOVc?rel=0&amp;showinfo=0"
@@ -238,7 +414,7 @@ HTML 문서에 이미지를 포함\(링크\)
 	width="600" height="450" style="border: 0" allowfullscreen></iframe>
 ```
 
-#### 8\) map ELEMENT 
+#### 8\) MAP ELEMENT 
 
 이미지 맵\(클릭 가능한 링크 영역\)을 정의하기 위해 `<area>`요소와 함께 사용한다.
 
@@ -249,21 +425,85 @@ HTML 문서에 이미지를 포함\(링크\)
 </map>
 ```
 
-#### 9\) area ELEMENT 
+#### 9\) AREA ELEMENT 
 
 이미지의 핫스팟 지역 정의, 하이퍼링크 설정, `<map>`요소 내부에서만 사용 가능하다.
 
-#### ① area element attribute
+#### ①  AREA ELEMENT - ATTRIBUTES
 
-| attribute | description |
-| :--- | :--- |
-| `shape` | 핫스팟 모양 설정 |
-| `coords` | 모양의 좌표 값 설정 |
-| `href` | 하이퍼링크 설정 |
-| `target` | 새 창\(탭\) 열림 설정 |
-| `alt` | 대체 텍스트 설정 |
-| `hreflang` | 연결된 페이지의 언어 속성 설정 |
-| `download` | canvas 데이터 다운로드 설정 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">attribute</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
+      <th style="text-align:center">spec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><code>shape</code>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#xD56B;&#xC2A4;&#xD31F; &#xBAA8;&#xC591; &#xC124;&#xC815;</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>coords</code>
+      </td>
+      <td style="text-align:center">&#xC88C;&#xD45C;</td>
+      <td style="text-align:center">&#xC601;&#xC5ED;&#xC758; &#xC88C;&#xD45C;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>href</code>
+      </td>
+      <td style="text-align:center">URL</td>
+      <td style="text-align:center">&#xD574;&#xB2F9; &#xC601;&#xC5ED;&#xC5D0; &#xC5F0;&#xACB0;&#xB41C; &#xD558;&#xC774;&#xD37C;&#xB9C1;&#xD06C;&#xC758;
+        &#xB300;&#xC0C1; URL&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">media</td>
+      <td style="text-align:center">media</td>
+      <td style="text-align:center">&#xB300;&#xC0C1; URL&#xC774; &#xCD5C;&#xC801;&#xD654; &#xB418;&#xB294;
+        &#xBBF8;&#xB514;&#xC5B4;&#xB098; &#xB9E4;&#xCCB4;&#xB97C; &#xBA85;&#xC2DC;.</td>
+      <td
+      style="text-align:center">HTML5</td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>target</code>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>alt</code>
+      </td>
+      <td style="text-align:center">text</td>
+      <td style="text-align:center">
+        <p>&#xC601;&#xC5ED;&#xC5D0; &#xB300;&#xD55C; &#xB300;&#xCCB4; &#xD14D;&#xC2A4;&#xD2B8;&#xB97C;
+          &#xBA85;&#xC2DC;.</p>
+        <p>&#xBC18;&#xB4DC;&#xC2DC; <code>href</code> &#xC18D;&#xC131;&#xC774; &#xC124;&#xC815;&#xB418;&#xC5B4;
+          &#xC788;&#xC5B4;&#xC57C;&#xB9CC; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB2E4;.</p>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><code>download</code>
+      </td>
+      <td style="text-align:center">file name</td>
+      <td style="text-align:center">&#xC0AC;&#xC6A9;&#xC790;&#xAC00; &#xD558;&#xC774;&#xD37C;&#xB9C1;&#xD06C;&#xB97C;
+        &#xD074;&#xB9AD;&#xD560; &#xB54C; &#xD574;&#xB2F9; &#xB300;&#xC0C1;&#xC73C;&#xB85C;
+        &#xC5F0;&#xACB0;&#xB418;&#xC9C0; &#xC54A;&#xACE0; &#xB300;&#xC2E0; &#xD574;&#xB2F9;
+        &#xCF58;&#xD150;&#xCE20;&#xAC00; &#xB2E4;&#xC6B4;&#xB85C;&#xB4DC;&#xB428;&#xC744;
+        &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center">HTML5</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 10\) svg ELEMENT 
 
