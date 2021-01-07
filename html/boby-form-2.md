@@ -1,4 +1,4 @@
-# BOBY : Form \(2\)
+# BOBY : Form elements \(2\)
 
 ### 1. button element
 

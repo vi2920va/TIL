@@ -1,10 +1,8 @@
-# BOBY : Section
+# BOBY : Section elements
 
 ### 
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
-
-### HTML Section Elements <a id="1-root-setion-element"></a>
 
 ### 1. html/root element <a id="1-root-setion-element"></a>
 

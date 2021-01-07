@@ -1,4 +1,4 @@
-# BOBY : Embeded
+# BOBY : Embeded elements
 
 ### 1. Embeded Elements
 
