@@ -2,7 +2,7 @@
 
 ### 
 
-![](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
+![ section elements](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
 
 ### 1.HTML /ROOT ELEMENT <a id="1-root-setion-element"></a>
 
