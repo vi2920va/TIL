@@ -1,6 +1,6 @@
-# &lt;head&gt; \(2\) - &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;
+# HEAD : Meta, Link elements
 
-### `<meta>` Element 
+### META ElEMENT 
 
  이 요소는 해당 문서에 대한 정보인 메타데이터\(meta data\)를 정의할 때 사용한다.
 
@@ -29,7 +29,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-###  `<link>` Element 
+###  LINK ElEMENT 
 
 이 요소는 해당 문서와 외부 소스\(external resource\) 사이의 관계를 정의할 때 사용한다.
 
@@ -72,14 +72,6 @@
 | `prev` | 연관된 문서들의 모음 중 이전 문서에 대한 링크 제공 |
 | `search` | 현재 문서 및 관련된 페이지를 검색 하는데 사용할 리소스에 대한 링크 제공 |
 | `stylesheet` | 스타일 시트로 사용할 외부 리소스를 불러온다. |
-
-### `<script>` Element
-
-이 요소는 자바스크립트와 같은 클라이언트 사이드 스크립트\(client side scripts\)를 정의할 때 사용한다.
-
-### `<noscript>` Element
-
-이 요소는 클라이언트 사이드 스크립트\(client-side scripts\)를 사용하지 않도록 설정했거나, 스크립트를 지원하지 않는 브라우저를 위한 별도의 콘텐츠를 정의할 때 사용한다.
 
 #### Reference
 
