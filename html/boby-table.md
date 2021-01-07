@@ -18,7 +18,7 @@
 
 `<th>`요소는 제목의 정보를 저장하는 **헤더 셀\(header cell\)**을 정의할 때 사용한다.
 
-#### 1\) TH ELEMENT attribute
+#### 1\) TH ELEMENT - ATTRIBUTES
 
 <table>
   <thead>
@@ -26,7 +26,6 @@
       <th style="text-align:left">attribute</th>
       <th style="text-align:center">attribute value</th>
       <th style="text-align:center">description</th>
-      <th style="text-align:left">spec</th>
     </tr>
   </thead>
   <tbody>
@@ -41,7 +40,6 @@
       <td style="text-align:center">&#xD14C;&#xC774;&#xBE14;&#xC5D0;&#xC11C; &#xD5E4;&#xB354; &#xC140;&#xACFC;
         &#xB370;&#xC774;&#xD130; &#xC140;&#xC744; &#xC5F0;&#xACB0;&#xD558;&#xB294;
         &#xBC29;&#xBC95;&#xC744; &#xBA85;&#xC2DC;</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><code>abbr</code>
@@ -49,8 +47,6 @@
       <td style="text-align:center">text</td>
       <td style="text-align:center">&#xC81C;&#xBAA9; &#xAE38;&#xC774; &#xCD95;&#xC57D;(abbreviation)&#xC774;
         &#xD544;&#xC694;&#xD560;&#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
-      <td
-      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><code>colspan</code>
@@ -58,7 +54,6 @@
       <td style="text-align:center">number</td>
       <td style="text-align:center">&#xC138;&#xB85C;&#xB85C; &#xC5F4;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
         &#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><code>rowspan</code>
@@ -66,26 +61,25 @@
       <td style="text-align:center">number</td>
       <td style="text-align:center">&#xAC00;&#xB85C;&#xB85C; &#xD589;&#xB4E4;&#xC744; &#xBCD1;&#xD569; &#xD560;
         &#xB54C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
 
-### 4. td ELEMENT
+### 4. TD ELEMENT
 
 테이블을 구성하는 셀\(cell\)은 `<th>`,`<td>` 요소로 두 가지로 구분된다.
 
 `<td>` 요소는 테이블에서 **하나의 데이터 셀\(data cell\)**을 정의할 때 사용한다.
 
-#### 1\) **td** ELEMENT attribute
+#### 1\) TD ****ELEMENT - ATTRIBUTES
 
-| attribute | value | description |
-| :--- | :--- | :--- |
+| attribute | attribute value | description |
+| :---: | :---: | :---: |
 | `headers` | header id | 해당 데이터 셀과 연관된 하나 이상의 헤더 셀을 명시. |
 | `colspan` | number | 세로로 열들을 병합 할 때 사용한다. |
 | `rowspan` | number | 가로로 행들을 병합 할 때 사용한다. |
 
-### 5. caption element
+### 5. CAPTION ELEMENT
 
 `<caption>` 요소는 표의 제목을 나타날 때 사용한다.
 
@@ -93,7 +87,7 @@
 
 테이블이 레이아웃 용도가 아니라면 `<caption>`요소는 필수로 사용 되어야 한다.
 
-### 6. colgroup ELEMENT
+### 6. COLGROUP ELEMENT
 
 테이블에서 열\(colum\)을 그룹을 만들고자 할 때 사용한다.
 
@@ -101,35 +95,33 @@
 
 `<colgroup>` 요소는 `<caption>` 요소 다음에 위치해야 되며 선택적으 사용한다.
 
-### 7. col ELEMENT
+### 7. COL ELEMENT
 
 `<col>` 요소는 `<colgroup>` 요소에 속하는 열을 하나 이상 묶고자 할 때 사용한다.
 
-#### 1\) col, colgroup ELEMENT - attribute
+#### 1\) COL, COLGROUP ELEMENTS - ATTRIBUTE
 
 `<col>`, `<colgroup>` 요소에서 합쳐질 열\(column\)의 개수를 `span` 속성으로 명시한다.
 
 `<colgroup>` 요소가 `<col>` 요소를 포함하지 않을 경우 `span` 속성으로 열 묶음 개수를 명시한다.
 
-### 6. thead ELEMENT
+### 6. THEAD ELEMENT
 
 `<thead>` 요소는 테이블에서 제목 콘텐츠를 그룹화 하는데 사용되며, 테이블 내에서 한 번만 쓸 수 있다.
 
 `<thead>` 요소는 테이블 각 영역을 명시하기 위해서 `<tbody>`, `<tfoot>` 요소와 함께 사용된다.
 
-### 7. tbody ELEMENT
+### 7. TBODY ELEMENT
 
 이 요소는 테이블에서 내용 콘텐츠들을 하나의 그룹으로 묶을 때 사용한다.
 
 `<tbody>` 요소는 `<thead>`, `<tfoot>` 요소와 달리 여러번 선언되어 사용할 수 있다.
 
-### 8. tfoot ELEMENT
+### 8. TFOOT ELEMENT
 
 이 요소는 테이블에서 하단에 위치하며 푸터 콘텐츠들을 하나의 그룹으로 묶을 때 사용한다.
 
 `<tfoot>` 요소는 `<thead>` 요소와 같이 테이블 내에서 한 번만 쓸 수 있다.
-
-
 
 ### Reference <a id="reference"></a>
 
