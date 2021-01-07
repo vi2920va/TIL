@@ -1,6 +1,6 @@
 # LISTS : ul, ol, dl elements
 
-### HTML 목록 
+### HTML LISTS
 
 HTML에서 여러 요소들을 일렬로 나열한 목록을 리스트\(list\)라고 한다. 
 
@@ -10,7 +10,7 @@ HTML 리스트는 크게 3가지로 나뉜다.
 * 순차 목록\(Ordered List\)
 * 정의 목록\(Description List\)
 
-#### 1\) 비순차 목록\(Unordered list\)
+#### 1\) UL ELEMENT
 
 `<ul>`요소는 순서가 없는 HTML 리스트를 정의할 때 사용한다.
 
@@ -32,7 +32,7 @@ HTML 리스트는 크게 3가지로 나뉜다.
 </ul>
 ```
 
-#### 2\) 순차 목록\(Ordered List\)
+#### 2\) OL ELEMENT
 
 `<ol>` 요소는 순서가 있는 HTML 리스트를 정의할 때 사용한다.
 
@@ -53,7 +53,7 @@ HTML 리스트는 크게 3가지로 나뉜다.
 </ol>
 ```
 
-#### 3\) 정의 목록\(Description List\)
+#### 3\) DL ELEMENT
 
 `<dl>`요소는사전 처럼 용어를 설명하는 목록 HTML 리스트를 정의할 때 사용한다.
 

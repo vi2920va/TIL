@@ -17,14 +17,14 @@
 
 * [HTML 개요](html/untitled.md)
 * [BOBY : heading, paragraph, anchor elements](html/heading-paragraph-anchor-element.md)
-* [IMEAGES : img, figure, figcaption elements](html/boby-image-figure-figcaption.md)
+* [IMAGES : img, figure, figcaption elements](html/boby-image-figure-figcaption.md)
 * [LISTS : ul, ol, dl elements](html/lists-unordered-list-ordered-list-description-list.md)
 * [BOBY : quotation, line break](html/boby-quotation-line-break.md)
-* [BOBY : text Formatting](html/boby-text-formatting.md)
+* [BOBY : text formatting](html/boby-text-formatting.md)
 * [BOBY : section elements](html/layout-1-less-than-header-greater-than-less-than-section-greater-than-less-than-article-greater-than.md)
 * [BOBY : container elements](html/boby-container.md)
 * [BOBY : grouping elements](html/boby-grouping.md)
-* [BOBY : Embeded elements](html/boby-embeded.md)
+* [BOBY : embeded elements](html/boby-embeded.md)
 * [BOBY : table elements](html/boby-table.md)
 * [FORMS : form, input, label elements](html/boby-form-1.md)
 * [FORMS : button, select, option, optgroup elements](html/boby-form-2.md)
@@ -33,10 +33,7 @@
 * [BOBY : script, noscript elements](html/boby-scripting-elements.md)
 * [HEAD :  title, base, style elements](html/html-metadata-element.md)
 * [HEAD : meta, link elements](html/head-2-less-than-meta-greater-than-less-than-link-greater-than-less-than-script-greater-than.md)
-
----
-
-* [ATTRIBUTES : user interaction attributes](boby-user-interaction-attributes.md)
+* [ATTRIBUTES : user interaction attributes](html/attributes-user-interaction-attributes.md)
 
 ## CSS
 
