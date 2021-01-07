@@ -12,9 +12,9 @@
   <thead>
     <tr>
       <th style="text-align:center">attribute</th>
-      <th style="text-align:center">value</th>
-      <th style="text-align:left">description</th>
-      <th style="text-align:left">spec</th>
+      <th style="text-align:center">attribute value</th>
+      <th style="text-align:center">description</th>
+      <th style="text-align:center">spec</th>
     </tr>
   </thead>
   <tbody>
@@ -22,25 +22,25 @@
       <td style="text-align:center"><code>autofocus</code>
       </td>
       <td style="text-align:center">autofocus</td>
-      <td style="text-align:left">&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xB85C;&#xB4DC;&#xB420; &#xB54C; &#xC790;&#xB3D9;&#xC73C;&#xB85C;
-        &#xD3EC;&#xCEE4;&#xC2A4;&#xAC00;&lt;textarea&gt;&#xC694;&#xC18C;&#xB85C;
+      <td style="text-align:center">&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xB85C;&#xB4DC;&#xB420; &#xB54C; &#xC790;&#xB3D9;&#xC73C;&#xB85C;
+        &#xD3EC;&#xCEE4;&#xC2A4;&#xAC00;<code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xB85C;
         &#xC774;&#xB3D9;&#xB428;&#xC744; &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center">HTML5</td>
     </tr>
     <tr>
       <td style="text-align:center"><code>cols</code>
       </td>
       <td style="text-align:center">number</td>
-      <td style="text-align:left">&#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED; &#xC911; &#xBCF4;&#xC774;&#xB294;
+      <td style="text-align:center">&#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED; &#xC911; &#xBCF4;&#xC774;&#xB294;
         &#xC601;&#xC5ED;&#xC758; &#xB108;&#xBE44;&#xB97C; &#xBA85;&#xC2DC;.</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center"><code>dirname</code>
       </td>
       <td style="text-align:center">textareaname.dir</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
           &#xB54C; &#xC11C;&#xBC84;&#xB85C; &#xBCF4;&#xB0BC; &#xD14D;&#xC2A4;&#xD2B8;
           &#xC785;&#xB825; &#xC601;&#xC5ED;&#xC758; &#xD14D;&#xC2A4;&#xD2B8; &#xBC29;&#xD5A5;&#xC131;(text
@@ -49,78 +49,78 @@
         <p>(&#xC5B8;&#xC81C;&#xB098; &#xC774;&#xB984; &#xB4A4;&#xC5D0; &#x201C;.dir&#x201D;&#xB97C;
           &#xCD94;&#xAC00;&#xD568;)</p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center">HTML5</td>
     </tr>
     <tr>
       <td style="text-align:center"><code>disabled</code>
       </td>
       <td style="text-align:center">disabled</td>
-      <td style="text-align:left">&#xD574;&#xB2F9;&lt;textarea&gt;&#xC694;&#xC18C;&#xAC00; &#xBE44;&#xD65C;&#xC131;&#xB428;&#xC744;
+      <td style="text-align:center">&#xD574;&#xB2F9;&lt;textarea&gt;&#xC694;&#xC18C;&#xAC00; &#xBE44;&#xD65C;&#xC131;&#xB428;&#xC744;
         &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center"><code>form</code>
       </td>
       <td style="text-align:center">form id</td>
-      <td style="text-align:left">&#xD574;&#xB2F9; <code>&lt;texrarea&gt;</code> &#xC694;&#xC18C;&#xAC00;
+      <td style="text-align:center">&#xD574;&#xB2F9; <code>&lt;texrarea&gt;</code> &#xC694;&#xC18C;&#xAC00;
         &#xD3EC;&#xD568;&#xB420; &#xD558;&#xB098; &#xC774;&#xC0C1;&#xC758; <code>&lt;form&gt;</code> &#xC694;&#xC18C;&#xB97C;
         &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center">HTML5</td>
     </tr>
     <tr>
       <td style="text-align:center"><code>maxlength</code>
       </td>
       <td style="text-align:center">number</td>
-      <td style="text-align:left"><code>&lt;textarea&gt;</code> &#xC694;&#xC18C;&#xC5D0; &#xD5C8;&#xC601;&#xB418;&#xB294;
+      <td style="text-align:center"><code>&lt;textarea&gt;</code> &#xC694;&#xC18C;&#xC5D0; &#xD5C8;&#xC601;&#xB418;&#xB294;
         &#xCD5C;&#xB300; &#xBB38;&#xC790;&#xC218;&#xB97C; &#xBA85;&#xC2DC;.</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:center">HTML5</td>
     </tr>
     <tr>
       <td style="text-align:center"> <code>name</code>
       </td>
       <td style="text-align:center">text</td>
-      <td style="text-align:left"><code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xC758; &#xC774;&#xB984;&#xC744;
+      <td style="text-align:center"><code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xC758; &#xC774;&#xB984;&#xC744;
         &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center"><code>placeholder</code>
       </td>
       <td style="text-align:center">text</td>
-      <td style="text-align:left"><code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xC758; &#xC785;&#xB825;&#xB420;
+      <td style="text-align:center"><code>&lt;textarea&gt;</code>&#xC694;&#xC18C;&#xC758; &#xC785;&#xB825;&#xB420;
         &#xAC12;&#xC5D0; &#xB300;&#xD55C; &#xC9E7;&#xC740; &#xD78C;&#xD2B8;&#xB97C;
         &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center">HTML5</td>
     </tr>
     <tr>
       <td style="text-align:center"><code>readonly</code>
       </td>
       <td style="text-align:center">readonly</td>
-      <td style="text-align:left"><code>&lt;textarea&gt;</code> &#xC694;&#xC18C;&#xC758; &#xD14D;&#xC2A4;&#xD2B8;
+      <td style="text-align:center"><code>&lt;textarea&gt;</code> &#xC694;&#xC18C;&#xC758; &#xD14D;&#xC2A4;&#xD2B8;
         &#xC785;&#xB825; &#xC601;&#xC5ED;&#xC774; &#xC77D;&#xAE30; &#xC804;&#xC6A9;&#xC784;&#xC744;
         &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center"><code>required</code>
       </td>
       <td style="text-align:center">required</td>
-      <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB418;&#xAE30;
+      <td style="text-align:center">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB418;&#xAE30;
         &#xC804; &#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED;&#xC774;
         &#xBC18;&#xB4DC;&#xC2DC; &#xCC44;&#xC6CC;&#xC838; &#xC788;&#xC5B4;&#xC57C;
         &#xD568;&#xC744; &#xBA85;&#xC2DC;.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center">HTML5</td>
     </tr>
     <tr>
       <td style="text-align:center"><code>rows</code>
       </td>
       <td style="text-align:center">number</td>
-      <td style="text-align:left">&#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED; &#xC911; &#xBCF4;&#xC774;&#xB294;
+      <td style="text-align:center">&#xD14D;&#xC2A4;&#xD2B8; &#xC785;&#xB825; &#xC601;&#xC5ED; &#xC911; &#xBCF4;&#xC774;&#xB294;
         &#xC601;&#xC5ED;&#xC758; &#xB77C;&#xC778;&#xC218;&#xB97C; &#xBA85;&#xC2DC;.</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center"><code>wrap</code>
@@ -129,16 +129,15 @@
         <p>hard</p>
         <p>soft</p>
       </td>
-      <td style="text-align:left">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
+      <td style="text-align:center">&#xD3FC; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC11C;&#xBC84;&#xB85C; &#xC81C;&#xCD9C;&#xB420;
         &#xB54C; &#xC785;&#xB825;&#xB41C; &#xD14D;&#xC2A4;&#xD2B8;&#xC758; &#xC904;
-        &#xBC14;&#xAFC8;(wrap)&#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;.</td>
-      <td
-      style="text-align:left"></td>
+        &#xBC14;&#xAFC8;&#xBC29;&#xC2DD;&#xC744; &#xBA85;&#xC2DC;.</td>
+      <td style="text-align:center">HTML5</td>
     </tr>
   </tbody>
 </table>
 
-#### 2\) textarea CSS styling
+#### 2\) TEXTAREA CSS STYLING
 
 `<textarea>`는 기본적 으로 `display` 값은 block 이다.
 
@@ -162,7 +161,7 @@ textarea {
 }
 ```
 
-#### **유효하고 유효하지 않은 값 스타일 지정**
+#### 📝**유효하고 유효하지 않은 값 스타일 지정**
 
 `<textarea>` 요소, 예를 들면 그와 설정 경계 여부 `minlength`, `maxlength` 또는 `required`를 사용하여 강조할 수 있다.
 
@@ -178,11 +177,11 @@ textarea:valid {
 }
 ```
 
-### 2. fieldset ELEMENT
+### 2. FIELDSET ELEMENT
 
 `<fieldset>` 요소는 웹 양식의 컨트롤과 `<label>`을 묶을 때 사용한다.
 
-#### 1\) fieldset CSS styling
+#### 1\) FIELDSET CSS STYLING
 
 `<fieldset>`는 기본적 으로 `display` 값은 block 이다.
 
@@ -200,23 +199,23 @@ textarea:valid {
 </form>
 ```
 
-### 3. legend ELEMENT
+### 3. LEGEND ELEMENT
 
 `<legend>` 요소는 부모 `<fieldset>` 콘텐츠의 설명을 나타낸다.
 
-### 4. datalist ELEMENT
+### 4. DATALIST ELEMENT
 
 `<datalist>` 요소는 다른 컨트롤에서 고를 수 있는 가능한, 혹은 추천하는 선택지를 나타내는 `<option>` 요소 여럿을 담는다.
 
-### 5. progress ELEMENT
+### 5. PROGRESS ELEMENT
 
 `<progress>` 요소는 어느 작업의 완료 정도를 나타내며, 주로 진행 표시줄의 형태로 띈다.
 
-### 6. output ELEMENT
+### 6. OUTPUT ELEMENT
 
 `<output>` 요소는 웹 사이트나 앱에서 계산이나 사용자 행동의 결과를 삽입할 수 있는 컨트롤 데이터 요소 이다.
 
-### 7. meter ELEMENT
+### 7. METE ELEMENT
 
 `<meter>` 요소는 특정 범위 내에서 스칼라 값, 또는 백분율 값을 나타낸다.
 
