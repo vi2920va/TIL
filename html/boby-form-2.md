@@ -1,4 +1,4 @@
-# BOBY : Form elements \(2\)
+# FORMS : button, select, option, optgroup elements
 
 ### 1. button element
 
@@ -10,7 +10,7 @@
   <thead>
     <tr>
       <th style="text-align:left">attribute</th>
-      <th style="text-align:left">value</th>
+      <th style="text-align:left">attribute value</th>
       <th style="text-align:left">description</th>
     </tr>
   </thead>

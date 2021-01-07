@@ -1,4 +1,4 @@
-# BOBY : Text Formatting
+# BOBY : text Formatting
 
 ### HTML Text Formatting Elements
 

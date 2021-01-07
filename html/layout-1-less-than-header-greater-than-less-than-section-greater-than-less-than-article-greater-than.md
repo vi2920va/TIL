@@ -1,4 +1,4 @@
-# BOBY : Section elements
+# BOBY : section elements
 
 ### 
 

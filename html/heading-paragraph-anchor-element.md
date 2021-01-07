@@ -1,4 +1,4 @@
-# BOBY : Heading, Paragraph, Anchor
+# BOBY : heading, paragraph, anchor elements
 
 ### Headings element 
 

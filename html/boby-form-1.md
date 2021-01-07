@@ -1,4 +1,4 @@
-# BOBY : Form elements \(1\)
+# FORMS : form, input, label elements
 
 ### 1. form element
 
@@ -12,7 +12,7 @@
   <thead>
     <tr>
       <th style="text-align:left">attribute</th>
-      <th style="text-align:left">value</th>
+      <th style="text-align:left">attribute value</th>
       <th style="text-align:left">description</th>
     </tr>
   </thead>

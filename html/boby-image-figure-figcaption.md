@@ -1,4 +1,4 @@
-# BOBY : image, figure, figcaption
+# IMEAGES : img, figure, figcaption elements
 
 ### HTML image 
 

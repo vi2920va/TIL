@@ -1,4 +1,4 @@
-# LISTS : Unordered list, Ordered list,Description list
+# LISTS : ul, ol, dl elements
 
 ### HTML 목록 
 

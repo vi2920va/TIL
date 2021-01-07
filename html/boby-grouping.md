@@ -1,4 +1,4 @@
-# BOBY : Grouping Elements
+# BOBY : grouping elements
 
 ### 1. Grouping element
 

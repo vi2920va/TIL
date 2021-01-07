@@ -1,4 +1,4 @@
-# BOBY : Table elements
+# BOBY : table elements
 
 ### 1. table element
 
