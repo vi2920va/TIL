@@ -34,19 +34,33 @@ font-weight 텍스를 얼머나 두껍게 표현할지 설정한다. 사용할 �
 
 ### 3. TEXT PROPETIES
 
-#### 1\) text-align
+#### 1\) line-height
 
-#### 2\) text-indent
+#### 2\) letter-spacing
 
-#### 3\) text-decoration
+#### 3\) word-spacing
 
-#### 4\) vertical-align
+#### 4\) text-align
 
-#### 5\) letter-spacing
+`text-align`속성은 텍스트의 수평 방향 정렬을 설정한다. `text-align` 속성은 `text-direction`속성과는 상관없이 우선적으로 적용된다.
 
-#### 6\) word-spacing
+#### 5\) text-indent
 
-#### 7\) white-space
+`text-indent`속성은 단락의 첫 줄에 들여쓰기 할지 안 할지를 설정한다. 웹 페이지가 기본적으로 들여쓰기가 설정되어있지 않다.
 
-#### 8\) word-break
+#### 6\) text-transform
+
+`text-transform`속성은 텍스트에 포함된 영문자에 대한 대소문자를 설정한다. 이 속성은 텍스트에 포함된 모든 영문자를 대문자 또는 소문자로 변경시켜준다. 또한 단어의 첫 문자만을 대문자로 변경할 수 있다.
+
+#### 7\) text-decoration
+
+`text-decoration`속성은 텍스트에 여러가지 효과를 설정하거나 제거하는데 사용한다.
+
+#### 8\) text-shadow
+
+#### 9\) white-space
+
+#### 10\) word-break
+
+#### 11\) word-wrap
 
