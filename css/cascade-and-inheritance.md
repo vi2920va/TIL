@@ -7,7 +7,7 @@
 프로퍼티 \(property\) 중에는 상속되는 것과 상속되지 않는 것이 있다.
 
 | property | Inherit |
-| :--- | :--- |
+| :---: | :---: |
 | `width/height` | no |
 | `margin` | no |
 | `padding` | no |
@@ -90,6 +90,8 @@ li:first-child a {
 {% endtab %}
 
 {% tab title="RESULT" %}
+![reseult](../.gitbook/assets/.png%20%282%29.png)
+{% endtab %}
 {% endtabs %}
 
 
