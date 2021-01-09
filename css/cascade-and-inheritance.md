@@ -96,7 +96,7 @@ li:first-child a {
 
 
 
-### 2. Cascading 정의
+### 2. CASCAING
 
 요소 하나 이상의 CSS 선언에 영향을 받을 수 있다. 이때 충돌을 피하기 위해  CSS 적용 우선 순위 필요하다. 이를 **캐스케이딩 \(Cascading\)** 이라고 한다.
 
