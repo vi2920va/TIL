@@ -39,7 +39,11 @@ CSS 속성은 보통 편한대로 적을 수 있다. 왜냐하면 딱히 규칙�
 8. background - 배경
 9. color/font - 글꼴
 10. animation
-11. 기타 
+11. 기타
+
+####  Reference
+
+모질라/파이어폭스  CSS 선언 순서 [→\(SITE\)](https://jsunnylab.tistory.com/32)
 
 
 
