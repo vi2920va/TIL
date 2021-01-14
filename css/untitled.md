@@ -1,4 +1,4 @@
-# CSS INTRO
+# CSS intro
 
 ### 1. CSS 정의
 

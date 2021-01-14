@@ -1,4 +1,4 @@
-# HTML INTRO
+# HTML intro
 
 ### HTML 정의
 

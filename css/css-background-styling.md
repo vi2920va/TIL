@@ -30,6 +30,8 @@ HTML요소의 배경으로 나타날 배경 이미지를 설정.  \(default : `n
 
 위에 있는 5가지 배경 속성을 모아 작성하는 속기법**.**
 
+📝**background-size, background**
+
 #### 7\) background-size
 
 배경 이미지의 크기를 동적으로 조정하여 설정. \(default : `auto`\)

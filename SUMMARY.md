@@ -14,7 +14,7 @@
 
 ## HTML
 
-* [HTML INTRO](html/untitled.md)
+* [HTML intro](html/untitled.md)
 * [BOBY : heading, paragraph, anchor elements](html/heading-paragraph-anchor-element.md)
 * [IMAGES : img, figure, figcaption elements](html/boby-image-figure-figcaption.md)
 * [LISTS : ul, ol, dl elements](html/lists-unordered-list-ordered-list-description-list.md)
@@ -36,7 +36,7 @@
 
 ## CSS
 
-* [CSS INTRO](css/untitled.md)
+* [CSS intro](css/untitled.md)
 * [CSS selector](css/css-selector.md)
 * [CSS cascade and Inheritance](css/cascade-and-inheritance.md)
 * [CSS typography](css/css-typography.md)
