@@ -30,7 +30,7 @@ HTML 목록&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt
 
 리스트 블릿으로 기본 형태가 아닌 이미지를 사용하고자 할 때 사용되는 속성값으로 해당 이미지 주소를 `url` 을 적어준다.
 
-```text
+```css
 ul {
   list-stype-image : url('../img/file.png');
 }
