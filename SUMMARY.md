@@ -41,6 +41,7 @@
 * [CSS cascade and Inheritance](css/cascade-and-inheritance.md)
 * [CSS typography](css/css-typography.md)
 * [CSS box-model](css/untitled-1.md)
+* [CSS list styling](css/css-list-styling.md)
 
 ## JavaScript
 
