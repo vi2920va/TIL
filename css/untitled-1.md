@@ -24,7 +24,7 @@
 
 ✋`marigion` 과 `padding`은 속기형 \(단일\) 속성으로 **top → right → bottom → left** 4개를 선택적 또는 일괄 사용할 수 있다.
 
-| property | description |
+| property  | description |
 | :--- | :--- |
 | `content` | 텍스트, 이미지가  들어있는 실질적인 content box |
 | `padding` | 내과 테두리 사이의 간격 |
@@ -35,7 +35,7 @@
 
  `height`및 `width`속성은 요소의 높이와 폭을 설정하는데 사용한다.
 
-| property | description |
+| property value | description |
 | :--- | :--- |
 | `auto`\(defalut\) | 기본값으로 브라우저 width, height에 따라 자동으로 설정한다. |
 | `length` | `px` ,`em`, `rem` 등의 단위를 사용하여 직접 지정한다. |
@@ -63,7 +63,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">property</th>
+      <th style="text-align:left">property value</th>
       <th style="text-align:left">description</th>
     </tr>
   </thead>
@@ -186,7 +186,7 @@ div{
 {% endtab %}
 {% endtabs %}
 
-### Reference <a id="reference"></a>
+#### Reference
 
 the box model [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 

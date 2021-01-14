@@ -42,7 +42,7 @@ list-style-type [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/li
 
 list-style-position [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)
 
-list-style-image →\(MDN\)
+list-style-image [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image)
 
 
 
