@@ -1,4 +1,4 @@
-# EMMET : HTML
+# HTML EMMET
 
 ![emmet](../.gitbook/assets/1_uytzdnlnsiuwev8h_a0bxa.png)
 
