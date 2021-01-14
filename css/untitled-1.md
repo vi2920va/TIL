@@ -38,7 +38,7 @@
 | property | description |
 | :--- | :--- |
 | `auto`\(defalut\) | 기본값으로 브라우저 width, height에 따라 자동으로 설정한다. |
-| `length` | `px` , `em`, `rem` 등의 단위를 사용하여 직접 지정한다. |
+| `length` | `px` ,`em`, `rem` 등의 단위를 사용하여 직접 지정한다. |
 | `%` | 요소가 포함된 영역의 퍼센트 값으로 계산하여 지정한다. |
 | `initial` | width, height를 기본값으로 설정한다. |
 | `inherit`  | width, height를  부모 값에서 상속 받는다. |
