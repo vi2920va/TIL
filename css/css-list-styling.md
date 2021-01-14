@@ -11,7 +11,7 @@ HTML 목록&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt
 | property value | description |
 | :---: | :---: |
 | `none` | 아무런 장식도 없는 형태. |
-| `disc` | 채워진 원형 형태 \(default\). |
+| `disc`\(defalut\) | 채워진 원형 형태. |
 | `circle` | 속이 빈 원형 형태. |
 | `square` | 채워진 사각형 형태. |
 | `decimal` | 숫자 1. 2. 3. 의 형태. |
@@ -22,9 +22,9 @@ HTML 목록&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt
 
 | property value | description |
 | :---: | :---: |
-| `outside` | 블릿을 바깥으로 위치\(defalut\). |
+| `outside`\(defalut\) | 블릿을 바깥으로 위치. |
 | `inside` | 블릿을 내부에 위치. |
-| `inherit` | 부모의 값을 상속 |
+| `inherit` | 부모의 값을 상속. |
 
 #### 3\) list-style-image
 
