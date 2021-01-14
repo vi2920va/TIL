@@ -42,7 +42,7 @@
 * [CSS typography](css/css-typography.md)
 * [CSS box-model](css/untitled-1.md)
 * [CSS list styling](css/css-list-styling.md)
-* [CSS background design](css/css-background-styling.md)
+* [CSS backgrounds](css/css-background-styling.md)
 
 ## JavaScript
 
