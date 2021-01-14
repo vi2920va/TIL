@@ -14,13 +14,13 @@
 
 인라인 박스는 좌, 우 방향으로 `margin`, `padding` 공간을 설정 할 수 있으나 상,하 방향으로는 공간이 설정 되지 않는다.
 
-### 3. inline block box
+### 3.  INLINE BLOCK BOX
 
   **inline block box**는 기본적으로는 인라인처럼 화면에 렌더링되지만, 블록 박스처럼 `width` , `height` 설정이 가능하다. `<img>, <input>, <button> 등`
 
-### 4. content/padding/border/margin 
+### 4. CONTENT/PADDING/BORDER/MARGIN
 
-
+![css - box model](../.gitbook/assets/box-1-.jpg)
 
 ✋`marigion` 과 `padding`은 속기형 \(단일\) 속성으로 **top → right → bottom → left** 4개를 선택적 또는 일괄 사용할 수 있다.
 
@@ -31,7 +31,7 @@
 | `border` | 내용, 패딩 주변은 감싸는 테두리 |
 | `marigin` | 테두리 외부의 요소 주위에 공간을 만드데 사용  |
 
-### 5. height / width 
+### 5. HEIGHT/WIDTH
 
  `height`및 `width`속성은 요소의 높이와 폭을 설정하는데 사용한다.
 
@@ -43,7 +43,7 @@
 | `initial` | width, height를 기본값으로 설정한다. |
 | `inherit`  | width, height를  부모 값에서 상속 받는다. |
 
-### 6. box-sizing
+### 6. BOX-SIZING
 
 `box-sizing` 속성은 적용되는 요소에 대해 box model이 처리되는 방법을 제어한다.
 
@@ -121,6 +121,8 @@ div{
 {% endtab %}
 
 {% tab title="RESULT" %}
+![result](../.gitbook/assets/image.png)
+{% endtab %}
 {% endtabs %}
 
 #### 3\) content-box 에서 `width:100%` 일 경우 문제
@@ -180,11 +182,13 @@ div{
 {% endtab %}
 
 {% tab title="RESULT" %}
+![result](../.gitbook/assets/.png%20%283%29.png)
+{% endtab %}
 {% endtabs %}
 
 ### Reference <a id="reference"></a>
 
-The box model [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+the box model [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 box-sizing [→\(CSS-TRICKS\)](https://css-tricks.com/box-sizing/)
 
