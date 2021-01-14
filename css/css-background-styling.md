@@ -42,7 +42,9 @@ HTML요소의 배경으로 나타날 배경 이미지를 설정.  \(default : `n
 
  배경 이미지가 어느 위치에서 기준점을 기준으로 잡느냐를 정의하는 속성. \(default : `padding-box`\)
 
+#### Reference
 
+background [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/CSS/background)
 
 
 
