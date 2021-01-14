@@ -58,13 +58,27 @@ span {
 
 #### 1\) Adjacent sibling selector, \(A + B\)
 
-인접 형제 선택자\(adjacent sibling selector\)는 `+`기호를 사용하며, A 요소 바로 뒤에 존재하는 첫 번째 B 요소만 선택한다.
+인접 형제 선택자\(adjacent sibling selector\)는 `+`기호를 사용해서 A요소의 바로 다음에 위치하는 형제 요소만 선택.
 
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<ul>
+  <li>One</li>
+  <li>Twon</li>
+  <li>Three</li>
+</ul>
+```
+{% endtab %}
+
+{% tab title="CSS" %}
 ```css
-ul+p {
+li:first-of-type + li {
   color: red;
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 #### 2\) General sibling selector, \(A ~ B\)
 
