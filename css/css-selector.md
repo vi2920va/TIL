@@ -92,7 +92,7 @@ ul~p {
 
 #### 3\) Child selector, \(A &gt; B\)
 
-자식 선택자\(child selector\)는  `>`  기호를 사용하며, A 요소의 직계 자손인 B만 선택한다.
+자식 선택자\(child selector\)는  `>`  기호를 사용해서,  A요소 바로 아래에 오는 자식 요소 B요소만 선택.
 
 {% tabs %}
 {% tab title="HTML" %}
