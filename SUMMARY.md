@@ -44,6 +44,7 @@
 * [CSS list styling](css/css-list-styling.md)
 * [CSS backgrounds](css/css-background-styling.md)
 * [CSS floating layout](css/css-floating-layout.md)
+* [CSS positioning layout](css/css-positioning-layout.md)
 
 ## JavaScript
 
