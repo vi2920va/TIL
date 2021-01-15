@@ -43,6 +43,7 @@
 * [CSS box-model](css/untitled-1.md)
 * [CSS list styling](css/css-list-styling.md)
 * [CSS backgrounds](css/css-background-styling.md)
+* [CSS floating layout](css/css-floating-layout.md)
 
 ## JavaScript
 
