@@ -38,7 +38,15 @@ relative는 내가 가지고 있는 일반 흐름의 위치에서 상대적으�
 
 #### 6\) **sticky position**
 
- position 값을 sticky로 설정할 경우 relative 처럼 동작하면서 relative 요소가 없는 경우에는 fixed 처럼 동작하는 두가지 효과를 모두 가질 수 있다. 수익 목적의 광고를 노출하는 경우에 많이 쓰인다. 
+ `position` 값을 `sticky`로 설정할 경우 `relative`처럼 동작하면서 `relative` 요소가 없는 경우에는 `fixed` 처럼 동작하는 두가지 효과를 모두 가질 수 있다. 수익 목적의 광고를 노출하는 경우에 많이 쓰인다. 
+
+#### Reference
+
+css position [→\(SITE\)](https://poiemaweb.com/css3-position)
+
+sticky positioning [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/position#sticky_positioning)
+
+position sticky [→\(CSS-TRICKS\)](https://css-tricks.com/position-sticky-2/)
 
 
 
