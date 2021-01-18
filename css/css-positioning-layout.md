@@ -2,9 +2,9 @@
 
 ### 1. POSITIONING LAYOUT
 
-포지셔닝\(positioning\)은 웹 브라우저가 렌더링 하는 기본 레이아웃 흐름\(normal layout flow\)을 재정의하여 흥미로운 효과를 만들어 낼 때 사용한다. 예를 들면 기본 레이아웃 흐름에서 레이아웃 내부 일부 요소의 위치를 조정하려면 position 속성을 사용하여 조정할 수 있다.
+포지셔닝\(positioning\)은 웹 브라우저가 렌더링 하는 기본 레이아웃 흐름\(normal layout flow\)을 재정의하여 흥미로운 효과를 만들어 낼 때 사용한다. 예를 들면 기본 레이아웃 흐름에서 레이아웃 내부 일부 요소의 위치를 조정하려면 `position` 속성을 사용하여 조정할 수 있다.
 
-페이지의 다른 부분 위에 떠있는 [UI](https://namu.wiki/w/UI) 요소를 만들고 싶거나, 페이지의 스크롤과 상관없이 항상 브라우저 창의 동일한 위치에 자리한 UI 요소를 만들고자 한다면 position 속성을 이용한다.
+페이지의 다른 부분 위에 떠있는 [UI](https://namu.wiki/w/UI) 요소를 만들고 싶거나, 페이지의 스크롤과 상관없이 항상 브라우저 창의 동일한 위치에 자리한 UI 요소를 만들고자 한다면 `position`속성을 이용한다.
 
 #### 1\) positioning layout type
 
@@ -12,7 +12,7 @@
 * **relative position**  - 상대 위치
 * **absolute position** - 절대 위치
 * **fixed position** - 고정된 위치
-* **sticky position** - 달라붙는 위치, IE 브라우저 미지원
+* **sticky position** - 달라붙는 위치\(IE 브라우저 미지원\)
 
 #### 2\) static position
 
