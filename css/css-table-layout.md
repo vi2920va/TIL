@@ -14,18 +14,39 @@
 
 ### 2.  table styling
 
-* 테이블, 셀\(제목/내용\)의 테두리\(border\)를 디자인 할 수 있다.
-* 테이블 셀 사이 간격을 접거나\(collapse\), 나눌\(separate\) 수 있.
-* 테이블 테두리 사이 간격을 설정할 수 있다. \(`border-collapse: separate;` 설정 필요\)
-* 테이블 캡션 위치\(`top`, `bottom`\)를 설정 할 수 있다.
-* 테이블 레이아웃\(`auto`, `fixed`\) 설정을 통해 콘텐츠의 양에 따라 셀의 크기를 변경하거나, 고정 할 수 있다. \(`fixed` 설정 시, `width` 설정 필요\)
-* 테이블 셀은 마진\(margin\)이 설정되지 않다.
-* 테이블 셀은 패딩\(padding\)은 설정 가능않다.
-* 빈 셀\(empty cells\)의 표시\(`show` \| `hide`\) 설정이 가능하다. \(`hide` 설정 시 빈 셀은 화면에 그려지지 않는다.\)
-
 #### 1\) border
 
-테이블
+테이블, 요소 셀\(제목/내용\)의 테두리\(border\)를 디자인 할 수 있다.
+
+#### 2\) border-collapse
+
+테이블 셀 사이 간격을 접거나\(collapse\), 나눌\(separate\) 수 있다. 이 속성은 오직 `<table>`요소에만 사용할 수 있다.
+
+#### 3\) border-spacing
+
+테이블 테두리 사이 간격을 설정할 수 있다. 이 속성을 사용하기 위해서는 `border-collapse`의 속성 값이 `separate`일 때 셀 간의 공백의 크기를 조절 할 수 있다.
+
+#### 4\) caption-side
+
+테이블 캡션 위치\(`top`, `bottom`\)를 설정 할 수 있다.
+
+#### 5\) table-layout
+
+테이블 레이아웃\(`auto`, `fixed`\) 설정을 통해 콘텐츠의 양에 따라 셀의 크기를 변경하거나, 고정 할 수 있다. \(`fixed` 설정 시, `width` 설정 필요\)
+
+#### 6\) empty-cells
+
+빈 셀\(empty cells\)의 표시\(`show` \| `hide`\) 설정이 가능하다. \(`hide` 설정 시 빈 셀은 화면에 그려지지 않는다.\)
+
+#### 7\) margin/padding
+
+테이블 셀은 `margin` 속성이 설정되지 않는다. 반면에 `padding`속성은 설정 가능하다.
+
+
+
+
+
+
 
 
 
