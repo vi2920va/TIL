@@ -38,7 +38,9 @@
 
 #### 6\) **sticky position**
 
- `position` 값을 `sticky`로 설정할 경우 `relative`처럼 동작하면서 `relative` 요소가 없는 경우에는 `fixed` 처럼 동작하는 두가지 효과를 모두 가질 수 있다. 수익 목적의 광고를 노출하는 경우에 많이 쓰인다. 
+ `position` 값을 `sticky`로 설정할 경우 `relative`처럼 동작하면서 `relative` 요소가 없는 경우에는 `fixed` 처럼 동작하는 두가지 효과를 모두 가질 수 있다. 수익 목적의 광고를 노출하는 경우에 많이 쓰인다.
+
+💻 position:sticky [→\(CODEPEN\)](https://codepen.io/vi2920va/full/PoGxraO) 
 
 #### Reference
 
