@@ -1,4 +1,4 @@
-# CSS table layout
+# CSS table styling
 
 ### 1. TABLE STYLING
 

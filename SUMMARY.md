@@ -45,7 +45,7 @@
 * [CSS backgrounds](css/css-background-styling.md)
 * [CSS floating layout](css/css-floating-layout.md)
 * [CSS positioning layout](css/css-positioning-layout.md)
-* [CSS table layout](css/css-table-layout.md)
+* [CSS table styling](css/css-table-layout.md)
 * [CSS form styling](css/css-form-styling.md)
 
 ## JavaScript
