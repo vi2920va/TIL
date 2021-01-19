@@ -38,13 +38,15 @@ CSS3에서 추가된 `transform` 속성을 사용하여 요소의 모양, 크기
 
 #### 6\) matrix\(\)
 
-`matrixI()` 메서드는 모든 2D transform  메서드를 한 줄에 설정할 수 있도록 해준다. 이 메서드는 **2D transform과 관련된 6개의 매개변수를 가진다.** 
+`matrix()`메서드는 모든 2D transform  메서드를 한 줄에 설정할 수 있도록 해준다. 이 메서드는 **2D transform과 관련된 6개의 매개변수를 가진다.** 
 
 ```css
 matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY());
 ```
 
+#### Reference
 
+transform [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
 
 
