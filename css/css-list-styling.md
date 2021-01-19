@@ -2,7 +2,7 @@
 
 ### 1. LISTS STYLING
 
-HTML 목록&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;\)과 관련된 속성.
+HTML 목록\(`<ul>, <ol>, <li>, <dl>, <dt>, <dd>`\)과 관련된 속성.
 
 #### 1\) list-style-type
 

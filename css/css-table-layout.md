@@ -6,7 +6,7 @@
 
 #### 1\) table element → &lt;caption&gt;
 
-테이블 디자인 시, 접근성 고려하여 작성된 테이블 제목 caption 요소는 시각 디자인 과정에서 그리지 않기도 한다. 시각 디자인 상에서 그려지지 않았다 하더라도, 프론트엔드 개발자는 모든 사용자를 고려하여 테이블 요약 내용을 구조화 해야 한다. 
+테이블 디자인 시, 접근성 고려하여 작성된 테이블 제목 `caption`요소는 시각 디자인 과정에서 그리지 않기도 한다. 시각 디자인 상에서 그려지지 않았다 하더라도, 프론트엔드 개발자는 모든 사용자를 고려하여 테이블 요약 내용을 구조화 해야 한다. 
 
 #### 2\) [a11y-hidden](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility) class
 

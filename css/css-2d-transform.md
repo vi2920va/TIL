@@ -12,7 +12,7 @@ CSS3에서 추가된 `transform` 속성을 사용하여 요소의 모양, 크기
 
 * `translate(이동)`
   * `translateX(), translateY(), translate(x, y)`
-* `roate(회)`
+* `roate(회전)`
   * `roateX(), rotateY(), rotate(x, y)`
 * `scale(확대/축소)`
   * `scaleX(), scaleY(), scale(x, y)`
