@@ -93,7 +93,7 @@
 
 `<colgroup>` 요소 내부에는 `<col>` 요소를 포함 하거나, 포함하지 않을 수 있다.
 
-`<colgroup>` 요소는 `<caption>` 요소 다음에 위치해야 되며 선택적으 사용한다.
+`<colgroup>` 요소는 `<caption>` 요소 다음에 위치해야 되며 선택적으로 사용한다.
 
 ### 7. COL ELEMENT
 
