@@ -20,7 +20,7 @@ CSS3에서 추가된 `transition`속성은 지정할 속성에 변화나 움직�
 
 #### 3\) transition-duration\(\)
 
-`transition-duration` 속성은 화면 전환이 종료되기 까지 걸리는 시간을 지정하는 속성으로 시간에 적용될 값은 **ms\(밀리초, 1/1000\)** 또는 **s\(초\)** 단위를 사용한다. 기본 설정 값은 0 이기 때문에 이동 효과를 구현하려면 **반드시 `transition-duration` 속성 값을 부여해야 한다.**
+`transition-duration` 속성은 화면 전환이 종료되기 까지 걸리는 시간을 지정하는 속성으로 시간에 적용될 값은 **ms\(밀리초, 1/1000\)** 또는 **s\(초\)** 단위를 사용한다. 기본 설정 값은 0 이기 때문에 이동 효과를 구현하려면 **반드시** `transition-duration` **속성 값을 부여해야 한다.**
 
 💻transition\(transition-property, transition-duration\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/xxEBJzm)
 
@@ -44,7 +44,7 @@ CSS3에서 추가된 `transition`속성은 지정할 속성에 변화나 움직�
 
 `transition`메서드는 모든 `transition` 속성을 이용한 스타일을 한 줄에 설정한다. 위에 적어놓은 것 처럼 `transition-duration` 속성은 필수 값으로 사용해야 한다.
 
-👉 주의해야 될 점은 시간 관련 속성 `transition-duration, transition-delay` 2개의  속성하나의 값만 선언하면 이는 `transition-duration` 값으로 간주되고`transition-delay`는 기본 값 또는 상속 받은 값을 그대로 사용하는 것으로 간주된다. 즉, 두 개
+👉 주의해야 될 점은 시간 관련 속성으 `transition-duration, transition-delay` 2개 가 있는데이 중 하나의 값만 선언하면 `transition-duration` 값으로 간주되고`transition-delay`는 기본 값 또는 상속 받은 값을 그대로 사용하는 것으로 간주된다. 즉, **두 개의 속성 중에서** `transition-duration` **속성을 먼저 명시해야 된다.** 이에 대한 순서를 지킨다면 나머지는 키워드의 순서는 원하는대로 설정할 수 있다.
 
 
 
