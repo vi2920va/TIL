@@ -40,7 +40,7 @@
 
 테이블 셀은 `margin` 속성이 설정되지 않는다. 반면에 `padding`속성은 설정 가능하다.
 
-#### Example
+#### Result
 
 💻 kakao bank table styling [→\(CODEPEN\)](https://codepen.io/vi2920va/full/QWKYYvw)
 

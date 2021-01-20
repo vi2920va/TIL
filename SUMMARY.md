@@ -48,6 +48,7 @@
 * [CSS table styling](css/css-table-layout.md)
 * [CSS form styling](css/css-form-styling.md)
 * [CSS 2D transform](css/css-2d-transform.md)
+* [CSS transition](css/css-transition.md)
 
 ## JavaScript
 
