@@ -50,7 +50,7 @@ matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY());
 
 transform [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
-#### Example 
+#### Result
 
 💻2D transform property [→\(CODEPEN\)](https://codepen.io/vi2920va/full/NWRJyOW)
 

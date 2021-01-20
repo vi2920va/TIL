@@ -31,9 +31,9 @@
 * `<progress>`
 * `<meter>`
 
-#### Example
+#### Result
 
-💻 login form [→\(CODEPEN\)](https://codepen.io/vi2920va/full/vYXPBWV)
+#### 💻 simple login form [→\(CODEPEN\)](https://codepen.io/vi2920va/full/vYXPBWV)
 
  
 
