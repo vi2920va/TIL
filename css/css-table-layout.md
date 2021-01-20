@@ -10,7 +10,7 @@
 
 #### 2\) [a11y-hidden](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility) class
 
-스크린리더\(screen reader\) 사용자가 테이블 요약을 들을 수 있도록 요약을 제공하되, 시각 디자인 결과와 같이 화면에서는 감춰야 한다. 접근성을 고려하여 콘텐츠를 화면서 감추려면 CSS를 사용하여 재사용\(reusable\)가능하도록 클래스\(class\)로 설계\(design\)하여 사용해야 한다.
+스크린리더\(screen reader\) 사용자가 테이블 요약을 들을 수 있도록 요약을 제공하되, 시각 디자인 결과와 같이 화면에서는 감춰야 한다. 접근성을 고려하여 콘텐츠를 화면에서 감추려면 CSS를 사용하여 재사용\(reusable\)가능하도록 클래스\(class\)로 설계\(design\)하여 사용해야 한다.
 
 #### 3\) border
 
