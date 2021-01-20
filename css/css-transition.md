@@ -26,6 +26,10 @@ CSS3에서 추가된 `transition`속성은 지정할 속성에 변화나 움직�
 
 화면이 전환이 일어나는 시간 동안 어떤 식으로 가속을 하고 감속을 하는지 나타내는 속성.
 
+* linear -  등속도, 전환 과정에 속도의 변화 없이, 처음부터 끝까지 일정하게 유지
+* ease - 점전적인 기술, 기본값은 ease 로서 느리게 시작한 후 빠르게 가속되다가 다시 느리게 끝난다.
+* ease-in
+
 #### 5\) transition-delay\(\)
 
  화면 이동\(전환\) 효과의 마지막 속성은 전환이 일어나는 시점을 설정할 수 있게 해주는 `transition-delay` 속성.
@@ -35,6 +39,12 @@ CSS3에서 추가된 `transition`속성은 지정할 속성에 변화나 움직�
 `transition`메서드는 모든 `transition` 속성을 이용한 스타일을 한 줄에 설정.
 
 
+
+#### Reference
+
+Using CSS transitions [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+
+ Easing Functions Cheat Sheet [→\(SITE\)](https://easings.net/)
 
 ####   
 

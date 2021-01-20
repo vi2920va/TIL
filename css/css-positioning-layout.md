@@ -8,11 +8,11 @@
 
 #### 1\) positioning layout type
 
-* **static postion** - 기본값\(default\), 정적 위치
-* **relative position**  - 상대 위치
-* **absolute position** - 절대 위치
-* **fixed position** - 고정된 위치
-* **sticky position** - 달라붙는 위치\(IE 브라우저 미지원\)
+* **static postion** : 기본값\(default\), 정적 위치
+* **relative position**  : 상대 위치
+* **absolute position :** 절대 위치
+* **fixed position** : 고정된 위치
+* **sticky position** : 달라붙는 위치\(IE 브라우저 미지원\)
 
 #### 2\) static position
 
