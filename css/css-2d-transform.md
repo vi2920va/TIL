@@ -10,14 +10,10 @@ CSS3에서 추가된 `transform` 속성을 사용하여 요소의 모양, 크기
 
  2D transform에 제공되는 메서드\(method\)는 아래와 같다.
 
-* `translate(이동)`
-  * `translateX(), translateY(), translate(x, y)`
-* `roate(회전)`
-  * `roateX(), rotateY(), rotate(x, y)`
-* `scale(확대/축소)`
-  * `scaleX(), scaleY(), scale(x, y)`
-* `skew(비틀기)`
-  * `skewX(), skewY()`
+* `translateX(), translateY(), translate(x, y)`
+* `roateX(), rotateY(), rotate(x, y)`
+* `scaleX(), scaleY(), scale(x, y)`
+* `skewX(), skewY()`
 * `matrix()`
 
 #### 2\) translate\(\)
