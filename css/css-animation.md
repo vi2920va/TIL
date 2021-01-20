@@ -12,14 +12,49 @@ CSS3에서 추가된 `animation`속성은 요소에 적용되는 CSS 스타일�
 
 #### 2\) animation-\* property
 
+`animation-*`에 제공되는 속성은 아래와 같다.
+
+* `animation-name`
+* `animation-duration`
+* `animation-delay`
+* `animation-direction`
+* `animation-iteration-count`
+* `animation-play-state`
+* `animation-timing-funuction`
+* `animation-fill-mode`
+
+#### 3\) animation-name
+
+`animation-name` 속성은 `@keyframes` 속성에서 설정한 애니메이션의 이름이다. 이름을 설정해야 애니메이션을 재생할 수 있다. 즉, 이름을 정의해야 애니메이션을 재생\(호출\)할 수 있다. 
+
+```css
+/* 유효한 애니메이션 이름 */
+animation-name: name;
+animation-name:_name;
+animation-name:-name;
+
+/* 유효하지 않은 애니메이션 이름 */
+animation-name: 1name;
+animation-name: @name;
+```
+
+#### 4\) animation-duration
+
+animation-duration 속성은 애니메이션을 한 번 재생하는 데 걸리는 시간을 설정한다. 기본값은 0으로 설정되었기 때문에 아무런 움직임도 발생하지 않으며 또한 값이 음수로 설정할 경우에도 애니메이션은 재생되지 않는다.
+
+#### 5\) animation-delay
+
+animation-delay 속성은 애니메이션 시작을 지연할 시간을 설정하는 속성으로 값으로는 `0`, `now`, `숫자 또는 단위`로 값을 사용할 수 있다. 이때 값이 양수\(-1s\)이면 1초가 지난 뒤의 장면부터 애니메이션을 재생한다.
+
+#### 6\) animation-direction
 
 
-* animation-name 
-* animation-duration
-* animation-delay
-* animation-direction
-* anmation-iteration-count
-* anmation-play-state
-* anmation-timing-funuction
-* anmation-fill-mode
+
+
+
+
+
+
+
+
 
