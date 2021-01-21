@@ -42,6 +42,8 @@ animation-name: @name;
 
 `animation-duration` 속성은 애니메이션을 한 번 재생하는 데 걸리는 시간을 설정한다. 기본값은 0으로 설정되었기 때문에 아무런 움직임도 발생하지 않으며 또한 값이 음수로 설정할 경우에도 애니메이션은 재생되지 않는다.
 
+💻 animation\(animation-name, animation-duration\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/ZEpZKXb)
+
 #### 5\) animation-delay
 
 `animation-delay` 속성은 애니메이션 시작을 지연할 시간을 설정하는 속성.
@@ -62,6 +64,8 @@ animation-name: @name;
 | `alternate` | 애니메이션을 순방향으로 시작해 역방향과 순방향으로 번갈아서 애니메이션을 재생한다. 홀수 번째로 재생할 때는 순방향으로 재생하고, 짝수 번째로 재생할 때는 역방향으로 재생한다. |
 | `reverse` | 애니메이션을 역방향으로 재생하고 재생이 한 번 끝나면 마지막 프레임부터 다시 시작한다. |
 | `alternate-reverse` | 애니메이션을 역방향으로 시작해 순방향과 역방향으로 번걸아서 애니메이션을 재생한다. 홀수 번째로 재생할 때는 역방향으로 재생하고, 짝수 번째로 재생할 때는 순방향으로 재생한다. |
+
+💻 animation\(animation-direction\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/NWRmjeQ)
 
 #### 7\) animation-iteration-count
 
@@ -122,4 +126,8 @@ animation-name: @name;
   }
 }
 ```
+
+#### Reference
+
+Using CSS animations [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 
