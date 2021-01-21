@@ -23,7 +23,13 @@ CSS3에서 추가된 `animation`속성은 요소에 적용되는 CSS 스타일�
 * `animation-timing-funuction`
 * `animation-fill-mode`
 
-#### 3\) animation-name
+#### 3\) keyframes
+
+CSS3에서 애니메이션 효과를 사용하기 위해서 우선 애니메이션 키프레임\(keyframe\)을 정의해야한다. 키프레임에는 특정한 시간에 해당 요소가 가져야 할 CSS 스타일을 명시한다. 
+
+`@keyframes` 규칙 안에 이렇게 CSS 스타일 설정해놓으면, 해당 요소의  스타일은 특정 시간까지 현재 스타일에서 설정해 놓은 새로운 스타일로 천천히 변화하게 된다. 즉, 애니메이션이 동작하기 위해서 먼저 `animation-name` 속성을 이용하여 요소와 키프레임을 연결해 주어야 한다.
+
+#### 4\) animation-name
 
 `animation-name`속성은 `@keyframes`속성에서 설정한 애니메이션의 이름이다. 이름을 설정해야 애니메이션을 재생할 수 있다. 즉, 이름을 정의해야 애니메이션을 재생\(호출\)할 수 있다. 
 
@@ -38,13 +44,13 @@ animation-name: 1name;
 animation-name: @name;
 ```
 
-#### 4\) animation-duration
+#### 5\) animation-duration
 
 `animation-duration` 속성은 애니메이션을 한 번 재생하는 데 걸리는 시간을 설정한다. 기본값은 0으로 설정되었기 때문에 아무런 움직임도 발생하지 않으며 또한 값이 음수로 설정할 경우에도 애니메이션은 재생되지 않는다.
 
 💻 animation\(animation-name, animation-duration\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/ZEpZKXb)
 
-#### 5\) animation-delay
+#### 6\) animation-delay
 
 `animation-delay` 속성은 애니메이션 시작을 지연할 시간을 설정하는 속성.
 
@@ -54,7 +60,7 @@ animation-name: @name;
 | `now` | `0`으로 설정한 값과 같이 애니메이션을 시작한다.  |
 | `s/ms` | 설정한 시간이 지난 뒤에 애니메이션을 시작한다. 설정한 값이 음수가 아니라 양수이면 '-1s' 1초가 지난 뒤의 장면부터 애니메이션을 재생한다. |
 
-#### 6\) animation-direction
+#### 7\) animation-direction
 
 `animation-direction` 속성은 애니메이션의 재생 방향을 정의하는 속성이다. `@keyframes` 속성의 `from`에서 `to`로 재생하는 것이 순방향 이고, `to`에서 `from`으로 재생하는 것이 역방향이다. 
 
@@ -67,7 +73,7 @@ animation-name: @name;
 
 💻 animation\(animation-direction\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/NWRmjeQ)
 
-#### 7\) animation-iteration-count
+#### 8\) animation-iteration-count
 
 `animation-iteration-count` 속성은 애니메이션을 재생하는 횟수를 정의하는 속성.
 
@@ -76,7 +82,7 @@ animation-name: @name;
 | `1`\(default\) | 숫자\(number\)값으로 설정한 횟수만큼 애니메이션을 설정한다. 설정한 값 숫자가 소수 일 경우에 애니메이션 재생 도중에 첫 번째 프레임으로 돌아가 멈춘다. 또한 숫자가 음수일 경우에 애니메이션을 재생하지 않는다. |
 | `infinite` | 애니메이션을 무한으로 반복. |
 
-#### 8\) animation-play-state
+#### 9\) animation-play-state
 
 이 속성은 애니메이션 재생 여부를 정의하는 속성.
 
@@ -85,11 +91,20 @@ animation-name: @name;
 | `running` | 애니메이션을 재생. |
 |  `paused` | 애니메이션을 정지. |
 
-#### 9\) animation-timing-function
+#### 10\) animation-timing-function
 
 애니메이션의 키프레임 사이의 재생 속도를 조절하는 속성으로 재생하는 동안 단계별 속도 설정.
 
-#### 10\) @keyframes/animation
+| property value | description |
+| :--- | :--- |
+| `linear` | 등속도, 전환 과정에 속도의 변화 없이, 처음부터 끝까지 일정하게 유지 |
+| `ease` | 점전적인 기술, 기본값은 `ease` 로서 느리게 시작한 후 빠르게 가속되다가 다시 느리게 끝난다. |
+| `ease-in` | 가속, 애니메이션이 느리게 시작된 후 빠름 흐름으로 끝난다. |
+| `ease-out` | 감속, 애니메이션 빠르게 시작된 후 느리게 끝난다. |
+| `ease-in-out` |  점진적인 가속 후에 감속, 느리게 시작한 후 중간 지점에서 빨라지다가 다시 느려지면서 `ease`와 비슷하지만 그 변화 정도가 `ease` 처럼 급격하지는 않다. |
+| `cubic-bezier(n,n,n,n)` | 애니메이션 효과가 사용자가 정의한 `cubic-bezier` 함수에 따라 진행. |
+
+#### 11\) @keyframes/animation
 
 애니메이션을 재생할 각 프레임의 스타일을 정의하는 것으로 `from`또는 `0%`속성에서 출발해서 `to`또는`100%`속성에서 설정한 스타일로 점차 바뀌면서 애니메이션을 재생.
 
@@ -109,8 +124,11 @@ animation-name: @name;
     css-styles;
   }
 }
+```
 
-/* 여러 개의 중간 값을 설정 */
+`from`, `to`키워드 대신 %를 사용하여 또한 시작과 끝 키프레임 사이에 %단위로 키프레임을 삽입할 수 있다.
+
+```css
 @keyframes move {
   0% {
     top: 0px;
@@ -130,4 +148,12 @@ animation-name: @name;
 #### Reference
 
 Using CSS animations [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+
+animation [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/CSS/animation)
+
+@keyframes [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/CSS/@keyframes)
+
+CSS3 Animation [→\(SITE\)](https://poiemaweb.com/css3-animation)
+
+Transitions & Animations[ →\(SITE\)](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
