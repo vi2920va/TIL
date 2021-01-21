@@ -8,9 +8,9 @@ CSS 3D trnasform은 평면에서 여러 개 CSS 속성을 조합하고 3D 공간
 
 3D 변형\(transform\)을 위해 제공되는 메소드\(method\)는 다음과 같다.
 
-* `rotate()`
-* `translate()`
-* `scale()`
-* `matrix()`
-* `perspective()`
+* `translateX(x), translateY(y), translateZ(z), translate3d(x, y, z)`
+* `roateX(x), rotateY(y), rotateZ(z), roate3d(x, y, z)`
+* `scaleX(x), scaleY(y), scaleZ(z), scale3d(x, y, z)`
+* `matrix3d(n x 16)`
+* `perspective(n)`
 
