@@ -44,7 +44,7 @@ animation-name: @name;
 
 #### 5\) animation-delay
 
-animation-delay 속성은 애니메이션 시작을 지연할 시간을 설정하는 속성.
+`animation-delay` 속성은 애니메이션 시작을 지연할 시간을 설정하는 속성.
 
 | property value | description |
 | :--- | :--- |
@@ -106,7 +106,7 @@ animation-delay 속성은 애니메이션 시작을 지연할 시간을 설정�
   }
 }
 
-/* 여러 개의 중간 값을 설 */
+/* 여러 개의 중간 값을 설정 */
 @keyframes move {
   0% {
     top: 0px;
