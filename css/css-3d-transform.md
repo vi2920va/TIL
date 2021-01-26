@@ -1,12 +1,12 @@
 # CSS 3D transform
 
-## 1. 3D TRANSFORM
+### 1. 3D TRANSFORM
 
 > CSS 3D trnasform은 평면에서 여러 개 CSS 속성을 조합하고 3D 공간에서 회전, 확대, 이동, 비틀기를 포함하고 원근감, 관찰자의 위치를 부여해 3D 공간을 만들어 낼 수 있다. 3D trnasform은 트랜스폼을 적용할 요소에 적용하는 속성과 자식 요소를 3D로 처리하기 위해 부모  요소에 설정하기 위한 속성이 있다.
 
 CSS 3D transform 공간을 위해서는 소실점\(투영점, 원근감\)을 지정해야 한다. 그렇지 않으면 의도한 3D 효과가 나타나지 않고 평면으로 보이게 된다. 
 
-### 1\) 3D trnasform property method
+#### 1\) 3D trnasform property method
 
 3D 변형\(transform\)을 위해 제공되는 메소드\(method\)는 다음과 같다.
 
@@ -16,7 +16,7 @@ CSS 3D transform 공간을 위해서는 소실점\(투영점, 원근감\)을 지
 * `matrix3d(n x 16)`
 * `perspective(n)`
 
-### 2\) perspective
+#### 2\) perspective
 
 ![&#xC704;&#xC758; &#xC774;&#xBBF8;&#xC9C0;&#xC5D0;&#xC11C; &#xD30C;&#xB780;&#xC0C9; &#xC6D0;&#xD615;&#xC740; 3D &#xACF5;&#xAC04;&#xC0C1;&#xC758; &#xBB3C;&#xCCB4;, d&#xB294; &#xAD00;&#xCC30;&#xC790;&#xC640; &#xD654;&#xBA74;&#xACFC;&#xC758; &#xAC70;&#xB9AC;, z&#xB294; z&#xCD95; &#xC694;&#xC18C;&#xC758; &#xC704;&#xCE58;](../.gitbook/assets/perspective-distance.png)
 
@@ -26,7 +26,7 @@ CSS 3D transform 공간을 위해서는 소실점\(투영점, 원근감\)을 지
 
 💻3D transform\(perspective\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/yLarzRY)
 
-### **2-1\) perspective vs perspective\(\)**
+#### **2-1\) perspective vs perspective\(\)**
 
 부모 요소에게 perpective 속성을 주면 각 박스들은 저 마다 다른 투영점\(perpective\)과 다른 소실점을\(vanishing point\)을 갖고 있기 때문에 의도치 않은 결과를 나타나게 된다. 
 
@@ -42,7 +42,7 @@ CSS 3D transform 공간을 위해서는 소실점\(투영점, 원근감\)을 지
 
 💻 3D tranform\(perspective function\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/GRjaxJY)
 
-### 3\) perspective-origin
+#### 3\) perspective-origin
 
 perspective 속성과 함께 소실점으로 나타내는데 사용한다. 이 속성은 관찰자가 어느 위치에서 보고 있는지를 나타내는 속성.
 
