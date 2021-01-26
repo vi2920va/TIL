@@ -14,5 +14,11 @@
 background: linear-gradient([<angle> | to <side-or-corner>]?, <color-stop-list>);
 ```
 
+* &lt;side-or-corner&gt; = \[left \| right\] \|\| \[top \| bottom\]
+  * 기본값은\(bottom\)으로 그레디언트의 방향을 지정하고, 색상의 정지 위치를 결정하는 그레디언트 라을 지정한다.
+* &lt;angle&gt;
+
+  * 그레디언트가 어느 방향으로 향하는지 각도\(deg\)를 결정한다.
+
 
 
