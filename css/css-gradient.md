@@ -1,10 +1,10 @@
 # CSS gradient
 
-## 1. GRADIENT
+### 1. GRADIENT
 
 > 그레디언트\(gradient\)는 한 색에서 다른 색으로 연결되는 중간 단계를 그라데이션 이라고 하며,  종류에는 선형\(linear\), 원형\(radial\)그레디언트가 있다.
 
-### 1\) linear-gradient
+#### 1\) linear-gradient
 
 ![linear-grandeient\(\)](../.gitbook/assets/linear-gradient.png)
 
@@ -35,7 +35,7 @@ background: linear-gradient(to bottom right, blue, pink);
 
 그레디언트 축의 방향으로 `0`deg는 `to top`와 같다. 0 이상의 값을 지정하면 축이 시계 방향으로 돌아간다.
 
-### 1-1\) gradient angle
+#### 1-1\) gradient angle
 
 ![linear-gradient angle](../.gitbook/assets/1_6qjmqlmwlqgsnwdam4uulw.gif)
 
@@ -57,7 +57,7 @@ background: linear-gradient(270deg, blue, pink);
 
 💻 gradient\(linear-gradient\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/qBaeBam)
 
-### 2\) radial-gradient
+#### 2\) radial-gradient
 
 ![radial-gradient\(\)](../.gitbook/assets/radial-gradient.png)
 
@@ -111,7 +111,7 @@ background: radial-gradient(circle closest-side at 25% 75%,
 
 💻 gradient\(radial-gradient\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/VwKovYW)
 
-### 3\) overlay gradient
+#### 3\) overlay gradient
 
 오버레이 그레디언트\(overlay gradient\)는 그레디언트 색상과 배경 패턴과 같은 이미지를 사용하는 것을 말한다. 배경 이미지가 보이기 하기 위해선 그레디언트 색상을 투명하게 바꿔주어야 패턴 이미지 보이게 된다.
 
@@ -122,7 +122,7 @@ background: linear-gradient(to right, transparent, mistyrose),
 
 💻 gradient\(overlay-gradient\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/ExgqarO)
 
-### 4\) repeating gradient
+#### 4\) repeating gradient
 
 반복 그레디언트\(repeating gradient\)는 배경 이미지 반복을 사용하는 것과 유사하게 그레디언트를 반복하여 사용할 수 있다.
 
