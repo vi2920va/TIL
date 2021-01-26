@@ -115,6 +115,7 @@ animation-name: @name;
 | `100%` | 애니메이션의 마지막 프레임. |
 | `to` | 애니메이션의 마지막 프레임으로 100%와 같다. |
 
+{% code title="Syntax" %}
 ```css
 @keyframes animationName {
   from { 
@@ -125,6 +126,7 @@ animation-name: @name;
   }
 }
 ```
+{% endcode %}
 
 `from`, `to`키워드 대신 %를 사용하여 또한 시작과 끝 키프레임 사이에 %단위로 키프레임을 삽입할 수 있다.
 
