@@ -4,7 +4,7 @@
 
 > 그레디언트\(gradient\)는 한 색에서 다른 색으로 연결되는 중간 단계를 그라데이션 이라고 하며,  종류에는 선형\(linear\), 원형\(radial\)그레디언트가 있다.
 
-### 1. linear-gradient\(\)
+### 1. linear-gradient
 
 ![linear-grandeient\(\)](../.gitbook/assets/linear-gradient.png)
 
@@ -35,7 +35,9 @@ background: linear-gradient(to bottom right, blue, pink);
 
 그레디언트 축의 방향으로 odeg는 to top와 같다. 0 이상의 값을 지정하면 축이 시계 방향으로 돌아간다.
 
-#### 1\) gradient angle / \(left, top, right, bottom\)
+#### 1\) gradient angle
+
+![linear-gradient angle](../.gitbook/assets/1_6qjmqlmwlqgsnwdam4uulw.gif)
 
 선형 그레디언트의 각도는 그레디언트가 어느 방향으로 향하는지 결정하는 데 사용한다. 
 
