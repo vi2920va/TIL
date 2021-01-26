@@ -10,7 +10,7 @@
 
 시작점은 그레디언트 라인상에서 그레디언트 색상이 시작되는 지점을 의미하고, 종료점은 시작점과 비슷하게 그레디언트 색상이 종료지점을 의미한다. 이 처럼 시작점과 종료점 사이에 색상점은 이용하여 좀 더 다양한 색상 전환 효과를 생성할 수 있으며, 다중 색상 그레디언트\(multi color gradient\)를 구성할 수 있다.
 
-{% code title="" %}
+{% code title="Syntax" %}
 ```css
 background: linear-gradient([<angle> | to <side-or-corner>]?, <color-stop-list>);
 ```
