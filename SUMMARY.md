@@ -51,6 +51,7 @@
 * [CSS transition](css/css-transition.md)
 * [CSS animation](css/css-animation.md)
 * [CSS 3D transform](css/css-3d-transform.md)
+* [CSS gradient](css/css-gradient.md)
 
 ## JavaScript
 
