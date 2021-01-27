@@ -47,7 +47,9 @@ box-shadow: 3px 3px red, -1em 0 0.4em olive;
 
 📝`<color>`
 
+#### Reference
 
+box-shadow [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/CSS/box-shadow)
 
-
+text-shadow[ →\(MDN\)](https://developer.mozilla.org/en-us/docs/Web/CSS/text-shadow)
 
