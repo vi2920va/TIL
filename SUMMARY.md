@@ -53,6 +53,7 @@
 * [CSS 3D transform](css/css-3d-transform.md)
 * [CSS gradient](css/css-gradient.md)
 * [CSS box-shadow](css/css-shodow.md)
+* [CSS border-image](css/css-border-image.md)
 
 ## JavaScript
 
