@@ -54,6 +54,7 @@
 * [CSS gradient](css/css-gradient.md)
 * [CSS box-shadow](css/css-shodow.md)
 * [CSS border-image](css/css-border-image.md)
+* [CSS flex container](css/css-flex-container.md)
 
 ## JavaScript
 
