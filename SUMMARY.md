@@ -55,6 +55,7 @@
 * [CSS box-shadow](css/css-shodow.md)
 * [CSS border-image](css/css-border-image.md)
 * [CSS flex container](css/css-flex-container.md)
+* [CSS flex items](css/css-flex-items.md)
 
 ## JavaScript
 
