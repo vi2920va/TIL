@@ -193,7 +193,7 @@
   </tbody>
 </table>
 
-### 
+💻 flex item\(order\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/vYyYyaO)
 
 ### 6\) flex item → align-self
 
@@ -212,7 +212,9 @@ flex container 내에 있는 모든 flex item의 정렬하는 방법은 `align-i
 | `center` | flex item 가운데\(center\)로 정렬한다. |
 | `baseline` | flex item을 문자 기준선에 정렬한다. |
 
-###  Reference <a id="reference"></a>
+![align-self](../.gitbook/assets/flex-align-self.webp)
+
+#### Reference
 
 A Complete Guide to Flexbox [→\(CSS-TRICKS\)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)​‌
 
