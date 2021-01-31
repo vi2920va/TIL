@@ -84,11 +84,9 @@
 
 ![flex-wrap](../.gitbook/assets/flex-wrap%20%281%29.webp)
 
-#### 5\) flex **container →** justify-content
+#### 5\) justify-content
 
  `justify-content` 속성은 주축을 기준으로 flex item을 수평으로 정렬한다.
-
-`flex-start`, `center` , `flex-end`, `space-around`, `space-between` 5개의 속성 값으로  사용한다.
 
 <table>
   <thead>
@@ -137,7 +135,7 @@
 
 ![justify-content](../.gitbook/assets/flex-justify-content.webp)
 
-#### 6\)  flex **container →** align-content
+#### 6\) align-content
 
  `align-content` 속성은 flex item이 **여러 줄\(2 줄 이상 이고 여백이 있을 경우\)**로 나열되어 있을 때 주축을 기준으로 수직 정렬 방법을 설정하는 속성이다. 
 
@@ -195,11 +193,9 @@
 
 ![align-cotent](../.gitbook/assets/flex-align-content.webp)
 
-#### 7\) flex **container →** align-items
+#### 7\) align-items
 
- `align-items` 속성은 주축을 기준으로 flex item을 수직으로 정렬한다. 교차축 기준으로 수직 정렬 방법을 설정하는 속성이다.
-
-flex item의 **한 줄 일 경우** 많이 사용한다.
+ `align-items` 속성은 주축을 기준으로 flex item을 수직으로 정렬한다. 교차축 기준으로 수직 정렬 방법을 설정하는 속성이다. flex item의 **한 줄 일 경우** 많이 사용한다.
 
 | value | description |
 | :--- | :--- |
