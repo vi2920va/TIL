@@ -1,16 +1,16 @@
 # CSS flex container
 
-### 1. Flexbox 
+### 1. FlEXBOX
 
 **flexbox**는 뷰포트나 요소의 크기가 불명확하거나 동적으로 변할 때에도 효율적으로 요소를 배치, 정렬, 분산할 수 있는 방법을 제공하는 CSS3의 **새로운 레이아웃 방식**이다.
 
-### 2. Flexbox → flex **container**
+### 2. flex **container**
 
-전체적인 정렬이나 흐름에 관련된 속성은 **flex container**에 정의하고, 자식 요소의 크기나 순서에 관련된 속성은 **flex item**에 정의한다.
+**flex**는 **container**와 **items**두 가지 개념으로 나뉜다. **container**는 **items**를 감싸는 부모 요소이며, 각 **items**을 정렬하기 위해선 **container**가 필수이다.
 
-![css flex](../.gitbook/assets/flex-base.webp)
+![ flex](../.gitbook/assets/flex-base.webp)
 
-#### 1\) flex **container →** display
+#### 1\) display
 
 `display` 속성은 flex container를 설정하는 속성이다. block 이나 lnline이 아닌 `flex` ,`inline-flex`를 사용한다.
 
@@ -19,17 +19,15 @@
 | `flex` | 속성 값이 `flex` 이면, block 요소와 같은 성향의 **수직 쌓임**을 가진다. |
 | `inline-flex` | 속성 값이 `inline-flex`이면, inline-block 요소와 같은 성향의 **수평 쌓임**을 가진다. |
 
-#### 2\) flex **container →** flex-flow
+#### 2\)  flex-flow
 
 `flex-flow` 속성은 `flex-direction`, `flex-wrap`의 속성을 축약해서 `flex-flow`로 표현한다.
 
 즉, flex item 의 주 축 \(main axis\)를 설정 하고, flex items를 여러 줄 바꿈도 설정한다.
 
-#### 3\)  flex **container →** flex-direction
+#### 3\)  flex-direction
 
 `flex-direction` 속성은 flex items 주 축\(main axis\)를 설정하는 속성이다.
-
-`row`, `row-reverse`, `column`, `column-reverse`를 속성 값에 사용한다.
 
 <table>
   <thead>
@@ -72,9 +70,9 @@
   </tbody>
 </table>
 
-#### 4\)  flex **container → flex-wrap**
+#### 4\)  **flex-wrap**
 
-`flex-wrap` 속성은 flex items를 여러 줄 묶음\(줄 바꿈\)을 설정하는 속성이다.
+`flex-wrap`속성은 flex items를 여러 줄 묶음\(줄 바꿈\)을 설정하는 속성이다.
 
 `nowrap`, `wrap`, `wrap-reverse` 를 속성 값에 사용한다.
 
