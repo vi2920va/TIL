@@ -1,22 +1,18 @@
 # CSS flex items
 
-### 1. Flexbox  
+### 1. FlEXBOX
 
 **flexbox**는 뷰포트나 요소의 크기가 불명확하거나 동적으로 변할 때에도 효율적으로 요소를 배치, 정렬, 분산할 수 있는 방법을 제공하는 CSS3의 **새로운 레이아웃 방식**이다.
 
-### 2. Flexbox  → flex item
+### 2. flex items
 
-전체적인 정렬이나 흐름에 관련된 속성은 **flex container**에 정의하고, 자식 요소의 크기나 순서에 관련된 속성은 **flex item**에 정의한다.
+**flex**는 **container**와 **items**두 가지 개념으로 나뉜다. **container**는 **items**를 감싸는 부모 요소이며, 각 **items**을 정렬하기 위해선 **container**가 필수이다.
 
-![css felx](../.gitbook/assets/flex-base%20%281%29.webp)
+![felx](../.gitbook/assets/flex-base%20%281%29.webp)
 
-#### 1\) flex item → flex
+#### 1\) flex
 
-`flex-grow`, `flex-shrink`, `flex-basis` 속성을 축약해서 `flex` 속성으로 표현한다. 
-
-즉, 속성의 값으로 정수 하나만 선언하면, 선언한 값은 `flex-grow` 속성 값이 된다. 
-
-나머지는 기본값인 `flex-shrink : 1` 속성과 `flex-basis : 0` 속성이 적용된다.
+item의 너비\(증가, 감소, 기본\)를 설정하는 단축 속성으로`flex-grow`를 제외한 개별 속성은 생략할 수 있다. 예를 들어서 `flex: 1;`로 작성하면 `flex-grow: 1`과 같고 나머지 속성들은 생략되어서 기본값이 적용된다. 주의해야 될 점은 `flex :1;` 또는 `flex: 11;`은 `flex: 1 1 auto;`와 같지 않고 `flex`에서 `flex-basis`의 값을 생략할 경우 기본값 `auto`가 아닌 0\(숫자\)값이 적용이 된다.
 
 | value | description |
 | :--- | :--- |
@@ -25,87 +21,29 @@
 
  
 
-#### 2\) flex item → flex-grow
+#### 2\) flex-grow
 
-`flex-grow` 속성은 **flex item의 확장에 관련된 속성**이다. 0과 양의 정수를 속성값에 사용한다.
+item의 증가 너비 비율을 설정한다. 숫자가 크면 더 많은 너비를 가지게 되고 숫자 0 일 때에는 아무런 효과가 없다.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">value</th>
-      <th style="text-align:left">description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"> <code>0</code> (defalut)</td>
-      <td style="text-align:left">
-        <p>&#xC18D;&#xC131; &#xAC12;&#xC774; 0 &#xC774;&#xBA74; flex container&#xC758;
-          &#xD06C;&#xAE30;&#xAC00; &#xCEE4;&#xC838;&#xB3C4;,</p>
-        <p>flex item&#xC758; &#xD06C;&#xAE30;&#xAC00; &#xCEE4;&#xC9C0;&#xC9C0; &#xC54A;&#xACE0;
-          &#xC6D0;&#xB798; &#xD06C;&#xAE30;&#xB85C; &#xC720;&#xC9C0;&#xB41C;&#xB2E4;.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>1</code>
-      </td>
-      <td style="text-align:left">
-        <p>&#xC18D;&#xC131; &#xAC12;&#xC774; 1 &#xC774;&#xC0C1;&#xC774;&#xBA74; flex
-          container&#xAC00; &#xCEE4;&#xC9C8; &#xB54C;,</p>
-        <p>flex item&#xC758; &#xD06C;&#xAE30;&#xB3C4; &#xCEE4;&#xC9C0;&#xAC8C; &#xD558;&#xB824;&#xBA74;
-          1 &#xC774;&#xC0C1;&#xC758; &#xAC12;&#xC744; &#xC18D;&#xC131; &#xAC12;&#xC73C;&#xB85C;
-          &#xC124;&#xC815;&#xD55C;&#xB2E4;.</p>
-        <p>flex item&#xC740; &#xC6D0;&#xB798; &#xD06C;&#xAE30;&#xC640; &#xC0C1;&#xAD00;
-          &#xC5C6;&#xC774; flex container&#xB97C; &#xCC44;&#xC6B0;&#xB3C4;&#xB85D;
-          flex item&#xC758; &#xD06C;&#xAE30;&#xAC00; &#xCEE4;&#xC9C4;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| value | description |
+| :--- | :--- |
+|  `0` \(defalut\) | 속성 값이 0 이면 flex container의 크기가 커져도, flex item의 크기가 커지지 않고 원래 크기로 유지된다. |
+| `1` | 속성 값이 1 이상이면 flex container가 커질 때, flex item의 크기도 커지게 하려면 1 이상의 값을 속성 값으로 설정한다. flex item은 원래 크기와 상관 없이 flex container를 채우도록 flex item의 크기가 커진다. |
 
-#### 3\) flex item → flex-shrink
+#### 3\) flex-shrink
 
-`flex-shrink` 속성은 **flex item의 축소에 관련된 속성**이다. 0과 양의 정수를 속성값에 사용한다. 기본값은 1이다.
+item의 증가 감소하는 너비의 비율을 설정한다. 숫자가 크면 더 많은 너비가 감소하게 된다. flex-grow 속성처럼 숫자 0 일 때에는 아무런 효과가 없다.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><code>0</code>
-      </td>
-      <td style="text-align:left">
-        <p>&#xC18D;&#xC131; &#xAC12;&#xC774; 0 &#xC774;&#xBA74; flex container&#xC758;
-          &#xD06C;&#xAE30;&#xAC00; flex item&#xC758; &#xD06C;&#xAE30;&#xBCF4;&#xB2E4;
-          &#xC791;&#xC544;&#xC838;&#xB3C4;</p>
-        <p>&#xD06C;&#xAE30;&#xAC00; &#xC904;&#xC5B4;&#xB4E4;&#xC9C0; &#xC54A;&#xACE0;
-          &#xC6D0;&#xB798; &#xD06C;&#xAE30;&#xB85C; &#xC720;&#xC9C0;&#xB41C;&#xB2E4;.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>1</code>(defalut)</td>
-      <td style="text-align:left">
-        <p>&#xC18D;&#xC131; &#xAC12;&#xC774; 1 &#xC774;&#xC0C1; &#xC774;&#xBA74;,
-          flex container&#xC758; &#xD06C;&#xAE30;&#xAC00; flex item&#xC758; &#xD06C;&#xAE30;&#xBCF4;&#xB2E4;
-          &#xC791;&#xC544;&#xC9C8; &#xB54C;</p>
-        <p>flex item&#xC758; &#xD06C;&#xAE30;&#xAC00; flex container&#xC5D0;&#xAC8C;
-          &#xB9DE;&#xCD94;&#xC5B4; &#xC904;&#xC5B4;&#xB4E0;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| value | description |
+| :--- | :--- |
+| `0` | 속성 값이 0 이면 flex container의 크기가 flex item의 크기보다 작아져도 크기가 줄어들지 않고 원래 크기로 유지된다. |
+| `1`\(defalut\) | 속성 값이 1 이상 이면, flex container의 크기가 flex item의 크기보다 작아질 때 flex item의 크기가 flex container에게 맞추어 줄어든다. |
 
-#### 4\) flex item → flex-basis
+#### 4\) flex-basis
 
-{% hint style="warning" %}
-속성 값을 0 으로 선언할 때에는 `flex-basis: 0px`, `flex-basis: 0%`와 같은 단위도 함께 
+item 공간 배분 전 기본 너비를 설정한다. 값이 `auto`일 경우 `width`, `height` 등의 속성으로 item의 너비를 설정할 수 있다. 하지만 단위 값이 주어질 경우 설정할 수 없다.
 
-설정해야 된다.
-{% endhint %}
+
 
 <table>
   <thead>
@@ -150,9 +88,9 @@
 
 ![flex-basis](../.gitbook/assets/helloworld-201811-flex_10.png)
 
-#### 5\) flex item → order
+#### 5\) order
 
-`order` 속성은 flex item의 순서와 관련된 속성이다. 0 부터 값이 클수록 밀리기 때문에 정수와 음수를 속성 값에 사용한다. 기본 값은 0 이다.
+ item의 순서와 관련된 속성이다. 0 부터 값이 클수록 밀리기 때문에 정수와 음수를 속성 값을 사용한다.
 
 <table>
   <thead>
@@ -195,7 +133,7 @@
 
 💻 flex item\(order\) [→\(CODEPEN\)](https://codepen.io/vi2920va/full/vYyYyaO)
 
-### 6\) flex item → align-self
+### 6\)  align-self
 
 `align-self` 속성은 flex item 교차 축\(cross axis\)에 정렬 관련된 속성이다.
 
