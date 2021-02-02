@@ -1,80 +1,69 @@
 # CSS Units
 
-Units 
+### CSS UNITS 
 
-CSS는 절대적인 단위\(absolute unit\), 상대적인 단위\(relative unit\)두 가지로 나뉜다.
+CSS에서는 단위를 절대적인 단위\(absolute unit\)와 상대적인 단위\(relative unit\)두 가지로 나뉜다.
 
-1. absolute units 
+### 1. absolute units 
 
-•  절대 단위\(absolute units\)는 고정된 값을 출력 하면서 절대 크기가 변화하지 않기 때문에 반응형 웹 사이트 만들 때 적합하지 않다.
+절대 단위\(absolute units\)는 주로 px 픽셀\(화소\) 단위를 사용하면서 고정된 값을 출력한다.  절대 크기가 변하지 않기 때문에 반응형 브라우저에 적합하지 않다. 
 
-•  주로  px은 픽셀\(화소\)단위를 사용한다.
+### 2. relative units
 
-2. relative units
+상대적인 단위\(relative units\)에는 em, rem, vh, % 등 여러가지 단위들이 존재한다.
 
-•  상대적인 단위\(relative units\)에는 em, rem, vh, % 등 여러가지 단위들이 존재한다.
-
-1\) em
+#### 1\) em
 
 em단위는 부모 요소의 크기 영향을 받아서 자식 요소가 상대적인 값으로 변화하게 된다.
 
-&lt;div class=“parent”&gt;
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<div class=“parent”>
+  parent
+   <div class=“child”>
+    child
+   </div>
+</div>
+```
+{% endtab %}
 
- parent
-
- &lt;div class=“child”&gt;
-
- child
-
- &lt;/div&gt;
-
-&lt;/div&gt;
-
+{% tab title="CSS" %}
+```css
 body {
-
  color: white;
-
- background: \#293029;
-
+ background: #293029;
 }
 
 div {
-
  border: 1px solid white;
-
  margin: 32px; 
-
 }
 
 .parent {
-
- /\* html element font size = 16px \*/
-
- /\* 16 \* 8\(%\) = 128px \*/
-
+ /* html element font size = 16px */
+ /* 16 * 8(%) = 128px */
  font-size: 8em;
-
 }
 
 .child{
-
- /\* parent element font size = 128px \*/
-
- /\* 128 \* 0.5\(%\) = 64px \*/
-
+ /* parent element font size = 128px */
+ /* 128 * 0.5(%) = 64px */
  font-size: 0.5em;
-
 }
+```
+{% endtab %}
+{% endtabs %}
 
-2\) rem
+#### 2\) rem
 
-위에서 em은 부모 요소에 따라서 자식 요소가 상대적으로 변화한다고 언급을 했었는데,  여기서 말하는 rem은 부모 요소에 따라서 자식 요소가 상대적으로 변화하지 않고 최상위 요소\(root element\)에 존재하는 &lt;html&gt; 요소에 영향을 받아서 크기가 변화한다. 
+위에서 em은 부모 요소에 따라서 자식 요소가 상대적으로 변화한다고 언급을 했었는데,  여기서 말하는 rem은 부모 요소에 따라서 자식 요소가 상대적으로 변화하지 않고 최상위 요소\(root element\)에 존재하는 `<html>`요소에 영향을 받아서 크기가 변화한다. 
 
-&lt;html&gt; 또는 &lt;body&gt;  요소에서 font-size를 설정하지 않으면 브라우저에 지정된  font-size가 적용된다.
+`<html>`또는`<body>`  요소에서 `font-size`를 설정하지 않으면 브라우저에 지정된  `font-size`가 적용된다.
 
-3\) vh, vw 
+#### 3\) vh, vw 
 
-•  vipwport는 전체 웹 페이지 가운데 브라우저 창에 보이는 영역을 말한다. 
+vipwport는 전체 웹 페이지 가운데 브라우저 창에 보이는 영역을 말한다. 
 
 •   vh\(viewport hight\)의 단위는 뷰포트 높이값의 1/100를 의미한다. 
 
@@ -82,43 +71,54 @@ div {
 
 •  vw,vh는 viewport 너비와 높이의 1%의 길이와 동일하다.
 
-&lt;h2&gt; viewport - vh, vw&lt;/h2&gt;
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<h2> viewport - vh, vw</h2>
+```
+{% endtab %}
 
+{% tab title="CSS" %}
+```css
 body {
-
  color: white;
-
- background : \#293029;
-
+ background : #293029;
 }
 
 h2{
-
 margin: 32px;
-
 border: 1px solid white;
-
-/\* vw 단위는 브라우저에 화면 크기에 따라서 너비가 유동적으로 변화한다. \*/
-
+/* vw 단위는 브라우저에 화면 크기에 따라서 너비가 유동적으로 변화한다. */
 font-size: 6vw;
-
 }
+```
+{% endtab %}
+{% endtabs %}
 
-4\) %
+#### 4\) %
 
 % 단위는 백분율 단위의 상대 단위이다. 요소의 지정된 사이즈에서 상속된 값이나 또는 기본 값에 상대적인 사이즈 설정한다.
 
-&lt;h2&gt; % example &lt;/h2&gt; 
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<h2> % example </h2> 
+```
+{% endtab %}
 
+{% tab title="CSS" %}
+```css
 h2{
-
-  /\* 16px \* 150% = 24px \*/
-
+  /* 16px * 150% = 24px */
  font-size: 150%;
-
 }
+```
+{% endtab %}
+{% endtabs %}
 
-3.  어떤 경우에 무슨 units를 써야되는지 차이점.
+
+
+### 3.  각각의 units에 대한 차이점과 언제 사용해야 적합한지 기준.
 
 1.  첫 번째 기준은 부모 요소\(parent element\)에 따라서 사이즈가 변경될 경우에는 em, % 단위를 사용하고, 부모 요소가 아닌 브라우저에 따라서 사이즈가 변경될 경우에는 rem, vw, vh 단위를 사용해야 한다.
 
@@ -126,206 +126,173 @@ h2{
 
 3.  컴포넌트가 브라우저 어디에서도 상관없이 사이즈가 고정 되기를 원한다면 rem 단위를 사용하는게 적합하고 그렇지 않고, 부모 요소에 따라서 사이즈가 변화하기를 원한다면 em 단위를 쓰는게 적합하다.
 
-em demo
+#### **1\) em demo** 
 
-em 단위의 font-size를 사용하게 되면 부모 요소의 영향을 받아서
+em 단위의 `font-size`를 사용하게 되면 부모 요소의 영향을 받아서 계속 해서 사이즈가 커지게 된다.
 
-계속 해서 사이즈가 커지게 된다.
+{% tabs %}
+{% tab title="XML/HTML/SVG" %}
+```markup
+<div class="level1">
+  <h1>level 1</h1>
+  <div class="level2">
+    <h1>level 2</h1>
+    <div class="level3">
+      <h1>level 3</h1>
+      <div class="level4">
+        <h1>level 4</h1>
+      </div>
+    </div>
+  </div>
+</div>
+```
+{% endtab %}
 
-&lt;div class="level1"&gt;
-
-  &lt;h1&gt;level 1&lt;/h1&gt;
-
-  &lt;div class="level2"&gt;
-
-    &lt;h1&gt;level 2&lt;/h1&gt;
-
-    &lt;div class="level3"&gt;
-
-      &lt;h1&gt;level 3&lt;/h1&gt;
-
-      &lt;div class="level4"&gt;
-
-        &lt;h1&gt;level 4&lt;/h1&gt;
-
-      &lt;/div&gt;
-
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-
-&lt;/div&gt;
-
-.level1 {
-
-  /\*  16 \* 2 = 32px  \*/
-
+{% tab title="CSS" %}
+```css
+level1 {
+  /*  16 * 2 = 32px  */
   font-size: 2em;
-
 }
 
 .level2 {
-
-  /\*  32 \* 2 = 64px  \*/
-
+  /*  32 * 2 = 64px  */
   font-size: 2em;
-
 }
 
 .level3 {
-
-  /\* 64 \* 2 = 128px \*/
-
+  /* 64 * 2 = 128px */
   font-size: 2em;
-
 }
 
 .level4 {
-
-  /\* 128 \* 2 = 256px \*/
-
+  /* 128 * 2 = 256px */
   font-size: 2em;
-
 }
+```
+{% endtab %}
+{% endtabs %}
 
-rem demo
+#### 2\) rem demo
 
 rem 단위를 사용하게 되면 부모 요소가 아닌 최상위 요소에 영향을 받아서 font-size가 편하기 때문에 계속 해서 사이즈 변화하지 않고 일정한 것을 확인할 수 있다.
 
-&lt;div class="level1"&gt;
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<div class="level1">
+  <h1>level 1</h1>
+  <div class="level2">
+    <h1>level 2</h1>
+    <div class="level3">
+      <h1>level 3</h1>
+      <div class="level4">
+        <h1>level 4</h1>
+      </div>
+    </div>
+  </div>
+</div>
+```
+{% endtab %}
 
-  &lt;h1&gt;level 1&lt;/h1&gt;
-
-  &lt;div class="level2"&gt;
-
-    &lt;h1&gt;level 2&lt;/h1&gt;
-
-    &lt;div class="level3"&gt;
-
-      &lt;h1&gt;level 3&lt;/h1&gt;
-
-      &lt;div class="level4"&gt;
-
-        &lt;h1&gt;level 4&lt;/h1&gt;
-
-      &lt;/div&gt;
-
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-
-&lt;/div&gt;
-
+{% tab title="CSS" %}
+```css
 .level1 {
-
-  /\*  16 \* 2 = 32px  \*/
-
+  /*  16 * 2 = 32px  */
   font-size: 2rem;
-
 }
 
 .level2 {
-
-  /\*  16 \* 2 = 32px  \*/
-
+  /*  16 * 2 = 32px  */
   font-size: 2rem;
-
 }
 
 .level3 {
-
-  /\* 16 \* 2 = 32px \*/
-
+  /* 16 * 2 = 32px */
   font-size: 2rem;
-
 }
 
 .level4 {
-
-  /\* 16 \* 2 = 32px \*/
-
+  /* 16 * 2 = 32px */
   font-size: 2rem;
-
 }
+```
+{% endtab %}
+{% endtabs %}
 
- em demo\(padding\)
+####  3\) em demo\(padding\)
 
-padding이 상황에 따라서 변경이 되기 위해서는 px 단위보다 em 단위를 쓰는게 적합하다.
+`padding`이 상황에 따라서 변경이 되기 위해서는 px 단위보다 em 단위를 쓰는게 적합하다.
 
-&lt;h1&gt;
-
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<h1>
   Hello, dream coders 👏
+</h1>
+```
+{% endtab %}
 
-&lt;/h1&gt;
-
+{% tab title="CSS" %}
+```css
 h1 {
-
   display: inline-block;
-
   font-size: 5em;
-
   background: skyblue;
-
- padding : 1em;
-
-  /\* padding: 10px; \*/
-
+   /* padding: 10px; */
+  padding : 1em;
 }
+```
+{% endtab %}
+{% endtabs %}
 
-em, rem demo
 
-&lt;section class="component"&gt;
 
-  &lt;header class="title"&gt;Master Front-end ✨&lt;/header&gt;
+#### 4\) em, rem demo
 
-  &lt;p class="contents"&gt;
-
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<section class="component">
+  <header class="title">Master Front-end ✨</header>
+  <p class="contents">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-
     veniam, nulla porro distinctio aliquid, quos quidem odio consectetur
-
     aperiam, delectus cum. Deserunt facilis excepturi similique natus minus
-
     deleniti rem sit?
+  </p>
+</section>
+```
+{% endtab %}
 
-  &lt;/p&gt;
-
-&lt;/section&gt;
-
+{% tab title="CSS" %}
+```css
 .component {
-
   width: 50%;
-
   border: 1px solid burlywood;
-
   font-size: 2rem;
-
 }
 
 .title {
-
   padding: 0.5em 0.5rem;
-
   background-color: burlywood;
-
 }
 
 .contents {
-
   font-size: 1rem;
-
   padding: 0.5em 0.5rem;
-
 }
 
-@media screen and \(max-width: 780px\) {
-
+@media screen and (max-width: 780px) {
   .component {
-
     font-size: 1.5rem;
-
   }
+}
+```
+{% endtab %}
+{% endtabs %}
 
-}  
+
+
 
 
