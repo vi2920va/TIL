@@ -56,7 +56,7 @@
 * [CSS border-image](css/css-border-image.md)
 * [CSS flex container](css/css-flex-container.md)
 * [CSS flex items](css/css-flex-items.md)
-* [Untitled](css/untitled-2.md)
+* [CSS Multi-column layout](css/untitled-2.md)
 
 ## JavaScript
 
