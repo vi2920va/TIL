@@ -6,13 +6,22 @@ CSS grid는 2차원 행과 열의 레이아웃 시스템을 제공한다. 좀 �
 
 #### 1\) Grid 용어
 
-* Gird 라인\(lines\) - Grid를 행\(rows\) / 열\(colums\)로 나누는 수평선 또는 수직선.
-* Grid 셀\(cell\) - Grid를 구성하는 단일 유닛\(single unit\).
-* Grid 영역\(area\) - Grid 라인이 감싸는 사각형 영역으로 Grid 영역은 여러 개의 Grid 셀을 포함할 수 있다.
-* Grid 트랙\(track\) - 2개의 그리드 라인 사이 공간을 의미, 이 공간은 수평 / 수직 방향 모두를 말한다.
-* Grid 행\(row\) - 1개의 Grid 수평 트랙.
-* Grid 열\(colum\) - 1개의 Grid 수직 트랙.
-* 거터\(Gutter\) - Gird 행과 열 사이이 공간.
+![Grid &#xC6A9;&#xC5B4;](../.gitbook/assets/03-2.jpg)
+
+* **Grid Container**
+  * display: grid;를 적용하는 Grid 전체 영역.
+* **Grid Item**
+  * Grid Container의 자식 요소들로 아이템들이 Grid 규칙에 의해 배치.
+* **Grid Track**
+  * Grid의 행\(row\)또는 열\(colums\).
+* **Grid Cell**
+  * Grid의 한 칸을 의미함으로써 Grid Item 하나가 들어가는 "가상의 칸\(틀\)".
+* **Grid Line**
+  * Grid Cell을 구분하는 선.
+* **Grid Gap**
+  * Grid Cell 사이의 간격
+* **Grid Area**
+  * Grid 라인으로 둘러싸인 사각형 영역으로, Grid Cell의 집합.
 
 ### 2. grid propertoies
 
@@ -52,7 +61,7 @@ gird container를 위한 속성들은 아래와 같다.
 
 #### 2\) grid-templeate-rows / grid-template-colums
 
-명시적 행의 크기를 정의할 때는 `grid-template-rows` 속성을 사용하고, 열의 크기를 정의할 때는 `grid-template-cloums`속성을 사용.
+명시적 행의 크기를 정의할 때는 `grid-template-rows`속성을 사용하고, 열의 크기를 정의할 때는 `grid-template-cloums`속성을 사용.
 
 ```css
 .grid{
@@ -66,11 +75,11 @@ gird container를 위한 속성들은 아래와 같다.
 
 #### 3\) grid-template-areas
 
-지정된 그리드 영역 이름 `grid-area`를 참조해 그리드 템플릿을 생성한다. 이때 `grid-area` 속성은 gird container가 아닌 gird item에 적용하는 속성.
+지정된 그리드 영역 이름 `grid-area`를 참조해 그리드 템플릿을 생성한다. 이때 `grid-area`속성은 gird container가 아닌 gird item에 적용하는 속성.
 
 #### 4\) grid-temaplate
 
-`grid-template-`\* 관련된 속성을 단축해서 한 줄에 작성할 수 있는 속성.
+`grid-template-*`관련된 속성을 단축해서 한 줄에 작성할 수 있는 속성.
 
 #### 5\)  grid-row-gap / grid-column-gap 
 
@@ -78,7 +87,7 @@ gird container를 위한 속성들은 아래와 같다.
 
 #### 6\) grid-gap
 
-각 행과 행, 열과 열 사이 간격을 지정한다.
+각 행과 행, 열과 열 사이 간격\(gutter\)을 지정한다.
 
 #### 7\)  grid-auto-rows / grid-auto-colums
 
