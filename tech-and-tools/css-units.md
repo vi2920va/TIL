@@ -292,7 +292,9 @@ h1 {
 {% endtab %}
 {% endtabs %}
 
+#### Reference
 
+CSS values and units [→\(MDN\)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
-
+ PX to EM conversion made simple [→\(SITE\)](http://pxtoem.com/)
 
