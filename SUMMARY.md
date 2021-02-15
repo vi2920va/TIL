@@ -61,7 +61,7 @@
 
 ## JavaScript
 
-* [Untitled](javascript/untitled.md)
+* [JavaScript intro](javascript/untitled.md)
 
 ## Git
 
