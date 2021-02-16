@@ -27,12 +27,6 @@ console.log(currentYear);
 console.log(z);
 ```
 
-#### 변수 이름 작성 규칙
-
-JavaScript에서 변수 이름은 식별자\(identifier\)라고 불린다. 식별자는 문자, 밑줄\(\_\) 혹은 달러 기호\($\)로 시작해야 하는 반면 이후는 숫자\(0~9\)일 수도 있다.  대소문자를 구분하기에 문자는 A부터 Z\(대문자\)와 a부터 z\(소문자\)까지 모두 포함된다.
-
-
-
 #### 2\) V**ariable Assignment**
 
 변수에 값을 대입하는 것을 "**변수에 할당한다.**" 는 의미이다.
@@ -49,11 +43,11 @@ console.log('y:', y);
 
 #### 3\)  Variable Scope
 
-변수의 범위를 '**스코프\(Scope\)' 라고 부른다.**
+변수의 범위를 '**스코프\(Scope\)'** 라고 부른다.
 
-* Global Scope
+* **Global Scope**
   * 전역 변수\(Global Scope\)는 함수의 외부에서 선언된 변수로 프로그램 전체에서 접근할 수 있는 변수이다.
-* Local Scope
+* **Local Scope**
   * 지역변수\(Local Scope\)는 함수 내부에서 선언된 변수로 함수가 실행되면 만들어지고 함수가 종료되면 소멸하는 변수이다. 또한 함수 외부에서 접근할 수 없다.
 
 ```javascript
@@ -91,7 +85,7 @@ y9.getPhone = function () {
 
 #### 4\) Variable Hoisting
 
-호이스팅\(Hosting\)은 변수의 정의가 그 스코프에 따라 선언과 할당으로 분리되는 것은 의미한다. 선언 부분이 해당 스코프의 최상위로 변경된다.
+**호이스팅\(Hosting\)**은 변수의 정의가 그 스코프에 따라 선언과 할당으로 분리되는 것은 의미한다. 선언 부분이 해당 스코프의 최상위로 변경된다.
 
 ```javascript
 //  호이스팅
@@ -107,6 +101,23 @@ function message(){
     console.log(test);
 }
 ```
+
+#### 5\) I**dentifier**
+
+ 변수 또는 함수의 이름을 작성할 때 사용하는 이름을 '**식별자\(Identifier\)**' 라고 하며, 식별자는 규칙을 갖는다.
+
+* 알파벳\(A ~ Z, a ~ z\), 숫자\(0 ~ 9\), 밑줄\( \_ \), 달러 기호\($\) 사용 가능.
+* 첫 글자로는 숫자를 사용할 수 없으며, 숫자를 제외한 위의 나머지 중 하나를 사용.
+* 작성 박식은 **camelCase**, **sankeCase**사용해서 작성 가능.
+* 예약어를 **식별자**로 사용할 수 없다.
+
+✍ **사용 가능한 예** 
+
+`sum`, `currentYear`, `last_year`, `result`
+
+✍ **사용 불가능한 예** 
+
+`2st` , `current Year`, `last-year`, `new`
 
 #### Reference
 
