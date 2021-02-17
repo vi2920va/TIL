@@ -1,4 +1,4 @@
-# JavaScript Variable
+# JavaScript Variable And Data Type
 
 ### 1. JavaScript Declarations
 
@@ -110,14 +110,13 @@ function message(){
 * 첫 글자로는 숫자를 사용할 수 없으며, 숫자를 제외한 위의 나머지 중 하나를 사용.
 * 작성 박식은 **camelCase**, **sankeCase**사용해서 작성 가능.
 * 예약어를 **식별자**로 사용할 수 없다.
+* ✍ **사용 가능한 예** 
 
-✍ **사용 가능한 예** 
+  `sum`, `currentYear`, `last_year`, `result`
 
-`sum`, `currentYear`, `last_year`, `result`
+  ✍ **사용 불가능한 예** 
 
-✍ **사용 불가능한 예** 
-
-`2st` , `current Year`, `last-year`, `new`
+  `2st` , `current Year`, `last-year`, `new`
 
 #### Reference
 

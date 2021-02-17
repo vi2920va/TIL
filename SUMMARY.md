@@ -62,7 +62,7 @@
 ## JavaScript
 
 * [JavaScript intro](javascript/untitled.md)
-* [JavaScript Variable](javascript/javascript-variable.md)
+* [JavaScript Variable And Data Type](javascript/javascript-variable.md)
 * [JavaScript Function](javascript/javascript-function.md)
 
 ## Git
