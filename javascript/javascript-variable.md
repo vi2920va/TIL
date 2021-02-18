@@ -1,4 +1,4 @@
-# JavaScript Variable And Data Type
+# JavaScript Variable
 
 ### 1. JavaScript Declarations
 

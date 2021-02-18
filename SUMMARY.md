@@ -62,7 +62,7 @@
 ## JavaScript
 
 * [JavaScript intro](javascript/untitled.md)
-* [JavaScript Variable And Data Type](javascript/javascript-variable.md)
+* [JavaScript Variable](javascript/javascript-variable.md)
 * [JavaScript Data structures and types](javascript/javascript-data-structures-and-types.md)
 * [JavaScript Function](javascript/javascript-function.md)
 
