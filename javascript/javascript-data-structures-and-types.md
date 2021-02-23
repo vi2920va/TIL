@@ -12,15 +12,20 @@
 * **Symbol** \(ES6+\)
 * **Object**
 
-#### 1\) null VS undefined
+#### 1\) null, undefined
 
 **undefined**는 데이터 타입, 값을 나타낸다. 즉, 변수만 선언했지만 할당하지 않은 변수를 말한다. 
 
 **null**의 타입 변수의 경우에는 명시적으로 값을 비어 있음을 나타내는데 사용한다. 즉, 아무것도 참조하지 있지 않다는 의미로 주로 객체를 담을 변수를 초기화 할 때 많이 사용한다.
 
 ```javascript
-// 아래와 같이 하게 되면 nll 타입 변수를 생성.
-var nullVar = null;
+// null
+let nothing = null;
+console.log(`value : ${nothing}, type : ${typeof nothing}`);
+
+// undefined
+let x;
+console.log(`value : ${x}, type : ${typeof x}`);
 ```
 
 ### 2. Data type conversion
