@@ -1,4 +1,4 @@
-# JavaScript Condition Statement
+# JavaScript Condition Statement and operators
 
 ### 1. CONDITION STATEMENT
 
@@ -9,8 +9,6 @@
 정 조건이 참\(true\)인 경우 문장을 실행하기 위해 `if문`\(statement\)을 사용한다. 또한 선택적으로 조건이 거짓\(false\)인 경우 문장을 실행하기 위해서는 `else 절`을 사용한다.
 
 ✍ false로 판단하는 값 - `0`, `null`, `undefined`, `NaN`, `' '` ****
-
-
 
 ```javascript
 const name = 'Java';
@@ -130,7 +128,7 @@ JavaScript 조건문 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/Java
 
 switch문 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#switch%EB%AC%B8)
 
-산자 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EB%B9%84%EA%B5%90_%EC%97%B0%EC%82%B0%EC%9E%90)
+연산자 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EB%B9%84%EA%B5%90_%EC%97%B0%EC%82%B0%EC%9E%90)
 
 조건\(3항\) 연산자 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EC%A1%B0%EA%B1%B4_%28%EC%82%BC%ED%95%AD%29_%EC%97%B0%EC%82%B0%EC%9E%90)
 

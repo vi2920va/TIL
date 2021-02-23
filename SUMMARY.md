@@ -64,7 +64,7 @@
 * [JavaScript intro](javascript/untitled.md)
 * [JavaScript Variable](javascript/javascript-variable.md)
 * [JavaScript Data structures and types](javascript/javascript-data-structures-and-types.md)
-* [JavaScript Condition Statement](javascript/javascript-condition-statement.md)
+* [JavaScript Condition Statement and operators](javascript/javascript-condition-statement.md)
 * [JavaScript Function](javascript/javascript-function.md)
 
 ## Git
