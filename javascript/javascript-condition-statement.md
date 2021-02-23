@@ -26,7 +26,19 @@ if (name === 'JavaScript') {
 `switch문`은 프로그램이 표현식을 평가하고 값을 조건과 비교한다. 만약 값이 일치한다면, 프로그램 각 조건의 하위 문장을 실행한다. `switch 문`은 아래와 같이 사용한다.
 
 ```javascript
-
+const browser = 'IE';
+switch (browser) {
+  case 'IE':
+    console.log('go away!');
+    break;
+  case 'Chrome':
+  case 'Firefox':
+    console.log('love you!');
+    break;
+  default:
+    console.log('same all!');
+    break;
+}
 ```
 
 프로그램은 주어진 값과 일치하는 `case 라벨`을 찾는다. 그리고 나서 관련된 구문을 실행한다. 만약 매치 되는 라벨이 없다면 `default 절`을 찾는다. 찾게 되면 관련된 구문을 수행한다. `default 절`을 못 찾게 된다면 프로그램의 `switch문`을 종료한다. 여기서 `default 절`의 위치는  꼭 맨 마지막 필요는 없다.
