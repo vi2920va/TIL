@@ -124,5 +124,5 @@ console.log(2 ** 3); // exponentiation
 | AND\(`&&`\) | `expr1 && expr2` | `expr1`, `expr2` 모두 `true`일 경우에만 `true`를 반환한다. 하나 이상의 피연산자가 `false`라면 연산 결과로 `false`를 반환한다. |
 | NOT\(`!`\) | `!expr` | `boolean` 값을 반대로 바꾼다. |
 
-
+#### Reference
 
