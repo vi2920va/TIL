@@ -126,3 +126,13 @@ console.log(2 ** 3); // exponentiation
 
 #### Reference
 
+JavaScript 조건문 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#%EC%A1%B0%EA%B1%B4%EB%AC%B8)
+
+switch문 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#switch%EB%AC%B8)
+
+산자 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EB%B9%84%EA%B5%90_%EC%97%B0%EC%82%B0%EC%9E%90)
+
+조건\(3항\) 연산자 [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EC%A1%B0%EA%B1%B4_%28%EC%82%BC%ED%95%AD%29_%EC%97%B0%EC%82%B0%EC%9E%90)
+
+조건\(3항\) 연산자 식이 활용된 예[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Numbers_and_dates#%ED%91%9C%EC%A4%80)
+
