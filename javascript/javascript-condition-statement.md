@@ -8,6 +8,10 @@
 
 정 조건이 참\(true\)인 경우 문장을 실행하기 위해 `if문`\(statement\)을 사용한다. 또한 선택적으로 조건이 거짓\(false\)인 경우 문장을 실행하기 위해서는 `else 절`을 사용한다.
 
+✍ false로 판단하는 값 - `0`, `null`, `undefined`, `NaN`, `' '` ****
+
+
+
 ```javascript
 const name = 'Java';
 if (name === 'JavaScript') {
@@ -53,6 +57,72 @@ let hour = Number((new Date()).getHours());
   	return ampm + hour + format;
 }
 ```
+
+### 2. OPERATOR
+
+JavaScript는 다음과 형태의 연산자가 있다.
+
+* 할당 연산자 \(Assignment operators\)
+* 비교 연산자 \(Comparison operators\)
+* 산술 연산자 \(Arithmetic operators\)
+* 비트 연산자\(Bitwise operators\)
+* 논리 연산자 \(Logical operators\)
+* 문자열 연산자 \(String operators\)
+* 조건 삼항 연산자 \(Conditional \(ternary\) operator\)
+* 쉼표 연산자 \(Comma operator\)
+* 단항 연산자\(Unary operators\)
+* 관계 연산자 \(Relational operators\)
+
+#### 1\) Assignment operators
+
+JavaScript에서는 = 연산자를 사용해 변수에 값을 할당한다. 할당 연산자의 결합 방향은 오른쪽에서 왼쪽이다.
+
+```javascript
+let x = 3;
+let y = 6;
+x += y; // x = x + y
+x -= y; // x = x - y
+x *= y; // x = x * y
+x /= y; // x = x / y
+```
+
+#### 2\) Comparison operators
+
+비교 연산자\(Comparison operators\)는 **두 피연산자 값에 따라 논리값을 반환한다**. 피연산자들은 숫자, 문자열, 객체를 사용할 수 있으며`==`, `!=`, `<=`, `>=`, `===`,`!==` 비교 연산자를 사용할 수 있다. 여기서 권장하는 비교 연산자는 엄격한 비교 연산자 `===`, `!==` 이다. 그 이유는 **JavaScript는 선언할 때 어떤 타입인지 신경 쓰지 않고, 프로그래밍의 동작할 때 할당된 값에 따라서 변경되기 때문이다.**
+
+```javascript
+const stringFive = '5';
+const numberFive = 5;
+
+// == loose equlity, with type conversion
+console.log(stringFive == numberFive);
+console.log(stringFive != numberFive);
+
+// === strict equlity, no type conversion
+console.log(stringFive === numberFive);
+console.log(stringFive !== numberFive);
+```
+
+#### 3\) Arithmetic operators
+
+기본적인 **산술 연산자\(Arithmetic operators\)**는 덧셈\(`+`\), 뺄셈\(`-`\), 곱셈\(`*`\),  나눗셈\(`/`\) 이다.
+
+```javascript
+console.log(1 + 1); // add
+console.log(1 - 1); // substract
+console.log(1 / 1); // divide
+console.log(1 * 1); // multiply
+console.log(5 % 2); // remainder
+console.log(2 ** 3); // exponentiation
+```
+
+#### 4\) Logical operators
+
+| operators | usage | description |
+| :--- | :--- | :--- |
+| OR\(`||`\) | `expr1 ||expr2` | `expr1`, `expr2` 중 하나가 `true` 이거나 둘 다 `true`이면 `true`를 반환하고, 두 피연산자 연산자가 모두 `false`라면 연산 결과로 `false`를 반환한다. |
+| AND\(`&&`\) | `expr1 && expr2` | `expr1`, `expr2` 모두 `true`일 경우에만 `true`를 반환한다. 하나 이상의 피연산자가 `false`라면 연산 결과로 `false`를 반환한다. |
+| NOT\(`!`\) | `!expr` | `boolean` 값을 반대로 바꾼다. |
 
 
 
