@@ -6,7 +6,7 @@
 
 #### 1\) if ~ else statement
 
-정 조건이 참\(true\)인 경우 문장을 실행하기 위해 `if문`\(statement\)을 사용한다. 또한 선택적으로 조건이 거짓\(false\)인 경우 문장을 실행하기 위해서는 `else 절`을 사용한다.
+정 조건이 참\(true\)인 경우 문장을 실행하기 위해 `if`문\(statement\)을 사용한다. 또한 선택적으로 조건이 거짓\(false\)인 경우 문장을 실행하기 위해서는 `else` 절을 사용한다.
 
 ✍ false로 판단하는 값 - `0`, `null`, `undefined`, `NaN`, `' '` ****
 
@@ -23,7 +23,7 @@ if (name === 'JavaScript') {
 
 #### 2\) switch statement
 
-`switch문`은 프로그램이 표현식을 평가하고 값을 조건과 비교한다. 만약 값이 일치한다면, 프로그램 각 조건의 하위 문장을 실행한다. `switch 문`은 아래와 같이 사용한다.
+`switch`문은 프로그램이 표현식을 평가하고 값을 조건과 비교한다. 만약 값이 일치한다면, 프로그램 각 조건의 하위 문장을 실행한다. `switch 문`은 아래와 같이 사용한다.
 
 ```javascript
 const browser = 'IE';
@@ -47,7 +47,7 @@ switch (browser) {
 
 #### 3\) condition ternary expression
 
-조건문에 속하는`if,` `else if`, `else`, `switch 문`은 조건에 해당될 경우 결과 값을 반환할 수 있었지만, 변수에는 담아서 사용할 수 없었다. 하지만 `조건 연산자(3항 연산자)`의 경우에는 조건식의 참\(true\)과 거짓\(false\)일 경우 내가 원하는 변수에 담아서 사용할 수 있다. 조건 연산자는 아래의 코드와 같이 사용한다.
+조건문에 속하는`if,` `else if`, `else`, `switch` 문은 조건에 해당될 경우 결과 값을 반환할 수 있었지만, 변수에는 담아서 사용할 수 없었다. 하지만 `조건 연산자(3항 연산자)`의 경우에는 조건식의 참\(true\)과 거짓\(false\)일 경우 내가 원하는 변수에 담아서 사용할 수 있다. 조건 연산자는 아래의 코드와 같이 사용한다.
 
 ```javascript
 // let 변수 = 조건 ? 값1 : 값2
@@ -72,20 +72,20 @@ let hour = Number((new Date()).getHours());
 
 JavaScript는 다음과 형태의 연산자가 있다.
 
-* 할당 연산자 \(Assignment operators\)
-* 비교 연산자 \(Comparison operators\)
-* 산술 연산자 \(Arithmetic operators\)
-* 비트 연산자\(Bitwise operators\)
-* 논리 연산자 \(Logical operators\)
-* 문자열 연산자 \(String operators\)
-* 조건 삼항 연산자 \(Conditional \(ternary\) operator\)
-* 쉼표 연산자 \(Comma operator\)
-* 단항 연산자\(Unary operators\)
-* 관계 연산자 \(Relational operators\)
+* **할당 연산자 \(Assignment operators\)**
+* **비교 연산자 \(Comparison operators\)**
+* **산술 연산자 \(Arithmetic operators\)**
+* **비트 연산자\(Bitwise operators\)**
+* **논리 연산자 \(Logical operators\)**
+* **문자열 연산자 \(String operators\)**
+* **조건 삼항 연산자 \(Conditional \(ternary\) operator\)**
+* **쉼표 연산자 \(Comma operator\)**
+* **단항 연산자\(Unary operators\)**
+* **관계 연산자 \(Relational operators\)**
 
 #### 1\) Assignment operators
 
-JavaScript에서는 = 연산자를 사용해 변수에 값을 할당한다. 할당 연산자의 결합 방향은 오른쪽에서 왼쪽이다.
+JavaScript에서는 `=`연산자를 사용해 변수에 값을 할당한다. 할당 연산자의 결합 방향은 오른쪽에서 왼쪽이다.
 
 ```javascript
 let x = 3;
