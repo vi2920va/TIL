@@ -139,3 +139,9 @@ for (const element of array1) {
 }
 ```
 
+#### Reference
+
+루프와 반복 \(Loops and iteration\) [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+codepen.io에서 무한 루프에 빠져 브라우저가 다운되는 경우 해결[ →\(SITE\)](https://blog.codepen.io/documentation/features/turn-off-javascript-in-previews/)
+
