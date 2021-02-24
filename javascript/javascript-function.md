@@ -1,6 +1,6 @@
 # JavaScript Function
 
-### 1. Function
+### 1. FUNCTION
 
 함수\(Function\)는 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미한다. 즉, 함수는 '절차'로 일을 할 때 거쳐야 하는 일한 차례와 방법이다.  
 
@@ -87,6 +87,16 @@ console.log(global);
 console.log(local); // Uncaught ReferenceError: local is not defined
 ```
 
+#### 6\) function hosting
+
+호이스팅을 함수 선언이 물리적으로 작성한 코드의 상단 옮겨지는 걸로 가르치지만 실제로는 그렇지 않다. **호이스팅\(hosting\)**은 함수의 선언 단계에서 메모리에 저장되지만, 코드에서 입력한 위치와 정확히 일치하는 곳에 있다. 그리고 함수 선언과 달리 **함수 표현식 익명 함수\(anonymous function\)는 변수에 할당하기 전에 사용할 수 없다.**
+
+#### 7\) scope chaining
+
+ **식별자\(Identifiers\)**를 찾는 일련의 과정을 말한다. 다시 말해서 **함수 내에서 선언되지 않는 변수를 사용할 경우** 함수 내에서 그 변수를 찾고, 그 다음에 매개변수에 찾고, 상위 영역으로 계속해서 이동해서 찾는다. 그 결과 변수가 선언된 걸 찾지 못하면 참조 오류를 발생한다.
+
+
+
 #### 6\) arrow function expression
 
  **화살표 표현식\(arrow function expression\)**은 `function` 표현에 비해 구문이 짧다. 화살표 함수는 항상 익명이다. 
@@ -106,7 +116,7 @@ singleParam => { statements }
 
 #### 7\) IIFE \(Immediately Invoked Function Expression\)
 
-즉시 실행 함수 표현\(Immediately Invoked Function Expression\)은 정의되자마자 즉시 실행되는 함수 이다.
+전역을 오염 시키지 않기 위해서 사용하는 방법으로 **IIFE** 패턴이 있다. 이는 전역 범위를 오염 시키는 것 뿐만 아니라 **IIFE** 내부 변수에 접근하는 것을 방지한다. 또한 **JavaScript 엔진은 함수를 즉시 해석해서 실행한다. IIFE에 변수를 할당하면 IIFE 자체가 저장되지 않고, 함수의 실행된 결과만 저장된다.**
 
 ```javascript
 (function () {
@@ -158,7 +168,15 @@ function myFun(a, b, ...manyMoreArgs) {
 myFun('one', 'two', 'three', 'four', 'five', 'six');
 ```
 
+#### Reference
 
+function declaration[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/function)
+
+function[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%ED%95%A8%EC%88%98)
+
+hosting [→\(MDN\)](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
+
+즉시 실행 함수 표현\(IIFE, Immediately Invoked Function Expression\)[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Glossary/IIFE)
 
 
 
