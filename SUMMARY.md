@@ -10,7 +10,7 @@
 * [브라우저와 동작 원리 \(2\)](internet/2.md)
 * [브라우저와 동작 원리 \(3\)](internet/3.md)
 * [DNS와 작동 원리](internet/dns-1.md)
-* [도메인 이름과 호스팅 정의](internet/undefined.md)
+* [도메인 이름과 호스팅](internet/undefined.md)
 
 ## HTML
 
