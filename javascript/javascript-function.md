@@ -95,6 +95,27 @@ console.log(local); // Uncaught ReferenceError: local is not defined
 
  **식별자\(Identifiers\)**를 찾는 일련의 과정을 말한다. 다시 말해서 **함수 내에서 선언되지 않는 변수를 사용할 경우** 함수 내에서 그 변수를 찾고, 그 다음에 매개변수에 찾고, 상위 영역으로 계속해서 이동해서 찾는다. 그 결과 변수가 선언된 걸 찾지 못하면 참조 오류를 발생한다.
 
+```javascript
+// 함수 내에 함수를 중첩할 경우 거슬러 올라가기 때문에 성능관점에서 좋지는 않다. 
+function a(d) {
+function a(d) {
+  var x = d; // x = 10
+  b(x + 10);
+
+  function b(y) { // y = 20, b가 실행될때 x는 10 이므로 +10을 해서 20이 되는 것이다.
+    c();
+
+    function c() {
+      var z = 3;
+      // 10 + 20 + 3 = 33, y는 선언된 적이 없으므로 매개변수 값을 가져온다.
+      console.log(x + y + z); 
+    }
+  }
+}
+
+a(10);
+```
+
 
 
 #### 6\) arrow function expression
