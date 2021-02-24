@@ -69,5 +69,3 @@ for (var prop in my_family) {
 }
 ```
 
-
-
