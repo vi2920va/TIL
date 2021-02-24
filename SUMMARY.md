@@ -68,6 +68,7 @@
 * [JavaScript Pass by value and Pass by reference](javascript/javascript-pass-by-value-and-pass-by-reference.md)
 * [JavaScript Loops and iteration](javascript/javascript-loops-and-iteration.md)
 * [JavaScript Function](javascript/javascript-function.md)
+* [JavaScript Array](javascript/javascript-array.md)
 
 ## Git
 
