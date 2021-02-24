@@ -60,6 +60,7 @@ var name = ["영희", "철수", "기철", "난희", "숙희"];
 for (let my_friends = [], i = 0; l = name.length, i < l; ++i) {
   my_friends[i] = name[i];
 }
+
 // 참조형 데이터 복사
 let y = {};
 for (var prop in my_family) {
