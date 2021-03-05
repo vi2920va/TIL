@@ -1,10 +1,10 @@
 # JavaScript intro
 
-### 1. JavaScript
+## JavaScript
 
 JavaScript는 **객체\(Object\)**기반의 스크립트 언어이다. HTML은 웹 문서 내용을 작성을 하고, CSS로는 웹을 디자인하며, JavaScript로는 웹의 동작을 구현한다. 
 
-#### 2. JavaScript Basic
+### 1. JavaScript Basic
 
 JavaScript에서는 명령을 **명령문\(statment\)**이라고 부르며, **세미콜론\(;\)**으로 구분된다.
 
