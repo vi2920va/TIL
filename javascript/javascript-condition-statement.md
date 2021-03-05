@@ -1,6 +1,6 @@
 # JavaScript Condition Statement and operators
 
-## CONDITION STATEMENT
+## Condition Statement
 
 특정 조건이 참\(true\)인 경우 실행하는 명령의 집합.
 
@@ -68,7 +68,7 @@ let hour = Number((new Date()).getHours());
 }
 ```
 
-### 2. OPERATOR
+### 2. Operators
 
 JavaScript는 다음과 형태의 연산자가 있다.
 
