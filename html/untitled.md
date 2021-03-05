@@ -1,10 +1,10 @@
 # HTML intro
 
-### HTML 정의
+## HTML 
 
 HTML\(Hyper Text Markup Language\)은 hyper text\(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것\) 기능을 가진 문서를 만드는 언어이다. 즉, 구조를 설계할 때 언어로 hyper link 시스템을 가지고 있으며, 흔히 말해서 웹 페이지를 위한 "**마크업 언어**"라고 한다.
 
-### HTML 용어
+### 1. HTML 용어
 
 ![HTML &#xC6A9;&#xC5B4;](../.gitbook/assets/grumpy-cat-small.png)
 
@@ -15,7 +15,7 @@ HTML\(Hyper Text Markup Language\)은 hyper text\(웹 페이지에서 다른 페
 | attribute | 속성은 요소의 성질 또는 특징을 정의하는 명세이다.  |
 | comments | 주석은 주로 개발자에게 코드를 설명하기 위해 사용되며 브라우저는 주석을 화면에 표시하지 않는다. |
 
-### HTML 기본 구조
+### 2. HTML 기본 구조
 
 HTML 문서는 기본적으 **HEAD영역**과 **BODY영역**으로  구분된다.
 
