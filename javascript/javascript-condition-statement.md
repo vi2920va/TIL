@@ -1,6 +1,6 @@
 # JavaScript Condition Statement and operators
 
-### 1. CONDITION STATEMENT
+## CONDITION STATEMENT
 
 특정 조건이 참\(true\)인 경우 실행하는 명령의 집합.
 
