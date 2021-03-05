@@ -102,6 +102,28 @@ let shallowCopy = misc.slice(); // [101, true]
 
 ###  2. 배열 요소에 접근
 
+배열의 인덱스는 0부터 시작한다. 즉, 배열의 첫 번째 요소는 0이고, 마지막 요소의 인덱스는 배열의 length - 1과 같다. 잘못된 인덱스를 사용하년 undefined를 반환한다. 
+
+```javascript
+let arr = ['item1','item2', 'item3'];
+console.log(arr[0]); // item1
+console.log(arr[arr.legnth - 1]); // item3
+```
+
+### 3. length 와 숫자형 속성의 관계
+
+배열의 내장 메서드 join, slice, indexOf 등은 호출 했을 때 배열의 length 속성 값을 참조한다.  length 속성은 직접 늘릴 수도 있고, length 속성을 감소시키면 요소를 제거하게 된다.
+
+### 4. 배열 타입
+
+ Array.isArray\(\) 라는 함수를 통해 특정 객체가 배열인지 여부를 판단할 수 있다.
+
+
+
+
+
+
+
 
 
 
