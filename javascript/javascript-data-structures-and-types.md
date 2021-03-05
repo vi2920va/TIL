@@ -1,6 +1,6 @@
 # JavaScript Data structures and types
 
-## Data Types
+### 1. Data Types
 
 최신 ECMAScript 표준은 7가지 데이터 유형을 정의한다.
 
