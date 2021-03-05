@@ -1,6 +1,6 @@
 # CSS intro
 
-### 1. CSS 정의
+## 1. CSS 
 
 CSS\(Cascading Style Sheets\)는 HTML 요소들이 각 종 미디어에서 어떻게 보이는가를 정의하는 데 사용하는 스타일 시트 언어\(style sheet language\)이다. 
 
