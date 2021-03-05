@@ -114,9 +114,7 @@ console.log(arr[arr.legnth - 1]); // item3
 
 배열의 내장 메서드 join, slice, indexOf 등은 호출 했을 때 배열의 length 속성 값을 참조한다.  length 속성은 직접 늘릴 수도 있고, length 속성을 감소시키면 요소를 제거하게 된다.
 
-### 4. 배열 타입
 
- Array.isArray\(\) 라는 함수를 통해 특정 객체가 배열인지 여부를 판단할 수 있다.
 
 
 
