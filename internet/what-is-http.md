@@ -2,13 +2,13 @@
 
 ![http://](../.gitbook/assets/s.svg)
 
-### HTTP 개요
+## HTTP 
 
 HTTP\([ **H**yer**T**ext **T**ransfer **P**rotocol](https://ko.wikipedia.org/wiki/HTTP)\)는 하이퍼텍스트 문서를 교환하기 위하여 사용된 통신 규약이다. 즉, 웹 **서버와 클라이언트 간의 통신하기 위한 통신 규약** 이다.
 
 HTTP는 웹에서만 사용 프로트콜로 TCP/IP 기반으로 한 지점에서 다른 지점\(서버와 클라이언트\)으로 요청과 응답을 전송한다.
 
-### HTTP 특징
+### 1. HTTP 특징
 
 * HTTP 메시지는 HTTP 서버와 HTTP 클라이언트에 의해서 해석이 된다.
 * TCP/IP를 이용하는 [응용 프로토콜\(application protocol\) ](https://ko.wikipedia.org/wiki/%EC%9D%91%EC%9A%A9_%EA%B3%84%EC%B8%B5)이다.
@@ -17,7 +17,7 @@ HTTP는 웹에서만 사용 프로트콜로 TCP/IP 기반으로 한 지점에서
 
 ![HTTP - request, response](../.gitbook/assets/image-1-.png)
 
-### **HTTP Request**
+### **2. HTTP Request**
 
 **클라이언트가 서버에게 연락하는 것을 요청\(request\)이라고 하며, 요청을 보낼 때에는 요청에 대한 정보를 담아 서버로 보낸다.**
 
@@ -49,7 +49,7 @@ HTTP는 웹에서만 사용 프로트콜로 TCP/IP 기반으로 한 지점에서
 | PUT | 자료의 수정을 요청할 때 사용 |
 | DELETE | 자료의 삭제를 요청할 때 사용 |
 
-### HTTP Response
+### 3. HTTP Response
 
 **서버가 요청에 대한 답변을 클라이언트에게 보내는 것**을 **응답\(reponse\)**이라고 한다.
 
@@ -72,7 +72,7 @@ header
   * 실제 응답 리소스 데이터
   * 201, 204dhk 같은 상태 코드\(status code\) 가진 응답에는 보통 body가 존재하지 않는다.
 
-### HTTP Status Code
+### 4. HTTP Status Code
 
 상태 코드\(status code\)는 모두 셋자리 숫자로 이루어져 있으며, 아래와 같이 크게 다섯 분류로 나눌 수 있다.
 
