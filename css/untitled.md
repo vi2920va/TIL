@@ -38,21 +38,20 @@ CSS는 웹 페이지의  스타일을 별도 파일을 저장할 수 있게 해�
 
 ### 3. CSS STYLING
 
-#### 1\) INLINE STYLE
+#### 1\) Inline style
 
- 인라인 스타일\(inline style\)은 HTML요소에 style 속성을 사용하여 CSS를 적용하는 방법.
+ 인라인 스타일은 HTML요소에 style 속성을 사용하여 CSS를 적용하는 방법.
 
 ```markup
-
 <body>
     <h2 style="color:green;">interal style sheet</h2>
 </body>
 
 ```
 
-#### 2\) INTERNAL STYLE SHEET
+#### 2\) Internal style shee
 
-내부 스타일 시트\(internal style sheet\)는 HTML 문서 내의 `<head>`요소 내에 `<style>` 요소를 사용하여 CSS 스타일을 적용하는 방법이다.
+내부 스타일 시트는 HTML 문서 내의 `<head>`요소 내에 `<style>` 요소를 사용하여 CSS 스타일을 적용하는 방법이다.
 
 ```markup
 <head>
@@ -72,7 +71,7 @@ CSS는 웹 페이지의  스타일을 별도 파일을 저장할 수 있게 해�
 </head>
 ```
 
-#### 3\) EXTERNAL STYLE SHEET
+#### 3\) External style sheet
 
 외부 스타일 시트\(external style sheet\)는 스타일을 적용할 웹 페이지의 `<head>` 요소에`<link>` 요소를 사용하여 외부 스타일 시트를 포함해야만 스타일이 적용된다. 
 
