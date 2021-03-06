@@ -1,6 +1,6 @@
 # JavaScript Pass by value and Pass by reference
 
-### 1. PASS BY VALUE
+### 1. Pass by value - 값 복사
 
 불변\(immutable\) 데이터 경우 그 값이 복사 된다. 변수에 할당된 값이 변경되었을 때, 다른 변수에 담긴 값이 변경되지 않았단 것은 값이 복사 되었음을 의미한다. 
 
@@ -25,7 +25,7 @@ d = !d;
 console.log(`d : ${d}, is_toggle_menu : ${is_toggle_menu}`);
 ```
 
-### 2. PASS BY REFERENCE
+### 2. Pass by reference - 값 참조
 
  가변\(mutable\) 데이터의 경우 그 값이 참조된다. 변수에 참조된 값이 변경되었을 때, 다른 변수에 담긴 값이 변경된다면 값이 참조되었음을 의미한다.
 
