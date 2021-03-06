@@ -14,7 +14,7 @@ CSS는 웹 페이지의  스타일을 별도 파일을 저장할 수 있게 해�
 
 외부 스타일 시트는 보통의 확장자 `.css`파일로 저장한다.
 
-### 2. CSS BASIC SYNTAX
+### 2. CSS Basic syntax
 
 ![css basic syntax](../.gitbook/assets/css-declaration-small.png)
 
