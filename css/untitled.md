@@ -18,25 +18,25 @@ CSS는 웹 페이지의  스타일을 별도 파일을 저장할 수 있게 해�
 
 ![css basic syntax](../.gitbook/assets/css-declaration-small.png)
 
-#### 1\) SELECTOR 
+#### 1\) 선택자\(Selector\) 
 
-선택자\(selector\)는 CSS를 적용하고자 하는 HTML 요소를 가리킨다.
+선택자는 CSS를 적용하고자 하는 HTML 요소를 가리킨다.
 
-#### 2\) DECLARATION
+#### 2\) 선언\(Declaration\) 
 
 선언부\(declaratives\)에는 하나 이상의 선언들은 세미콜론\(;\)으로 구분하여 포함할 수 있으며, 중괄호\({}\)를 사용하여 전체를 둘러싼다.
 
-각 선언\(declarartion\)은 CSS 속성명\(property name\)과 속성값\(property value\)을 가지며, 그 둘은 콜론\(:\)으로 연결된다. 이러한 CSS 선언은 언제나 마지막에 세미콜론\(;\)으로 끝낸다.
+각 선언은 CSS 속성명\(property name\)과 속성값\(property value\)을 가지며, 그 둘은 콜론\(:\)으로 연결된다. 이러한 CSS 선언은 언제나 마지막에 세미콜론\(;\)으로 끝낸다.
 
-#### 3\) PROPERTY NAME
+#### 3\) Property name
 
 선택한 HTML요소를 꾸밀 수 있는 방법.
 
-#### 4\) PROPERTY VALUE
+#### 4\) Property Value
 
 속성\(property\)과 오른쪽 콜론\(:\)뒤에 사용할 수 있는 값을 크기 단위 또는 색상 표현 단위 등 특정 단위로 지정한다.
 
-### 3. CSS STYLING
+### 3. CSS Styling
 
 #### 1\) Inline style
 
@@ -49,7 +49,7 @@ CSS는 웹 페이지의  스타일을 별도 파일을 저장할 수 있게 해�
 
 ```
 
-#### 2\) Internal style shee
+#### 2\) Internal style sheet
 
 내부 스타일 시트는 HTML 문서 내의 `<head>`요소 내에 `<style>` 요소를 사용하여 CSS 스타일을 적용하는 방법이다.
 
