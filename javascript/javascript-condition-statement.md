@@ -1,6 +1,6 @@
 # JavaScript Condition Statement and operators
 
-### 1. Condition Statement
+### 1. Condition Statement - 조건문
 
 특정 조건이 참\(true\)인 경우 실행하는 명령의 집합.
 
@@ -83,7 +83,7 @@ JavaScript는 다음과 형태의 연산자가 있다.
 * **단항 연산자\(Unary operators\)**
 * **관계 연산자 \(Relational operators\)**
 
-#### 1\) Assignment operators
+#### 1\) Assignment operators - 할당 연산자
 
 JavaScript에서는 `=`연산자를 사용해 변수에 값을 할당한다. 할당 연산자의 결합 방향은 오른쪽에서 왼쪽이다.
 
@@ -96,7 +96,7 @@ x *= y; // x = x * y
 x /= y; // x = x / y
 ```
 
-#### 2\) Comparison operators
+#### 2\) Comparison operators - 비교 연산자
 
 비교 연산자\(Comparison operators\)는 **두 피연산자 값에 따라 논리값을 반환한다**. 피연산자들은 숫자, 문자열, 객체를 사용할 수 있으며`==`, `!=`, `<=`, `>=`, `===`,`!==` 비교 연산자를 사용할 수 있다. 여기서 권장하는 비교 연산자는 엄격한 비교 연산자 `===`, `!==` 이다. 그 이유는 **JavaScript는 선언할 때 어떤 타입인지 신경 쓰지 않고, 프로그래밍의 동작할 때 할당된 값에 따라서 변경되기 때문이다.**
 
@@ -113,7 +113,7 @@ console.log(stringFive === numberFive);
 console.log(stringFive !== numberFive);
 ```
 
-#### 3\) Arithmetic operators
+#### 3\) Arithmetic operators - 산술 연산자
 
 기본적인 **산술 연산자\(Arithmetic operators\)**는 덧셈\(`+`\), 뺄셈\(`-`\), 곱셈\(`*`\),  나눗셈\(`/`\) 이다.
 
@@ -126,7 +126,7 @@ console.log(5 % 2); // remainder
 console.log(2 ** 3); // exponentiation
 ```
 
-#### 4\) Logical operators
+#### 4\) Logical operators - 논리 연산자
 
 | operators | usage | description |
 | :--- | :--- | :--- |
