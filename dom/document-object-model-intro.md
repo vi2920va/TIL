@@ -1,4 +1,4 @@
-# Document Object Model intro
+# BOM, DOM intro
 
 ### 1. Browser Object Model
 

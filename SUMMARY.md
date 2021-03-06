@@ -72,7 +72,8 @@
 
 ## DOM
 
-* [Document Object Model intro](dom/document-object-model-intro.md)
+* [BOM, DOM intro](dom/document-object-model-intro.md)
+* [Document Object](dom/document-object.md)
 
 ## Git
 
