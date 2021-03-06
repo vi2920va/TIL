@@ -70,6 +70,10 @@
 * [JavaScript Function](javascript/javascript-function.md)
 * [JavaScript Array](javascript/javascript-array.md)
 
+## DOM
+
+* [Document Object Model intro](dom/document-object-model-intro.md)
+
 ## Git
 
 * [Untitled](git/untitled.md)
