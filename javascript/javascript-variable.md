@@ -4,13 +4,13 @@
 
 JavaScript의 선언\(Declaration\)에는 var, let, const 세가지 키워드를 사용하는 방법이 있다.
 
-### 1. Variables
+### 1. 변수\(Variables\)
 
 변수\(Variable\)는 메모리에 데이터를 저장하기 위한 기억 공간을 의미한다. 즉, 데이터를 담아 놓는 그릇이라고 생각하면 된다. 또한 변수에 담긴 데이터는 필요에 따라 수시로 데이터를 변경 시킬 수 있다.
 
-#### 1\) **Variable Declaration**
+#### 1\) 변수 선언\(**Variable declaration\)**
 
-JavaScript에서 **변수 선언\(Variable Declaration\)**은 `var`, `let`, `const` 세가지 키워드를 사용하는 방법이 있다.
+JavaScript에서 **변수 선언\(Variable declaration\)**은 `var`, `let`, `const` 세가지 키워드를 사용하는 방법이 있다.
 
 ```javascript
 // var 변수명 = 할당 값;
@@ -27,7 +27,7 @@ console.log(currentYear);
 console.log(z);
 ```
 
-#### 2\) V**ariable Assignment**
+#### 2\) 변수 할당\(V**ariable assignment\)**
 
 변수에 값을 대입하는 것을 "**변수에 할당한다.**" 는 의미이다.
 
@@ -41,7 +41,7 @@ console.log('x:', x);
 console.log('y:', y);
 ```
 
-#### 3\)  Variable Scope
+#### 3\)  변수 범위\(Variable Scope\)
 
 변수의 범위를 '**스코프\(Scope\)'** 라고 부른다.
 
@@ -83,7 +83,7 @@ y9.getPhone = function () {
 };
 ```
 
-#### 4\) Variable Hoisting
+#### 4\) 변수 호이스팅\(Variable hoisting\)
 
 **호이스팅\(Hosting\)**은 변수의 정의가 그 스코프에 따라 선언과 할당으로 분리되는 것은 의미한다. 선언 부분이 해당 스코프의 최상위로 변경된다.
 
@@ -102,7 +102,7 @@ function message(){
 }
 ```
 
-#### 5\) I**dentifier**
+#### 5\) 식별자\(I**dentifier\)**
 
  변수 또는 함수의 이름을 작성할 때 사용하는 이름을 '**식별자\(Identifier\)**' 라고 하며, 식별자는 규칙을 갖는다.
 
