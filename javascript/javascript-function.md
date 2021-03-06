@@ -5,7 +5,7 @@
 함수\(Function\)는 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미한다. 즉, 함수는 '절차'로 일을 할 때 거쳐야 하는 일한 차례와 방법이다.  
 
 
-#### 1\) function declaration
+#### 1\) 함수 선언\(Function declaration\)
 
 **함수 선언\(function declaration\)**은 지정된 매개변수\(parameter\)를 갖는 함수를 정의한다. 
 
@@ -25,7 +25,7 @@ function name([param[, param,[..., param]]]) { [statements] }
 
 함수의 몸통\(body\)을 구성하는 문\(statement\).
 
-#### 2\)  function expression
+#### 2\)  함수 표현식\(function expression\)
 
 **함수 표현식\(function expression\)**은 함수를 정의할 때 이름을 정해주지 않으면 익명 함수\(anonymous function\)가 된다. 그러므로 변수에 참조 시켜야 한다. 
 
@@ -41,7 +41,7 @@ const printAgain = print;
 printAgain();
 ```
 
-#### 3\) calling function
+#### 3\) 함수 호출\(calling function\)
 
 함수를 정의하는 것은 함수를 실행하는 것은 아니다. 함수를 정의하는 것은 간단히 함수의 이름을 지어주고, 함수가 호출될 때 무엇을 할지 지정해주는 것이다.  사실 함수를 호출하는 것은 나타나있는 매개변수를 가지고 지정된 행위를 수행하는 것이다. 
 
@@ -69,7 +69,7 @@ function processUserInput(callback) {
 processUserInput(greeting);
 ```
 
-#### 5\) function scope
+#### 5\) 함수의 범위\(function scope\)
 
 **함수의 범위\(function scope\)**는 함수 코드 블록 내에서 선언된 변수는 함수 코드 블럭 내에서만 유효하고 함수 외부에서는 유효하지 않다\(참조할 수 없다\). 즉, 함수 안에서 변수를 정의하면 함수 안에서 접근할 수 없다.
 
@@ -87,11 +87,11 @@ console.log(global);
 console.log(local); // Uncaught ReferenceError: local is not defined
 ```
 
-#### 6\) function hosting
+#### 6\) 함수 호이스팅\(function hosting\)
 
 호이스팅을 함수 선언이 물리적으로 작성한 코드의 상단 옮겨지는 걸로 가르치지만 실제로는 그렇지 않다. **호이스팅\(hosting\)**은 함수의 선언 단계에서 메모리에 저장되지만, 코드에서 입력한 위치와 정확히 일치하는 곳에 있다. 그리고 함수 선언과 달리 **함수 표현식 익명 함수\(anonymous function\)는 변수에 할당하기 전에 사용할 수 없다.**
 
-#### 7\) scope chaining
+#### 7\) 스코프 체이닝\(scope chaining\)
 
  **식별자\(Identifiers\)**를 찾는 일련의 과정을 말한다. 다시 말해서 **함수 내에서 선언되지 않는 변수를 사용할 경우** 함수 내에서 그 변수를 찾고, 그 다음에 매개변수에 찾고, 상위 영역으로 계속해서 이동해서 찾는다. 그 결과 변수가 선언된 걸 찾지 못하면 참조 오류를 발생한다.
 
@@ -116,11 +116,9 @@ function a(d) {
 a(10);
 ```
 
+#### 6\) 화살표 함수 표현식\(arrow function expression\)
 
-
-#### 6\) arrow function expression
-
- **화살표 표현식\(arrow function expression\)**은 `function` 표현에 비해 구문이 짧다. 화살표 함수는 항상 익명이다. 
+ **화살표 함수 표현식\(arrow function expression\)**은 `function` 표현에 비해 구문이 짧다. 화살표 함수는 항상 익명이다. 
 
 ```javascript
 // Same as following :  => { return expression; }
