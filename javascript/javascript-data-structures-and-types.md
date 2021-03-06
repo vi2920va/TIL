@@ -28,7 +28,7 @@ let x;
 console.log(`value : ${x}, type : ${typeof x}`);
 ```
 
-### 2. Data type conversion
+### 2. Data type conversion - 자료형 변
 
 JavaScript는 동적 형지정\(정형\) 언어이다. 이는 변수를 선언할 때 데이터 형을 지정할 필요가 없음을 의미한다. 또한 데이터 형이 스크립트 실행 도중 필요에 의해 자동으로 변환됨을 뜻한다.
 
