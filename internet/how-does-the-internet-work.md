@@ -2,7 +2,7 @@
 
 ![internet](../.gitbook/assets/.png.png)
 
-## INTERNET 
+##   INTERNET 
 
 인터넷\(internet\)은 웹의 핵심적인 기술로써 **컴퓨터를 서로 연결하여 TCP/IP라는 통신 프로트콜을 이용해 정보를 주고 받는 컴퓨터 네트워크** 이다.
 
