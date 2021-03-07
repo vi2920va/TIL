@@ -1,10 +1,10 @@
 # CSS typography
 
-### 1. TYPHOGRAPHY
+### 1. Typhography
 
 타이포그래피\(typhography\)는 글자와 문단의 속성을 제어한다.
 
-### 2. FONT PROPETIES
+### 2. font properties
 
 #### 1\) font-family
 
@@ -32,7 +32,7 @@ font-weight 텍스를 얼머나 두껍게 표현할지 설정한다. 사용할 �
 
 `font-size`속성은 텍스트의 크기를 설정한다.
 
-### 3. TEXT PROPETIES
+### 3. text properties
 
 #### 1\) line-height
 

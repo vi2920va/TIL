@@ -1,12 +1,12 @@
 # CSS box-model
 
-### 1. BLOCK BOX
+### 1. block box
 
 **block box**는 다른 블록 박스에 포함되거나, 포함할 수 있고, `width`, `height` **설정이 가능** 하다.
 
  내부에 콘텐츠를 포함하지 않을 경우 **높이는 0** 이다.
 
-### 2. INLINE BOX
+### 2. inline box
 
 **인라인 박스\(inline box\)**는 다른 인라인 박스에 포함되거나, 포함할 수 있지만, **블록 요소는 포함할 수 없다.**
 
@@ -14,11 +14,11 @@
 
 인라인 박스는 좌, 우 방향으로 `margin`, `padding` 공간을 설정 할 수 있으나 상,하 방향으로는 공간이 설정 되지 않는다.
 
-### 3.  INLINE BLOCK BOX
+### 3.  inline block box
 
   **inline block box**는 기본적으로는 인라인처럼 화면에 렌더링되지만, 블록 박스처럼 `width` , `height` 설정이 가능하다. `<img>, <input>, <button> 등`
 
-### 4. CONTENT/PADDING/BORDER/MARGIN
+### 4. content/padding/border/margin
 
 ![css - box model](../.gitbook/assets/box-1-.jpg)
 
@@ -31,7 +31,7 @@
 | `border` | 내용, 패딩 주변은 감싸는 테두리 |
 | `marigin` | 테두리 외부의 요소 주위에 공간을 만드데 사용  |
 
-### 5. HEIGHT/WIDTH
+### 5. height/width
 
  `height`및 `width`속성은 요소의 높이와 폭을 설정하는데 사용한다.
 
@@ -43,7 +43,7 @@
 | `initial` | width, height를 기본값으로 설정한다. |
 | `inherit`  | width, height를  부모 값에서 상속 받는다. |
 
-### 6. BOX-SIZING
+### 6. box-sizing
 
 `box-sizing` 속성은 적용되는 요소에 대해 box model이 처리되는 방법을 제어한다.
 
@@ -58,7 +58,7 @@
 | `width` | `width`**+** `padding-left` **+** `padding-right` **+** `border-left` **+** `border-right` |
 | `height` | `height`**+** `padding-top` **+** `padding-bottom` **+** `border-top` **+** `border-bottom` |
 
-#### 2\) conent-box/ border-box
+#### 2\) content-box/ border-box
 
 <table>
   <thead>
@@ -69,7 +69,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><code>content-box</code>(defalut)</td>
+      <td style="text-align:left"><code>content-box</code>(default)</td>
       <td style="text-align:left">
         <p>&#xAE30;&#xBCF8;&#xAC12;&#xC73C;&#xB85C; <code>width</code> ,<code>height</code>&#xC18D;&#xC131;&#xC774;
           &#xCF58;&#xD150;&#xCE20; &#xC601;&#xC5ED;&#xB9CC; &#xD3EC;&#xD568;&#xD55C;&#xB2E4;.</p>
