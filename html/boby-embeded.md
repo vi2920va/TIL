@@ -1,6 +1,6 @@
 # BOBY : embeded elements
 
-### 1. EMBEDED ELEMENTS
+### 1. Emebeded elements
 
 HTML 문서에 끼워 넣는\(embeded\) 이미지, 비디오, 웹 사이트, 이미지맵, SVG 벡터 그래픽 같은 콘텐츠 요소들
 
