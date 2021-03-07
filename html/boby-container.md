@@ -1,6 +1,6 @@
 # BOBY : container elements
 
-### 1 . smeantic element  
+### 1 . Smeantic element  
 
 HTML 요소는  시맨틱 하지 않는 요소\(non semantic element\)와 시맨틱한 요소\(smeantic elements\) 두 가지로 나뉜다. 그중에서도 **시맨틱 요소**는 그 요소의 의미를 브라우저와 개발자 모두에게 명확하게 설명하는 역할을 한다.   
 

@@ -4,11 +4,11 @@
 
 HTML 문서에 끼워 넣는\(embeded\) 이미지, 비디오, 웹 사이트, 이미지맵, SVG 벡터 그래픽 같은 콘텐츠 요소들
 
-#### 1\) IMG ELEMENT
+#### 1\) &lt;img&gt; element
 
 HTML 문서에 이미지를 포함\(링크\)
 
-#### ① IMG ELEMENT -  ATTRIBUTES
+#### ① &lt;img&gt; element -  attributes
 
 <table>
   <thead>
@@ -118,7 +118,7 @@ HTML 문서에 이미지를 포함\(링크\)
 
 
 
-#### 2\) PICTURE ELEMENT 
+#### 2\) &lt;picture&gt; element 
 
 `<picture>`요소는 다양한 스크린 환경\(스마트폰, 데스크탑, TV 등\)에 맞는 이미지를 화면에 적절하게 표시해 주기 위해 사용한다. 이 요소를 사용할 때에는 1개 이상의 `<img>`를 포함하는 요소와 `<picture>`요소의 자식으로 0개 이상의`<source>`요소가 필요에 따라 사용할 수 있다.
 
@@ -138,7 +138,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </picture>
 ```
 
-#### 3\) SOURCE ELEMENT 
+#### 3\) &lt;source&gt; element 
 
 `<picture>, <audio>, <video>` 요소의 다중 미디어 리소스를 지정하기 위해 사용
 
@@ -152,11 +152,11 @@ HTML 문서에 이미지를 포함\(링크\)
 </video>
 ```
 
-#### 4\) VIDEO ELEMENT 
+#### 4\) &lt;video&gt; element 
 
 동영상 콘텐츠를 HTML 문서에 포함하기 위해서 사용한다. src 속성이나 `<socurce>`요소를 이용해 여러 개의 동영상 소소 중 하나를 표시.
 
-#### ① VIDEO ELEMENT - ATTRIBUTES
+#### ① &lt;video&gt; element - attributes
 
 <table>
   <thead>
@@ -236,11 +236,11 @@ HTML 문서에 이미지를 포함\(링크\)
 </video>
 ```
 
-#### 5\) AUDIO ELEMENT 
+#### 5\) &lt;audio&gt; element 
 
 `<audio>`요소도 `<video>`요소와 유사하게 사용된다.
 
-#### ① AUDIO ELEMENT - ATTRIBUTES
+#### ① &lt;audio&gt; element - attributes
 
 <table>
   <thead>
@@ -313,7 +313,7 @@ HTML 문서에 이미지를 포함\(링크\)
 </audio>
 ```
 
-#### 6\) TRACK ELEMENT 
+#### 6\) &lt;track&gt; element 
 
 `<track>`요소는 비디오 또는 오디오 재생 시에 자막을 표시하도록 해주는 요소로 `default`속성을 설정하지 않을 경우에는 자막을 사용 하지 않는다.
 
@@ -329,11 +329,11 @@ HTML 문서에 이미지를 포함\(링크\)
 </audio>
 ```
 
-#### 7\) IFRAME ELEMENT 
+#### 7\) &lt;iframe&gt; element 
 
 인라인 프레임\(inline frame\)에 다른 HTML 페이지를 포함하여 화면에 표시.
 
-#### ①  IFRAME ELEMENT - ATTRIBUTES
+#### ①  &lt;iframe&gt; element - attributes
 
 <table>
   <thead>
@@ -414,7 +414,7 @@ HTML 문서에 이미지를 포함\(링크\)
 	width="600" height="450" style="border: 0" allowfullscreen></iframe>
 ```
 
-#### 8\) MAP ELEMENT 
+#### 8\) &lt;map&gt; element 
 
 이미지 맵\(클릭 가능한 링크 영역\)을 정의하기 위해 `<area>`요소와 함께 사용한다.
 
@@ -425,11 +425,11 @@ HTML 문서에 이미지를 포함\(링크\)
 </map>
 ```
 
-#### 9\) AREA ELEMENT 
+#### 9\) &lt;area&gt; element 
 
 이미지의 핫스팟 지역 정의, 하이퍼링크 설정, `<map>`요소 내부에서만 사용 가능하다.
 
-#### ①  AREA ELEMENT - ATTRIBUTES
+#### ①  &lt;area&gt; element - attributes
 
 <table>
   <thead>
@@ -538,7 +538,7 @@ HTML 문서에 이미지를 포함\(링크\)
   </tbody>
 </table>
 
-#### 10\) SVG ELEMENT 
+#### 10\) &lt;svg&gt; element 
 
 확장 가능한 벡터 그래픽\(SVG\)은 2차원의 벡터 그래픽을 기술하기 위한 XML 마크업 언어.
 
