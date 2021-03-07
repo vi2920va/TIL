@@ -1,6 +1,6 @@
 # BOBY : heading, paragraph, anchor elements
 
-### Headings elements
+### &lt;h1&gt; ~ &lt;h6&gt; 제목\(Heading\) elements
 
 `<h1>`~ `<h6>` 레벨 요소는 HTML 문서에 제목\(heading\)을 정의할 때 사용한다.  제목의 레벨 숫자가 높아질 수록 중요성 떨어진다.
 
@@ -13,7 +13,7 @@
 <h6>This is heading 6</h6> 
 ```
 
-### Paragraph element
+### &lt;p&gt; 단락\(Paragraph\) element
 
 HTML 문서에서 문자의 단락을 표현하기 `<p>` 요소를 사용한다. 새로운 문장을 작성 할 경우 `<p>` 요소를 새로 선언해야 한다.
 
@@ -21,9 +21,7 @@ HTML 문서에서 문자의 단락을 표현하기 `<p>` 요소를 사용한다.
 <p> This is normal text - <b> and this is p text. </b> </p>
 ```
 
-### Anchor element
-
-
+### &lt;a&gt; Anchor element
 
 페이지 내 링크 이동 또는 다른 페이지로 이동하기 위해서는 `<a>`요소를 사용하여 `<a>`요소 내부에 `href` 속성을 사용하여 주소를 설정한다.
 
