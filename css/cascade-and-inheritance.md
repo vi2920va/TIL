@@ -1,6 +1,6 @@
 # CSS cascade and Inheritance
 
-### 1.INHERITANCE
+### 1.**Inheritance**
 
 **상속 \(Inheritance\)**은 상위\(부모, 조상\) 요소에 적용된 프로퍼티를 하위\(자식, 자손\) 요소가 물려 받는 것을 의미한다.
 
@@ -94,9 +94,7 @@ li:first-child a {
 {% endtab %}
 {% endtabs %}
 
-
-
-### 2. CASCAING
+### 2. Cascading
 
 요소 하나 이상의 CSS 선언에 영향을 받을 수 있다. 이때 충돌을 피하기 위해  CSS 적용 우선 순위 필요하다. 이를 **캐스케이딩 \(Cascading\)** 이라고 한다.
 
@@ -146,9 +144,7 @@ style="color:tan"         -- 1000
 
 **중요성, 우선 순위**가 설정되지 않았거나, 동일한 경우 나중에 나온 소스의 스타일이 우선권을 가진다.
 
-
-
-### Reference <a id="reference"></a>
+#### Reference
 
 Cascade and inheritance [→\(MDN\)﻿](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 

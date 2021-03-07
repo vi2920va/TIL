@@ -1,6 +1,6 @@
 # CSS selector
 
-### 1. BASIC SELECTOR
+### 1. Basic selectors
 
 #### 1\) Universal selector
 
@@ -39,7 +39,7 @@
 | `[attributename$="value"]` | attribute name 속성의 값이 value로 끝나는 요소를 선택한다. |
 | `[attributename*="value"]` | attribute name 속성의 값이 value를 포함한 요소를 선택한다 |
 
-### 2. GROUPING SELECTOR 
+### 2. Grouping selector 
 
 #### 1\) Selector list
 
@@ -52,7 +52,7 @@ span {
 }
 ```
 
-### 3. COMBINATOR
+### 3. Combinator
 
 연결자\(combinator\)는 연관된 선택자들의 관계를 설정한다.  CSS는 하나 이상의 선택자를 포함할 수 있다.
 
@@ -131,7 +131,7 @@ li a {
 }
 ```
 
-### 4. PSEUDO <a id="reference"></a>
+### 4. 가상\(Pseudo\)  <a id="reference"></a>
 
 #### 1\) Pseudo classes
 

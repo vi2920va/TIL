@@ -28,11 +28,11 @@ CSS는 웹 페이지의  스타일을 별도 파일을 저장할 수 있게 해�
 
 각 선언은 CSS 속성명\(property name\)과 속성값\(property value\)을 가지며, 그 둘은 콜론\(:\)으로 연결된다. 이러한 CSS 선언은 언제나 마지막에 세미콜론\(;\)으로 끝낸다.
 
-#### 3\) Property name
+#### 3\) 속성명\(Property name\)
 
 선택한 HTML요소를 꾸밀 수 있는 방법.
 
-#### 4\) Property Value
+#### 4\) 속성값\(Property value\)
 
 속성\(property\)과 오른쪽 콜론\(:\)뒤에 사용할 수 있는 값을 크기 단위 또는 색상 표현 단위 등 특정 단위로 지정한다.
 
