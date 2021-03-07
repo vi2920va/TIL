@@ -1,16 +1,16 @@
 # BOBY : grouping elements
 
-### 1. GROUPING ELEMENT
+### 1. Grouping element
 
 grouping content는 무엇인가를 감싸는데 경우에 사용된다. 
 
-#### 1\) GROUPING ELEMENTS
+#### 1\) grouping elements
 
 감싸는 그룹핑 요소들
 
 * `<main>, <blockquote>, <p>, <ul>, <ol>, <li>, <dl>, <dt>, <dd>, <figure>, <ficaption>, <address>, <pre>`
 
-#### ① PRE ELEMENTS
+#### ① &lt;pre&gt; element
 
 * 지정된 텍스트 서식 보존 요소\(pre formatted text, preserved text\)코드의 공백 또는 줄바꿈 등의 공백, 여백 등을 보존하도록 해주는 요소.
 * 이메일, 빈 줄이 표시된 단락, 글 머리표가 붙은 줄로 표시된 목록 등에 사용.
