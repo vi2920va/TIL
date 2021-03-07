@@ -1,10 +1,10 @@
 # FORMS : button, select, option, optgroup elements
 
-### 1. BUTTON ELEMENT
+### 1. &lt;button&gt; element
 
 `<button>` 요소는 클릭할 수 있는 버튼을 정의할 때 사용한다.
 
-#### 1\) BUTTON ELEMENT - ATTRIBUTES
+#### 1\) &lt;button&gt; element - ATTRIBUTES
 
 <table>
   <thead>
@@ -156,9 +156,9 @@
   </tbody>
 </table>
 
-#### 2\) BUTTON 접근성 고려사항
+#### 2\) &lt;button&gt; 접근성 고려사항
 
-#### 📝**icon BUTTON**
+#### 📝**icon &lt;**button&gt;
 
 아이콘만 사용해 기능을 표현하는 버튼은 접근 가능한 이름을 갖지 않는다.
 
@@ -188,7 +188,7 @@
 
 간격은 `margin`과 같은 CSS 속성으로 설정할 수 있다.
 
-### 2. SELECT ELEMENT
+### 2. &lt;select&gt; element
 
 `<select>` 요소는 옵션 메뉴를 제공하는 드롭다운 리스트\(drop down list\)를 정의할 때 사용한다.
 
@@ -209,7 +209,7 @@
 </select>
 ```
 
-#### 1\) SELECT ELEMENT - ATTRIBUTES
+#### 1\) &lt;select&gt; element - attributes
 
 | attribute | attribute value | description | spec |
 | :---: | :---: | :---: | :---: |
@@ -221,13 +221,13 @@
 | `required` | required | 폼 데이터가 서버로 제출되기 전 사용자가 반드시 드롭다운 리스트의 값을 선택해야 함을 명시. | HTML5 |
 | `size` | number | 드롭다운 리스트에서 한 번에 보일 옵션의 개수를 명시. |  |
 
-### 3. OPTION ELEMENT <a id="reference"></a>
+### 3. &lt;option&gt; element <a id="reference"></a>
 
 `<option>`요소는 옵션 메뉴를 제공라는 드롭 다운 리스트에서 사용되는 하나의 옵션을 정의할 때 사용한다.이러한 `<option>`요소는 `<select>`요소 또는 `<datalist>`요소 내부에서만 위치할 수 있다.
 
 `<option>`요소는 아무런 속성도 명시하지 않은 채 사용할 수 있지만, 서버로 제출되는 값을 명시하는 `value` 속성은 명시하는 것이 일반적이다. 만약 옵션의 개수가 많다면 `<optgroup>`요소를 사용하여 관련된 옵션들을 좀 더 보기 좋게 서로 묶어준다.
 
-#### 1\) OPTION ELEMENT - ATTRIBUTES
+#### 1\) &lt;option&gt; element - attributes
 
 | attribute | attribute value | description |
 | :---: | :---: | :---: |
@@ -236,20 +236,20 @@
 | `selected` | selected | 페이지가 로드될 때 옵션 중에서 미리 선택되어는지 옵션을 명시. |
 |  `value` | value | 해당 옵션이 선택될 때 서버로 제출되는 값을 명시. |
 
-### 4. OPTGROUP ELEMENT <a id="reference"></a>
+### 4. &lt;optgroup&gt; element <a id="reference"></a>
 
 `<optgroup>`요소는 옵션 메뉴를 제공하는 드롭다운 리스트에서 사용되는 옵션들의 그룹을 정의할 때 사용한다.
 
 드롭다운 리스트에서 옵션의 수가 많을 경우 `<optgroup>` 요소를 사용하여 관련된 옵션끼리 각각의 그룹으로 묶어주면 사용자가 좀 더 쉽게 드롭다운 리스트를 사용할 수 있다.
 
-#### 1\) OPTGROUP ELEMENT - ATTRIBUTES
+#### 1\) &lt;optgroup&gt; element - attribute
 
 | attribute | attribute value | description |
 | :---: | :---: | :---: |
 | `disabled` | disabled | 해당 옵션이 비활성됨을 명시. |
 | `label` | text | 해당 옵션의 라벨\(label\)을 명시. |
 
-### Reference  <a id="reference"></a>
+#### Reference 
 
 button element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/button)
 
