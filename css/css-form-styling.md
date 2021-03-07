@@ -1,6 +1,6 @@
 # CSS form styling
 
-### 1. FORM STYLING
+### 1. form styling
 
 사용자가 입력된 내용의 상태를 이해하고 대처할 수 있도록 고려하여 설계해야 한다.
 
