@@ -1,6 +1,6 @@
 # HEAD :  title, base, style elements
 
-### 1. HEAD ElEMENTS
+### 1. &lt;head&gt; elements
 
  `<head>` 요소는 해당 문서에 대한 정보인 메타 데이터\(meta data\)의 집합을 정의할 때 사용한다.
 
@@ -9,7 +9,7 @@
 * `<title>`, `<style>`,`<base>`,`<link>`, `<meta>`, `<script>`, `<noscript>`
 * `<script>`,`<noscript>` 요소는 `<head>` 뿐만 아니라 `<body>` 요소에 포함 시킬 수 있다.
 
-#### 1\) TITLE ELEMENT
+#### 1\) &lt;title&gt; element
 
 `<title>` 요소는 해당 문서의 제목\(title\)을 정의할 때 사용한다.
 
@@ -21,7 +21,7 @@
 
 만약 `<title>` 요소가 존재하지 않으면, 해당 문서는 HTML 유효성 검사를 통과하지 못한다.
 
-#### 2\) BASE ELEMENT
+#### 2\) &lt;base&gt; element
 
  `<base>` 요소는 문서의 모든 상대 주소\(relative URL\)에 대한 기본 URL\(base URL\)과 `target` 속성 값을 정의할 때 사용한다.
 
@@ -41,7 +41,7 @@
 </body>
 ```
 
-#### 3\) STYLE ELEMENT
+#### 3\) &lt;style&gt; element
 
 이 요소는 HTML 문서의 스타일 정보를 정의 할 때 사용한다.
 

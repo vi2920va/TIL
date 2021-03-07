@@ -1,16 +1,16 @@
 # ATTRIBUTES : user interaction attributes
 
-### 1. USER INTERACTION - ATTRIBUTES
+### 1. User interaction - attributes
 
  사용자와 상호작용\(interaction\)할 수 있도록 만들어 주는 속성.
 
-#### 1\) HIDDEN - ATTRIBUTE
+#### 1\) hidden - attribute
 
 모든 HTML 요소들은 `hidden` 속성을 가질 수 있으며, 요소에 설정되면 요소가 아직 페이지의 현재 상태와 직적적으로 관련이 없거나 페이지 다른 부분에서 내용을 재사용하도록 선언하는데 사용한다. 브라우저는 `hidden` 속성이 설정된 요소르르 화면에 렌더링 하지 않으므로 이 속성이 정의된 요소는 화면에 감춤 처리하게 된다.
 
 * `hidden` 속성을 처리하는 것은 브라우저 단에서는 CSS의 `display: none` 설정과 큰 차이가 없다.
 
-#### 2\) TABINDEX - ATTRIBUTE
+#### 2\) tabindex - attribute
 
 `tabindex` 속성은 키보드로 탐색할 수 있도록 설정하거나, 제외 또는 순서대로 탐색할 수 있도록 설정할 수 있다. 이는 접근성 관점에서 매우 중요한 사항이다. 예를 들어 마우스를 사용할 수 없는 사용자가 키보드를 사용해서 웹 페이지를 이용할 떼 주로 "**Tab key**"'를 사용하게 된다.
 
@@ -49,7 +49,7 @@
 
 ```
 
-#### 3\) ACCSSKEY - ATTRIBUTE
+#### 3\) accskey - attribute
 
 `accskey`속성을 사용하면 단축키를 통해서 액션을 연결 시킬 수 있다. 즉 , 단축키를 지정해주는 것이다. 모든  HTML 요소는 `accsskey` 속성을 가질 수 있으며, 속성 값은 키보드 단축키로 설정된다. 하지만 `accsskey` 속성의 단축키는 브라우저와 운영체제 플랫폼에 의존하고 있어 운영체제마다 사용자 경험이 달라진다. 쉽게 말해서 windows  사용자와 Mac OSX 사용자가 사용자가 사용하는 단축키는 달라진다. 
 
@@ -76,11 +76,11 @@
 
 ```
 
-#### 4\) CONTETEDITABLE - ATTRIBUTE
+#### 4\) contentditable - attribute
 
-기본적으로 HTML 요소들은 편집이 불가능 하지만 `contenteditable` 속성이 설정된 요소는 사용자가 직접 편집할 수 있도록 만들어 줄 수 있다. 값이 `true` 또는 빈 문자열\(`""`\)일 경우 편집을 허용하게 되고, 값이 fasle일 경우 편집을 허용하지 않는다. 예를 들어 사용자가 어떠한 위젯의 콘텐츠를 수정할 수 있는 권한을 주고하 할 때 내용을 수정할 수 있도록 해줄 수 있다.
+기본적으로 HTML 요소들은 편집이 불가능 하지만 `contenteditable` 속성이 설정된 요소는 사용자가 직접 편집할 수 있도록 만들어 줄 수 있다. 값이 `true` 또는 빈 문자열\(`""`\)일 경우 편집을 허용하게 되고, 값이 false일 경우 편집을 허용하지 않는다. 예를 들어 사용자가 어떠한 위젯의 콘텐츠를 수정할 수 있는 권한을 주고하 할 때 내용을 수정할 수 있도록 해줄 수 있다.
 
-#### 5\) DRAGGABLE -  ATTRIBUTE
+#### 5\) draggable -  attribute
 
  모든 HTML 요소는 `draggable` 속성을 가질 수 있다. 값이 `true`일 경우 드래그\(drag\) 가능하고, 값이 `false` 또는 빈 문자열\(`""`\)이면 드래그가 불가능 하다.
 
