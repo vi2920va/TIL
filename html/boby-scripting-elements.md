@@ -1,10 +1,10 @@
 # BOBY : script, noscript elements
 
-### 1.  SCRIPT ELEMENT
+### 1.  &lt;script&gt; element
 
 JavaScript 코드 또는 파일을 HTML 문서에 작성하거나, 연결할 때 사용한다.
 
-#### 1\) SCRIPT ELEMENT -ATTRIBUTES
+#### 1\) &lt;script&gt; element - attributes
 
 <table>
   <thead>
@@ -80,7 +80,7 @@ JavaScript 코드 또는 파일을 HTML 문서에 작성하거나, 연결할 때
 <script src="js/app.js"></script>
 ```
 
-### 2. NOSCRIPT ELEMENT
+### 2. &lt;noscript&gt; element
 
 사용자의 웹 브라우저 환경에서 스크립트를 지원되지 않거나, 스크립트가 꺼져있는 경우, 문서에 표시될 문구를 삽입한다.
 
