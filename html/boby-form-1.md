@@ -1,12 +1,12 @@
 # FORMS : form, input, label elements
 
-### 1. FORM ELEMENT
+### 1. &lt;form&gt; element
 
 웹 페이지의 컴포넌트를 말하며 사용자와 인터랙션을 수행한 결과를 서버로 보낼 수 있다.
 
 즉, 사용자 정보를 서버로 제출하기 위한 **대화형 컨트롤**을 포함하는 문서 구획을 나타낸다.
 
-#### 1\) FORM  ELEMENT - ATTRIBUTES 
+#### 1\) &lt;form&gt;  element - attributes 
 
 <table>
   <thead>
@@ -113,13 +113,13 @@
   </tbody>
 </table>
 
-### 2. INPUT ELEMENT
+### 2. &lt;input&gt; element
 
 `<input>`요소는 사용자로 부터 입력을 받을 수 있는 입력 필력\(input fileld\)를 정의할 때 사용한다.
 
 `<input>`요소는 사용자가 데이터를 입력할 수 있는 입력 필드를 선언하기 위해 `<form>` 요소 내부에서 사용된다.
 
-#### 1\) INPUT ELEMENT - TYPE
+#### 1\) &lt;input&gt; element - type
 
  `<input>` 요소의 `type` 속성값을 달리함으로써 여러가지 모양으로 나타낼 수 있다.
 
@@ -148,7 +148,7 @@
 | `url` | URL 주소를 입력할 수 있는 입력 필드를 정의한다. |
 | `week` | 날짜를 직접 입력하거나, 날짜를 선택할 수 있는 입력 필드를 정의한다.   입력 결과는 년도와 주가 포홤되며 이때 주 앞에는 "W" 문자가 추가되어 제출된다. |
 
-#### 2\) INPUT  ELEMENT - ATTRIBUTES
+#### 2\) &lt;input&gt; element - attributes
 
 `<input>` 요소의 다양한 속성은 다음과 같다.
 
@@ -187,11 +187,11 @@
 | `value` | all | `<input>` 요소의 입력 필드에 나타나는 초기값을 설정. |  |
 | `width` | image | `<input type="image">` 일 경우에는 이미지의 너비를 명시. | HTML5 |
 
-### 3. LABLE ELEMENT
+### 3. &lt;label&gt; element
 
 사용자 인터페이스 항목의 설명을 나타낸다.
 
-#### 1\) LABLE ELEMENT→ INPUT ELEMENT 연결
+#### 1\) &lt;label&gt; element→ &lt;input&gt; element 연결
 
 label 텍스트는 입력과 시각적으로 관련이 있을뿐만 아니라, 프로그래밍적 으로도 관련이 있다.
 
@@ -216,11 +216,11 @@ label이 붙여진 양식 컨트롤\(form control\)은 **labeled control** 라�
 
 연관된 양식\(form control\)이 있는 `<label>`이 클릭 또는 터치 되면, 이벤트 연관된 control를 동작 시킨다.
 
-#### 2\) LABLE CSS STYLING
+#### 2\) &lt;label&gt; - CSS Styling
 
 `<label>`요소는 특별한 고려사항은 없다. 구조적으로 단순한 인라인 요소 이므로 `<span>` 또는 `<a>` 요소와 같은 방식으로 스타일링 할 수 있다.
 
-#### 3\) LABLE 접근성 고려사항
+#### 3\) &lt;label&gt; 접근성 고려사항
 
 #### 📝**Interactive content** 
 
@@ -271,7 +271,7 @@ label의 텍스트를 시각적으로 조정해야하는 경우,  `<label>` 요�
 ```
 {% endcode %}
 
-### Reference  <a id="reference"></a>
+#### Reference 
 
 form  element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/form)
 
