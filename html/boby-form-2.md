@@ -4,7 +4,7 @@
 
 `<button>` 요소는 클릭할 수 있는 버튼을 정의할 때 사용한다.
 
-#### 1\) &lt;button&gt; element - ATTRIBUTES
+#### 1\) &lt;button&gt; element - attributes
 
 <table>
   <thead>

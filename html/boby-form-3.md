@@ -1,12 +1,12 @@
 # FORMS : textarea, fieldset, lengend...elements
 
-### 1. TEXTAREA ELEMENT
+### 1. &lt;textarea&gt; element
 
 `<textarea>` 요소는 사용자가 여러 줄의 텍스트를 입력할 수 있는 텍스트 영역을 정의할 때 사용한다. 텍스트 입력 영역에는 개수의 제한 없이 문자를 입력할 수 있으며, 입력된 문자는 고정폭 글꼴로 렌더링 된다.
 
 텍스트 영역의 크기는 `<textarea>`요소의 `cols`속성과 `rows`속성으로 지정할 수 있다.
 
-#### 1\) TEXTAREA  ELEMENT - ATTRIBUTES
+#### 1\) &lt;textarea&gt;  element - attributes
 
 <table>
   <thead>
@@ -137,7 +137,7 @@
   </tbody>
 </table>
 
-#### 2\) TEXTAREA CSS STYLING
+#### 2\) &lt;textarea&gt; CSS Styling
 
 `<textarea>`는 기본적 으로 `display` 값은 block 이다.
 
@@ -177,11 +177,11 @@ textarea:valid {
 }
 ```
 
-### 2. FIELDSET ELEMENT
+### 2. &lt;fieldset&gt; element
 
 `<fieldset>` 요소는 웹 양식의 컨트롤과 `<label>`을 묶을 때 사용한다.
 
-#### 1\) FIELDSET CSS STYLING
+#### 1\) &lt;fieldset&gt; CSS Styling
 
 `<fieldset>`는 기본적 으로 `display` 값은 block 이다.
 
@@ -199,27 +199,27 @@ textarea:valid {
 </form>
 ```
 
-### 3. LEGEND ELEMENT
+### 3. &lt;legend&gt; element
 
 `<legend>` 요소는 부모 `<fieldset>` 콘텐츠의 설명을 나타낸다.
 
-### 4. DATALIST ELEMENT
+### 4. &lt;datalist&gt; element
 
 `<datalist>` 요소는 다른 컨트롤에서 고를 수 있는 가능한, 혹은 추천하는 선택지를 나타내는 `<option>` 요소 여럿을 담는다.
 
-### 5. PROGRESS ELEMENT
+### 5. &lt;progress&gt; element
 
 `<progress>` 요소는 어느 작업의 완료 정도를 나타내며, 주로 진행 표시줄의 형태로 띈다.
 
-### 6. OUTPUT ELEMENT
+### 6. &lt;output&gt; element
 
 `<output>` 요소는 웹 사이트나 앱에서 계산이나 사용자 행동의 결과를 삽입할 수 있는 컨트롤 데이터 요소 이다.
 
-### 7. METE ELEMENT
+### 7. METE element
 
 `<meter>` 요소는 특정 범위 내에서 스칼라 값, 또는 백분율 값을 나타낸다.
 
-### Reference 
+#### Reference 
 
 textarea element [→\(MDN\)](https://developer.mozilla.org/ko/docs/Web/HTML/Element/textarea)
 
