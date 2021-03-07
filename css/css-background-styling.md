@@ -1,6 +1,6 @@
 # CSS backgrounds
 
-### 1. BACKGROUND DESIGN
+### 1. background design 
 
 요소의 **배경\(background\)** 속성을 사용하면 **배경의 색상, 이미지, 위치, 반복, 고정 여부 등을 설정할** 수 있다. 그리고 모던 브라우저에서는 배경 이미지의 시작점\(origin\)을 조정하거나, 클리핑\(clipping\) 영역을 설정 할 수 있다.
 
