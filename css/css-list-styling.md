@@ -1,6 +1,6 @@
 # CSS list styling
 
-### 1. LISTS STYLING
+### 1. LISTS styling
 
 HTML 목록\(`<ul>, <ol>, <li>, <dl>, <dt>, <dd>`\)과 관련된 속성.
 
@@ -11,7 +11,7 @@ HTML 목록\(`<ul>, <ol>, <li>, <dl>, <dt>, <dd>`\)과 관련된 속성.
 | property value | description |
 | :---: | :---: |
 | `none` | 아무런 장식도 없는 형태. |
-| `disc`\(defalut\) | 채워진 원형 형태. |
+| `disc`\(default\) | 채워진 원형 형태. |
 | `circle` | 속이 빈 원형 형태. |
 | `square` | 채워진 사각형 형태. |
 | `decimal` | 숫자 1. 2. 3. 의 형태. |
@@ -22,7 +22,7 @@ HTML 목록\(`<ul>, <ol>, <li>, <dl>, <dt>, <dd>`\)과 관련된 속성.
 
 | property value | description |
 | :---: | :---: |
-| `outside`\(defalut\) | 블릿을 바깥으로 위치. |
+| `outside`\(default\) | 블릿을 바깥으로 위치. |
 | `inside` | 블릿을 내부에 위치. |
 | `inherit` | 부모의 값을 상속. |
 
