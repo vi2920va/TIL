@@ -1,6 +1,6 @@
 # CSS transition
 
-### 1. TRANSITION
+### 1. transition
 
 CSS3에서 추가된 `transition`속성은 지정할 속성에 변화나 움직임 등을 주고 싶을 경우에 일정 시간 간격을 두고 그 속성에 변화 또는 움직임을 부드럽게 해주는 기능.
 
