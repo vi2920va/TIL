@@ -69,6 +69,8 @@
 * [JavaScript Loops and iteration](javascript/javascript-loops-and-iteration.md)
 * [JavaScript Function](javascript/javascript-function.md)
 * [JavaScript Array](javascript/javascript-array.md)
+* [JavaScript  Closure, Hoisting](javascript/javascript-closure-hoisting.md)
+* [Untitled](javascript/untitled-1.md)
 
 ## DOM
 
