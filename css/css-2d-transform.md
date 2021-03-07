@@ -1,6 +1,6 @@
 # CSS 2D transform
 
-### 1. 2D TRANSFORM
+### 1. 2D transform
 
 ![css transform](../.gitbook/assets/23737b50568f0bb71c.png)
 
