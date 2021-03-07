@@ -215,7 +215,7 @@ textarea:valid {
 
 `<output>` 요소는 웹 사이트나 앱에서 계산이나 사용자 행동의 결과를 삽입할 수 있는 컨트롤 데이터 요소 이다.
 
-### 7. METE element
+### 7. &lt;meter&gt; element
 
 `<meter>` 요소는 특정 범위 내에서 스칼라 값, 또는 백분율 값을 나타낸다.
 
