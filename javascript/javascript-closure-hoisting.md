@@ -36,5 +36,7 @@ var firstfun2 = function() {
 }
 ```
 
+#### Reference
 
+Closures[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
 
