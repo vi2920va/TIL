@@ -1,38 +1,36 @@
-# BOBY : Section
+# BOBY : section elements
 
 ### 
 
-![](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
+![ section elements](https://gblobscdn.gitbook.com/assets%2F-MB80aCzBxhQjQ8-LC7X%2F-MEwexhULwRo3EPoCGbS%2F-MEwfCAtROxyOefk200X%2Fhtmlsection.png?alt=media&token=548942c2-1b35-4429-846e-df0c4fe5b2b3)
 
-### HTML Section Elements <a id="1-root-setion-element"></a>
-
-### 1. html/root element <a id="1-root-setion-element"></a>
+### 1. &lt;html&gt;  root element <a id="1-root-setion-element"></a>
 
 HTML문서에서 `<html>`요소는 문서의 **최상단 요소\(root element\)**를 나타내며 "루트 요소"라고 부른다.  모든 다른 요소들은 `<html>`요소의 자손이다.
 
 `<head>` 요소는 해당 문서에 대한 정보인 메타 데이터\(meta data\)의 집합을 정의할 때 사용한다.
 
-#### 1\) head element
+#### 1\) &lt;head&gt; element
 
 `<head>`요소는 `<html>` 요소의 첫 번째 요소로 해당 문서에 대한 정보 메타 데이터\(meta data\)의 집합을 정의한다.
 
-#### 2\) body element
+#### 2\) &lt;body&gt; element
 
 `<body>`요소는 `<html>` 요소의 두번째 요소로 본문 영역을 표시한다. 본문 영역은 실제 콘텐츠가 표현되는 공간이 문서의 텍스트, 하이퍼링크, 이미지, 리스트 등과 같은 모든 콘텐츠 영역을 정의한다.
 
 HTML문서에는 단 하나의 `<body>` 요소만 존재할 수 있다.
 
-### 2. section elements  <a id="2-less-than-section-greater-than-element"></a>
+### 2. &lt;section&gt; elements <a id="2-less-than-section-greater-than-element"></a>
 
 HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<header>,<footer>` 등 다양한 구조관련된 요소가 새롭게 추가되었다.
 
-#### 1\) header element
+#### 1\) &lt;header&gt; element
 
 웹 페이지 제목, 로고, 목차, 검색등을 포함하는데 `<header>`요소를 사용한다.
 
 `<header>` 요소는 섹션 요소가 아니다. 즉, 섹션 요소 내부에 넣어도 되고 필요에 따라서 묶어 분리해서 사용해도 된다.
 
-#### 2\) nav element
+#### 2\) &lt;nav&gt; element
 
 웹 페이지의 포함된 탐색 링크를 포함하는 요소이다. 
 
@@ -42,7 +40,7 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 나머지 링크는 하단에 위치한 `<footer>`요소만 으로도 충분하다.
 
-#### 3\) section elemenet <a id="1-less-than-section-greater-than-elemenet"></a>
+#### 3\) &lt;section&gt; element <a id="1-less-than-section-greater-than-elemenet"></a>
 
 `<section>`요소는 **내용적 흐름과 구조를 만들기 위해 내용을 나누는 용도**이다.
 
@@ -52,7 +50,7 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 
 콘텐츠 포함된 독립적인 성향이 크다면 `<section>`요소 대신에 `<article>`요소를 사용하는것을 권장한다.
 
-#### 4\) article element <a id="2-less-than-article-greater-than-element"></a>
+#### 4\) &lt;article&gt; element <a id="2-less-than-article-greater-than-element"></a>
 
 `<article>`요소는 **본문과 별개로 구성되어 다른 영역에 영향을 주거나 받지 않고 독립적으로 배포**되거나 `재사용 할 수 있다.`
 
@@ -69,11 +67,11 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 </article>
 ```
 
-#### 5\) aside element <a id="3-less-than-aside-greater-than-element"></a>
+#### 5\) &lt;aside&gt; element <a id="3-less-than-aside-greater-than-element"></a>
 
 `<aside>` 요소는 웹 사이트 사이드바에 해당 되는 부분으로 본문 내용과 직접적인 관련성이 적거나 없는 내용으로 구성된다.
 
-#### 6\) main element <a id="4-less-than-nav-greater-than-element"></a>
+#### 6\) &lt;main&gt; element <a id="4-less-than-nav-greater-than-element"></a>
 
 `<main>`요소는 문서의 `<body>`요소 안에서 메인 콘텐츠에 해당된다.
 
@@ -89,7 +87,7 @@ HTML5에서 구조를 설계할 수 `<main>,<nav>,<section>,<article>,<aside>,<h
 <main hidden>...</main>
 ```
 
-#### 7\) footer element
+#### 7\) &lt;footer&gt; element
 
 `<footer>` 요소는 일반적으로 섹션의 저자, 링크, 저작권 정보 등을 포함하는 데 사용한다.
 
