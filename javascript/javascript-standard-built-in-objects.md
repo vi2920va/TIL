@@ -116,6 +116,10 @@ Object.defineProperty(obj, prop, descriptor)
 
 새로 정의하거나 수정하려는 기술하는 객체.
 
+```javascript
+
+```
+
 
 
 
