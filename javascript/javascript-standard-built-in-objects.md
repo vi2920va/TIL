@@ -1,73 +1,52 @@
-# JavaScript Standard built-in objects
+# JavaScript Objects
 
-### 기본 내장 객체\(Standard built in object\)
+## Object
 
-###  1. Number object
+JavaScript의 기본 데이터 타입은 객체\(Object\)이다. 객체는 일종의 복합체로, 여러 값\(원시 타입의 값 또는 다른  객체\)들을 묶어 이름으로 저장하고, 값을 가져올 수 있다. 즉, 객체는 이름과 값으로 구성된 프로퍼티들의 정려로디지 않은 집합이다.
 
-JavaScript는 다른 프로그램 언어와는 달리 정수 값과 실수 값을 구분하지 않고 모든 숫자들을 실수로 표현한다.  Number object는 최대값, 무한대 값, NaN\(Not a number\)를 위한 속성들이 있다.
+### 1. 객체 생성
 
-#### 1\) Number object - properties
+객체 리터럴 또는 생성자 함수를 정의하고 new 키워드를 사용해서 만들 수도 있다.
 
-미리 정의된 숫자 객체의 속성\(properties\). 
+#### 1\) 객체 리터럴
 
-| properties | description |
-| :--- | :--- |
-| Number.MAX\_VALUE | 표현 가능한 가장 큰수 \(±1.7976931348623157e+308\) |
-| Number.MIN\_VALUE | 표현가능한 가장 작은 수\(±5e-324\) |
-| Number.NaN | "숫자가 아닌" 특수값 |
-| Number.NEGATIVE\_INFINITY | 음의 무한대 값 |
-| Number.POSITIVE\_INFINITY | 양의 무한대 값 |
-| Number.EPSILON | 표현 가능한 매우 작은 값\(2.220446049250313e-16\) |
-| Number.MIN\_SAFE\_INTEGER | 안전한 최소의 정수.\(−253 + 1, or −9007199254740991\) |
-| Number.MAX\_SAFE\_INTEGER | 안전한 최대의 정수.\(+253 − 1, or +9007199254740991\) |
-
-#### 2\) Number object - method
-
-| method | description |
-| :--- | :--- |
-| Number.parseFloat\(\) | 문자열을 파싱하여, 문자열에 포함된 숫자 부분을 실수 형태로 반환한다. |
-| Number.parseInt\(\) | 문자열을 파싱하여, 문자열에 포함된 숫자 부분을 정수 형태로 반환한다. |
-| Number.isFinite\(\) | 전달된 값이 유한한 수인지 아닌지를 검사한다. |
-| Number.isInteger\(\) | 전달된 값이 정수인지 아닌지를 검사한다. |
-| Number.isNaN\(\) | 전달된 값이 NaN인지 아닌지 검사한다. |
-| Number.isSafeInteger\(\) | 전달된 값이 안전한 정수\(safe integer\)인지 아닌지를 검사한다. |
-
-### 2. Math object
-
-수학식에 대한 내장 객체.
-
-#### 1\) Math object - method
-
-| method | description |
-| :--- | :--- |
-| Math.min\(\) | 인수로 전달받은 값 중에서 가장 작은 수를 반환한다. |
-| Math.max\(\) | 인수로 전달받은 값 중에서 가장 큰 수를 반환한다. |
-| Math.random\(\) | 0 보다 크거나 같고 1보다 작은 랜덤 숫자를 반환한다. |
-| Math.floor\(x\) | x와 같거나 작은 수 중에서 가장 큰 정수를 반환한다. |
-| Math.round\(x\) | x를 소수점 첫 번째 자리에서 반올림하여 그 결과를 반환한다. |
-| Math.ceil\(x\) | x와 같거나 큰 수 중에서 가장 작은 정수를 반환한다. |
-| Math.abs\(x\) | x의 절대값을 반환한다. |
-| Math.pow\(x,y\) | x의 y승을 반환한다. |
-| Math.sqrt\(x\) | x의 제곱근을 반환한다. |
-| Math.trunc\(x\) | x의 모든 소수 부분을 삭제하고 정수 부분만을 반환한다. |
-
-### 3. Date object
-
-JavaScript는 날짜 데이터 타입 없기 때문에 Date object를 사용하여 프로그램에서 날짜와 시간 처리를 한다.
-
-### 4. String object
-
-JavaScript는 다른 언어 달리 단따옴표\('\), 쌍따옴표\("\) 문자열 간의 차이점이 없다.
-
-#### 1\) 문자열 객체에 접근
-
-문자열에서 개개의 문자에 접근할 수 있는 방법은 `charAt()`메서드를 이용하는 것과 문자에 해당하는 숫자 인덱를 사용하는 방법 두 가지가 있다.
+객체를 생성하는 가장 쉬운 방법은 객체 리터럴을 사용하는 것이다. 객체 리터럴은 중괄호\({}\) 안에, 이름과 값을 쌍점\(:\)으로 구분한 순서 쌍을 쉼표로 연결한 리스트다. 프로퍼티 이름으로는 JavaScript 식별자 또는 문자열을 사용할 수 있다, 프로퍼티의 값으로는 JavaScript의 표현식을 사용할 수 있다. 이때 표현식의 값\(원시 값 또는 객체 값\)은 곧 프로퍼티의 값이 된다.
 
 ```javascript
-let string_text = 'I am JavaScript';
-console.log(string_text.charAt(1));
-console.log(string_text[5]);
+let empty = {};
+
+let page = {
+  category : "javaScript",
+  title : "for ~ in",
+  author : "vi2920va",
+  date : "2021-03-09"
+};
+
 ```
+
+#### 2\) 생성자 함수\(constructor function\)
+
+JavaScript의 객체\(instance\)는 생성자 함수\(constructor function\)를 통해 생성된다. new 연산자 뒤에 생성자 함수를 실행하면, 내장 객체 또는 사용자 정의 객체 인스턴스를 생성한다. 여기서 말하는 인스턴스 라는 용어는 객체\(object\)와 유사하다. 다만 의미상으로 "객체"는 좀 더 일반적인 반면에 "인스턴스"는 라고 표현하면 현재 생성된 바로 그 객체라는 인스턴스한 뉘앙스를 더 짙게 표현할 수 있다.
+
+```javascript
+// (1) 생성자 함수 정의.
+// 생성자 함수는 관례적으로 첫글자는 대문자로 작성해, 일반 함수와 구분한다.
+function Tab(){
+ this.el = document.querySelector(selector);
+}
+
+// (2) 정의된 생성자 함수를 new 연산자와 함께 실행하면 객체 인스턴스를 생성.
+let main_tab = new Tab('.main__tab');
+let body_tab = new Tab('body');
+
+// (3) 생성자 함수를 통해서 생성된 인스턴스를 확인.
+console.log(main_tab instanceof Tab);
+console.log(main_tab.constructor === Tab);
+```
+
+
+
+
 
 #### 
 
