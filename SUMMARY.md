@@ -71,7 +71,7 @@
 * [JavaScript Array](javascript/javascript-array.md)
 * [JavaScript  Closure, Hoisting](javascript/javascript-closure-hoisting.md)
 * [JavaScript function call, apply, bind](javascript/untitled-1.md)
-* [JavaScript Objects](javascript/javascript-standard-built-in-objects.md)
+* [JavaScript Object](javascript/javascript-standard-built-in-objects.md)
 
 ## DOM
 
