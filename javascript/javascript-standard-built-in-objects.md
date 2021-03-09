@@ -55,11 +55,11 @@ Object.create\(\)메서드를 사용하게 되면 새로운 객체를 생성 할
 Object.create(proto[, propertiesObject])
 ```
 
-📝 proto
+📝 **proto**
 
 새로 만든 객체의 프로토타입이어야 할 객체.
 
-📝 propertiesObject\(\)
+📝 **propertiesObject\(\)**
 
 자신의 속성이 열거 가능한 객체는 해당 속성명으로 새로 만든 객체 추가될 속성 설명자\(description\)를 지정한다.
 
@@ -74,20 +74,7 @@ let car = {
   booster: false
 };
 
-let extend_car_features = {
-  type: 'super',
-  wheels: 6,
-  booster: true,
-  engine: '4497cc',
-  weight: '452kg',
-  maximum: {
-    power: '2248 horse-power, 21800 rpm',
-    torque: '194kgm, 17100 rpm',
-    speed: '695km + alpha'
-  }
-};
-
-var x = Object.create(car);
+let x = Object.create(car);
 x.wheels = 10;
 console.log(x.hasOwnProperty('wheels'));
 ```
@@ -104,21 +91,45 @@ console.log(x.hasOwnProperty('wheels'));
 Object.defineProperty(obj, prop, descriptor)
 ```
 
- 📝 obj 
+ 📝 **obj** 
 
 속성을 정의할 객체.
 
-📝 prop
+📝 **prop**
 
 새로 정의하거나 수정하려는 속성의 이름 또는 Symbol.
 
-📝 descriptor
+📝 **descriptor**
 
 새로 정의하거나 수정하려는 기술하는 객체.
 
-```javascript
+ 속성 기술자\(property descriptors\)는 데이터 기술\(data descriptors\)와 데이터 접근 기술\(accessor descriptors\)로 나뉜다.
 
-```
+#### **1-2\) 데이터 기술\(data descriptors\)**
+
+데이터 기술과 데이터 접근 기술은 모두 객체이면 다음과 같은 키를 공유한다.
+
+| key |  default value |  |
+| :--- | :--- | :--- |
+| writable | false | 할당 연산자\(=\)를 통한 값을 변경 가능 여부. |
+| enumerable | false | 객체의 속성으로 열거 가능 여부. |
+| configurable | false | 객체의 속성 제거 가능 여부. |
+| value | undefined | 객체의 속성 값 설정. |
+
+#### 1-3\) 데이터 접근 기술\(accessor descriptors\)
+
+데이터 접근 기술은 다음 키를 선택사항으로 가진다.
+
+| key | default value |  |
+| :--- | :--- | :--- |
+| get | undefined | 속성에 설정된 값을 가져온다. |
+| set | undefined | 속성의 값으로 할당. |
+
+
+
+
+
+
 
 
 
