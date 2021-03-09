@@ -104,11 +104,19 @@ console.log(x.hasOwnProperty('wheels'));
 Object.defineProperty(obj, prop, descriptor)
 ```
 
- 📝 obj - 속성을 정의할 객체.
+ 📝 obj 
 
-📝 prop - 새로 정의하거나 수정하려는 속성의 이름 또는 Symbol.
+속성을 정의할 객체.
 
-📝 descriptor - 새로 정의하거나 수정하려는 기술하는 객체.
+📝 prop
+
+새로 정의하거나 수정하려는 속성의 이름 또는 Symbol.
+
+📝 descriptor
+
+새로 정의하거나 수정하려는 기술하는 객체.
+
+
 
 
 

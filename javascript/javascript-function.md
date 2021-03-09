@@ -13,15 +13,15 @@
 function name([param[, param,[..., param]]]) { [statements] }
 ```
 
-📝**name**
+📝**nam**  
 
 함수의 이름.
 
-📝 **param**
+📝 **param** 
 
 함수로 전달되는 인수\(argument\)의 이름.
 
-📝**statements**
+📝**statements** 
 
 함수의 몸통\(body\)을 구성하는 문\(statement\).
 
