@@ -28,7 +28,7 @@
 | Abstraction | 복잡한 상속, 메서드, 객체의 속성의 결합은 반드시 현실 모델을 시물레이션 할 수 있어야 한다. |  |
 | Polymorphism | 다른 Class들이 같은 메서드나 속성으로 정의될 수 있다. |  |
 
-### 1. 생성자 함수와 인스턴스의 생성
+### 2. 생성자 함수와 인스턴스의 생성
 
  JavaScript는 생성자 함수와 new 연사자를 통해 인스턴스를 통해 생성할 수 있다. 이때 생성자 함수는 클래스 이면서 생성자 역할을 한다.
 
@@ -53,7 +53,7 @@ student.greething(); // Hi I' m Bob
 
 위의 예제 코드에서 Person\(\) 생성자 함수로 여러 개의 인스턴스를 생성하게 되면 각 인스턴스가 내용일 동일한 메서드를 각자 소유하게 된다. 이는 메모리 낭비로 생성되는 인스턴스가 많아지거나 메서드가 크거나 많다면 결코 무시할 수 없는 문제가 된다. 이를 해결 위한 문제로는 프로토타입 접근 방식으로 접근해야 한다.
 
-### 2. 프로토타입 체인과 메서드
+### 3. 프로토타입 체인과 메서드
 
 모든 객체는 '[프로토타입\(prototype\)](https://poiemaweb.com/js-prototype)'이라는 다른 객체를 가리키는 내부 링크를 가지고 있다. 즉, 프로토타입을 통해 직접 객체를 연결할 수 있는데 이를 '프로토타입 체인\(prototype chain\)'이라고 한다. 
 
@@ -115,7 +115,11 @@ console.log(student); // Person{name: 'Bob'}
 
 ```
 
+#### Reference
 
+객체 지향 자바스크립트[ →\(MDN\)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+
+JavaScript 상속[ →\(MDN\)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
 
 
