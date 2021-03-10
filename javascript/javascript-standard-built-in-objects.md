@@ -62,10 +62,6 @@ console.log(main_tab instanceof Tab);
 console.log(main_tab.constructor === Tab);
 ```
 
-### 3\) prototype
-
-객체 리터럴로 생성된 모든 객체는 프로토타입 객체가 같으며, JavaScript에서이 프로토타입 객체는`Object.prototype`으로 참조할 수 있다. new 키워드를 사용해 생성자를 호출하면, 생성자 함수의 프로토타입이 생성된 객체의 프로토타입이 된다. 모든 내장 생성자\(사용자 정의 생성자\)는 `Object.prototype`의 프로퍼티들을 상속 받는다.  따라서 new Date\(\)를 통해 생성한 Date객체는 Date.prototype과 Object.prototype으로부터 프로퍼티를 상속 받게된다. 이처럼 프로토타입 객체들이 연결된 것을 '프로토타입 체인'이라고 한다.
-
 ### 3\) Object.create\(\)
 
 `Object.create()`메서드를 사용하게 되면 새로운 객체를 생성 할 때  create 내부에 전달되는 객체의 능력을 새롭게 생성 되는 객체가 물려 받게 할 수 있다.  즉. **상속을 구현**할 수 있다. \(단, 새롭게 생성된 객체에서 속성을 기술해도, 상속을 해준 부모의 속성은 변하지 않는다.\)
