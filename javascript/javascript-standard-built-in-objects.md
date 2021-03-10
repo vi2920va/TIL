@@ -1,5 +1,33 @@
 # JavaScript Object
 
+```javascript
+//  1. 객체(Object)
+// -  자바스크립트는 객체 기반의 스크립트 언어이다. 
+//  - 자바스크립트를 이루고 있는 거의 모든 것이 객체이다.
+//  - 원시 타입을 제외한 나머지 값들은 모두 객체이다.  ex) array, function ...
+//  - 객체는 key/value로 구성된 프로퍼티들의 집합이다. 
+//  - 프로퍼티의 값으로는 자바스크립트에서 사용할 수 있는 모든 값을 사용할 수 있다.
+//  - 프로퍼티 값으로는 함수를 사용할 수 있으며 프로퍼티 값이 함수일 경우, 일반 함수와 구분하기 위해 "메서드"라고 부른다.
+// - 데이터를 의미하는 프로퍼티와 데이터를 참조하고 조작할 수 있는 동작을 의미하는 메서드와 구성된 집합이다.
+let car = {
+  type: 'normal',
+  weels: 4,
+  handle: 1,
+  mirros: {
+    side: 2,
+    back: 1
+  },
+  engine: '3000cc',
+  weight: '313kg',
+  booster: false
+}
+
+Object.defineProperty(car, 'price', {
+  value: '4000$'
+});
+console.log(car.price);
+```
+
 ## 객체\(Object\)
 
 JavaScript의 기본 데이터 타입은 **객체\(Object\)**이다. 객체는 일종의 복합체로, 여러 값\(원시 타입의 값 또는 다른  객체\)들을 묶어 이름으로 저장하고, 값을 가져올 수 있다. 즉, **객체는 이름과 값\(key /  value\)으로 구성된 프로퍼티\(prpperty\)들의 정렬로 되지 않은 집합이다.**
@@ -95,12 +123,31 @@ let car = {
 
 let x = Object.create(car);
 x.wheels = 10;
-console.log(x.hasOwnProperty('wheels'));
+console.log(x.hasOwnProperty('wheels')); // true
+console.log(car['wheels']); // 4
 ```
 
 ### 2. 프로퍼티 접근
 
 프로퍼티의 값을 가져오기 위해서는 마침표\(.\)연산자 또는 대괄호\(\[ \]\) 연산자를 사용한다. 마침표 연산자\(.\)를 사용할 경우에는 연산자 우측에는 반드시 프로퍼티 이름\(property key\)이 식별자로 와야한다. 대괄호 연산자를 사용할 경우, 대괄호 안의 값은 반드시 프로퍼티 이름의 문자열이어야한다.
+
+```javascript
+let car = {
+  type: 'normal',
+  weels: 4,
+  handle: 1,
+  mirros: {
+    side: 2,
+    back: 1
+  },
+  engine: '3000cc',
+  weight: '313kg',
+  booster: false
+};
+
+console.log(car.weels); // 4
+console.log(car['type']); // normal
+```
 
 ### 3. 프로퍼티 속성
 
@@ -125,6 +172,26 @@ Object.defineProperty(obj, prop, descriptor)
 📝 **descriptor**
 
 새로 정의하거나 수정하려는 기술하는 객체.
+
+```javascript
+let car = {
+  type: 'normal',
+  weels: 4,
+  handle: 1,
+  mirros: {
+    side: 2,
+    back: 1
+  },
+  engine: '3000cc',
+  weight: '313kg',
+  booster: false
+}
+
+Object.defineProperty(car, 'price', {
+  value: '4000$'
+});
+console.log(car.price); // 4000$
+```
 
  **속성 기술자\(property descriptors\)**는 **데이터 기술\(data descriptors\)**와 **데이터 접근 기술\(accessor descriptors\)**로 나뉜다.
 
@@ -180,15 +247,78 @@ Object.defineProperty(obj, prop, descriptor)
 
 delete 연산자는 객체의 프로퍼티를 삭제한다. 이 연산자는 프로퍼티의 값을 지우는 것이 아니라 프로퍼티를 지운다.
 
+```javascript
+let car = {
+  type: 'normal',
+  weels: 4,
+  handle: 1,
+  mirros: {
+    side: 2,
+    back: 1
+  },
+  engine: '3000cc',
+  weight: '313kg',
+  booster: false
+};
+
+delete car.booster;
+console.log(car['booster']); // undefined
+```
+
 ### 5. 프로퍼티 검사
 
 객체의 `hasOwnProperty(`\)메서드는 주어진 이름의 프로퍼티가 객체에 존재하는지를 검사한다.
+
+```javascript
+let car = {
+  type: 'normal',
+  weels: 4,
+  handle: 1,
+  mirros: {
+    side: 2,
+    back: 1
+  },
+  engine: '3000cc',
+  weight: '313kg',
+  booster: false
+};
+
+
+delete car.booster;
+
+console.log(car.hasOwnProperty('weight')); // true
+console.log(car.hasOwnProperty('boster')); // false
+```
 
 ### 6. 프로퍼티 열거
 
  for/in 문을 사용하면 객체가 가진 프로퍼티들을 쉽게 순회할 수 있다.
 
+```javascript
+let car = {
+  type: 'normal',
+  weels: 4,
+  handle: 1,
+  mirros: {
+    side: 2,
+    back: 1
+  },
+  engine: '3000cc',
+  weight: '313kg',
+  booster: false
+}
 
+for (let property in car) {
+  console.log(`${property} : ${car[property]}`);
+  // type : normal
+  // weels : 4
+  // handle : 1
+  // mirros : [object Object]
+  // engine : 3000cc
+  // weight : 313kg
+  // booster : fasle 
+}
+```
 
 
 
