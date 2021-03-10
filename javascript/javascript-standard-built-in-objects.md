@@ -104,7 +104,7 @@ console.log(x.hasOwnProperty('wheels'));
 
 ### 3. 프로퍼티 속성
 
-프로퍼티의 속성을 설정하거나 임의의 속성을 새 프로퍼티를 만들기 위해서는 **Object.defineProperty\(\)**를 호출한다. 이때 함수의 인자로 수정할 객체와 추가하거나 변경할 프로퍼티 이름, 프로퍼티의 기\(descriptor\) 객체를 넘긴다.
+프로퍼티의 속성을 설정하거나 임의의 속성을 새 프로퍼티를 만들기 위해서는 `Object.defineProperty`**\(\)**를 호출한다. 이때 함수의 인자로 수정할 객체와 추가하거나 변경할 프로퍼티 이름, 프로퍼티의 기\(descriptor\) 객체를 넘긴다.
 
 ####  1\) Object.defineProperty\(\)
 
