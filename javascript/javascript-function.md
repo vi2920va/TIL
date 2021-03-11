@@ -2,28 +2,43 @@
 
 ## Function
 
-함수\(Function\)는 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미한다. 즉, 함수는 '절차'로 일을 할 때 거쳐야 하는 일한 차례와 방법이다.  
+함수\(Function\)는 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미한다. 즉, 함수는 '절차'로 일을 할 때 거쳐야 하는 일한 차례와 방법이다.
 
+### 1. 함수 정의
 
-#### 1\) 함수 선언\(Function declaration\)
+함수를 정의하는 방식에는 세 가지가 있다.
 
-**함수 선언**은 지정된 매개변수\(parameter\)를 갖는 함수를 정의한다. 
+* 함수 선언문\(Function declaration\) 
+* 함수 표현식\(Function expression\)
+* 생성자 함수 
 
+#### 1\) 함수 선언문\(function declaration\)
+
+**함수 선언문**은 지정된 매개변수\(parameter\)를 갖는 함수를 정의한다. 
+
+{% code title="Syntax" %}
 ```javascript
 function name([param[, param,[..., param]]]) { [statements] }
 ```
+{% endcode %}
 
-📝**name** 
+**name**
 
-함수의 이름.
+함수 이름, 함수 선언문의 경우에 함수 이름을 생략할 수 없다.
 
-📝 **param** 
+**param**
 
-함수로 전달되는 인수\(argument\)의 이름.
+쉼표\(,\)로 구분된 전달 인자들의 목록, 함수가 호출되면 함수 몸체 내부에서 전달인자 이름들을 사용하여 전달인자의 값을 참조하게 된다.
 
-📝**statements** 
+**statements** 
 
-함수의 몸통\(body\)을 구성하는 문\(statement\).
+함수의 몸체\(body\)를 구성하는 문\(statement\), 함수가 호출 되었을 때 실행되는 문들의 집합으로 중괄호\({ }\) 안에 담겨져 있다. 결과값은 `return`문으로 결과값을 반환할 수 있다.\(`return` 문을 포함하지 않는다면, 함수 내의 각 구문이 실행된 다음 호줄자에게 `undefined`가 반환된다. 만약에 값을 반환할 필요가 없다면 `return`문을 포함할 필요는 없다.\)
+
+```javascript
+function square(number) {
+  return number * number;
+}
+```
 
 #### 2\)  함수 표현식\(function expression\)
 
@@ -90,6 +105,12 @@ console.log(local); // Uncaught ReferenceError: local is not defined
 #### 6\) 함수 호이스팅\(function hosting\)
 
 호이스팅을 함수 선언이 물리적으로 작성한 코드의 상단 옮겨지는 걸로 가르치지만 실제로는 그렇지 않다. **호이스팅**은 함수의 선언 단계에서 메모리에 저장되지만, 코드에서 입력한 위치와 정확히 일치하는 곳에 있다. 그리고 함수 선언과 달리 **함수 표현식 익명 함수\(anonymous function\)는 변수에 할당하기 전에 사용할 수 없다.** 
+
+호이스팅\(Hosting\)은 변수와 함수의 선언문을 유효 범위의 상단으로 끌어올리는 행위라고 가르치지만, 실제로는 변수 및 함수 선언은 선언 단계에서 메모리에 저장되지만 코드의 입력한 위치와 정확히 일치한 곳에 있다.  
+
+함수 선언문은 코드를 구현한 위치와 관계없이  
+
+\*\*\*\*
 
 #### 7\) 스코프 체이닝\(scope chaining\)
 
