@@ -13,7 +13,7 @@
 function name([param[, param,[..., param]]]) { [statements] }
 ```
 
-📝**nam**  
+📝**name** 
 
 함수의 이름.
 
