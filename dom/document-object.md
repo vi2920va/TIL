@@ -1,6 +1,6 @@
 # Document Object
 
-### 1. Document Object
+## 문서 객체\(Document Object\)
 
 * Document 객체는 웹 페이지 그 자체를 의미.
 * 웹 페이지에 존재하는 HTML 요소에 접근하고자 할때는 Document 객체부터 시작해야 한다.
