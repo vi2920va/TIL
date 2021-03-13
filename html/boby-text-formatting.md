@@ -1,4 +1,8 @@
-# BOBY : text formatting
+---
+description: 'BOBY : text formatting'
+---
+
+# 어휘 요소들
 
 ### HTML Text formatting elements
 

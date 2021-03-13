@@ -1,4 +1,8 @@
-# BOBY : section elements
+---
+description: 'BOBY : section elements'
+---
+
+# 섹션/메인 요소
 
 ### 
 

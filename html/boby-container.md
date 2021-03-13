@@ -1,4 +1,8 @@
-# BOBY : container elements
+---
+description: 'BOBY : container elements'
+---
+
+# 섹션/ 메인 요소
 
 ### 1 . Smeantic element  
 

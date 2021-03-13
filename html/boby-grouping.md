@@ -1,4 +1,8 @@
-# BOBY : grouping elements
+---
+description: 'BOBY : grouping elements'
+---
+
+# 그룹핑 요소
 
 ### 1. Grouping element
 
