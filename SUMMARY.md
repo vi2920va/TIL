@@ -47,7 +47,7 @@
 * [포지셔닝 레이아웃](css/css-positioning-layout.md)
 * [테이블 스타일링](css/css-table-layout.md)
 * [폼 스타일링](css/css-form-styling.md)
-* [CSS 2D transform](css/css-2d-transform.md)
+* [2D 트랜스폼](css/css-2d-transform.md)
 * [CSS transition](css/css-transition.md)
 * [CSS animation](css/css-animation.md)
 * [CSS 3D transform](css/css-3d-transform.md)
