@@ -1,4 +1,8 @@
-# CSS backgrounds
+---
+description: CSS backgrounds
+---
+
+# 배경 스타일링
 
 ### 1. background design 
 

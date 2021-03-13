@@ -42,7 +42,7 @@
 * [타이포그래피](css/css-typography.md)
 * [박스 모델](css/untitled-1.md)
 * [리스트 스타일링](css/css-list-styling.md)
-* [CSS backgrounds](css/css-background-styling.md)
+* [배경 스타일링](css/css-background-styling.md)
 * [CSS floating layout](css/css-floating-layout.md)
 * [CSS positioning layout](css/css-positioning-layout.md)
 * [CSS table styling](css/css-table-layout.md)
