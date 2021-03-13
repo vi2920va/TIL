@@ -40,7 +40,7 @@
 * [선택자](css/css-selector.md)
 * [상속 / 우선적용 규칙](css/cascade-and-inheritance.md)
 * [타이포그래피](css/css-typography.md)
-* [CSS box-model](css/untitled-1.md)
+* [박스 모델](css/untitled-1.md)
 * [CSS list styling](css/css-list-styling.md)
 * [CSS backgrounds](css/css-background-styling.md)
 * [CSS floating layout](css/css-floating-layout.md)

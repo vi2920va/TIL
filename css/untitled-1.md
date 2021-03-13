@@ -1,4 +1,8 @@
-# CSS box-model
+---
+description: CSS box-model
+---
+
+# 박스 모델
 
 ### 1. block box
 
