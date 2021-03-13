@@ -1,4 +1,8 @@
-# BOBY : heading, paragraph, anchor elements
+---
+description: 'BOBY : heading, paragraph, anchor elements'
+---
+
+# 제목과 단락
 
 ### &lt;h1&gt; ~ &lt;h6&gt; 제목\(Heading\) elements
 

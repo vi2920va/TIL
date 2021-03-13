@@ -14,10 +14,10 @@
 
 ## HTML
 
-* [HTML intro](html/untitled.md)
-* [BOBY : heading, paragraph, anchor elements](html/heading-paragraph-anchor-element.md)
-* [IMAGES : img, figure, figcaption elements](html/boby-image-figure-figcaption.md)
-* [LISTS : ul, ol, dl elements](html/lists-unordered-list-ordered-list-description-list.md)
+* [HTML 개요](html/untitled.md)
+* [제목과 단락](html/heading-paragraph-anchor-element.md)
+* [이미지와 피규어](html/boby-image-figure-figcaption.md)
+* [설명 목록](html/lists-unordered-list-ordered-list-description-list.md)
 * [BOBY : quotation, line break](html/boby-quotation-line-break.md)
 * [BOBY : text formatting](html/boby-text-formatting.md)
 * [BOBY : section elements](html/layout-1-less-than-header-greater-than-less-than-section-greater-than-less-than-article-greater-than.md)
@@ -78,7 +78,7 @@
 
 * [BOM, DOM intro](dom/document-object-model-intro.md)
 * [Document Object](dom/document-object.md)
-* [Node Object](dom/node-object.md)
+* [Node](dom/node-object.md)
 
 ## Git
 

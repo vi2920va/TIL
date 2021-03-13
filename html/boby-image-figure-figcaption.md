@@ -1,4 +1,8 @@
-# IMAGES : img, figure, figcaption elements
+---
+description: 'IMAGES : img, figure, figcaption elements'
+---
+
+# 이미지와 피규어
 
 ### HTML Images
 

@@ -1,4 +1,8 @@
-# LISTS : ul, ol, dl elements
+---
+description: 'LISTS : ul, ol, dl elements'
+---
+
+# 설명 목록
 
 ### HTML Lists
 
