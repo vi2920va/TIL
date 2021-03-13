@@ -1,4 +1,8 @@
-# CSS selector
+---
+description: CSS selector
+---
+
+# CSS 선택자
 
 ### 1. Basic selectors
 

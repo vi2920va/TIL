@@ -37,7 +37,7 @@
 ## CSS
 
 * [CSS 개요](css/untitled.md)
-* [CSS selector](css/css-selector.md)
+* [CSS 선택자](css/css-selector.md)
 * [CSS cascade and Inheritance](css/cascade-and-inheritance.md)
 * [CSS typography](css/css-typography.md)
 * [CSS box-model](css/untitled-1.md)
