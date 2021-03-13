@@ -36,7 +36,7 @@
 
 ## CSS
 
-* [CSS intro](css/untitled.md)
+* [CSS 개요](css/untitled.md)
 * [CSS selector](css/css-selector.md)
 * [CSS cascade and Inheritance](css/cascade-and-inheritance.md)
 * [CSS typography](css/css-typography.md)

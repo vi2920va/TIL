@@ -1,4 +1,4 @@
-# CSS intro
+# CSS 개요
 
 ## 1. CSS 
 
