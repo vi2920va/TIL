@@ -1,4 +1,8 @@
-# CSS list styling
+---
+description: CSS list styling
+---
+
+# 리스트 스타일링
 
 ### 1. LISTS styling
 

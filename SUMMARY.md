@@ -41,7 +41,7 @@
 * [상속 / 우선적용 규칙](css/cascade-and-inheritance.md)
 * [타이포그래피](css/css-typography.md)
 * [박스 모델](css/untitled-1.md)
-* [CSS list styling](css/css-list-styling.md)
+* [리스트 스타일링](css/css-list-styling.md)
 * [CSS backgrounds](css/css-background-styling.md)
 * [CSS floating layout](css/css-floating-layout.md)
 * [CSS positioning layout](css/css-positioning-layout.md)
