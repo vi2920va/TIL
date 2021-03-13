@@ -30,7 +30,7 @@
 * [폼 요소 3](html/boby-form-3.md)
 * [인터렉티브 요소](html/boby-interactive-control.md)
 * [스크립팅 요소들](html/boby-scripting-elements.md)
-* [문서](html/html-metadata-element.md)
+* [문서 메타데이터 요소들 1](html/html-metadata-element.md)
 * [문서 메타데이터 요소들 2](html/head-2-less-than-meta-greater-than-less-than-link-greater-than-less-than-script-greater-than.md)
 * [유저 인터랙션 속성](html/attributes-user-interaction-attributes.md)
 

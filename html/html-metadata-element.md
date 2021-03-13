@@ -2,7 +2,7 @@
 description: 'HEAD :  title, base, style elements'
 ---
 
-# 문서
+# 문서 메타데이터 요소들 1
 
 ### 1. &lt;head&gt; elements
 
