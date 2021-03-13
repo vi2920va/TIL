@@ -1,4 +1,8 @@
-# CSS transition
+---
+description: CSS transition
+---
+
+# 트랜지션
 
 ### 1. transition
 

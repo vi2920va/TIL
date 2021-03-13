@@ -48,7 +48,7 @@
 * [테이블 스타일링](css/css-table-layout.md)
 * [폼 스타일링](css/css-form-styling.md)
 * [2D 트랜스폼](css/css-2d-transform.md)
-* [CSS transition](css/css-transition.md)
+* [트랜지션](css/css-transition.md)
 * [CSS animation](css/css-animation.md)
 * [CSS 3D transform](css/css-3d-transform.md)
 * [CSS gradient](css/css-gradient.md)
