@@ -1,4 +1,8 @@
-# CSS floating layout
+---
+description: CSS floating layout
+---
+
+# 플로팅 레이아웃
 
 ### 1. **normal** layout flow
 

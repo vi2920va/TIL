@@ -1,4 +1,8 @@
-# CSS table styling
+---
+description: CSS table styling
+---
+
+# 테이블 스타일링
 
 ### 1. table styling
 
