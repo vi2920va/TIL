@@ -30,7 +30,7 @@ Document 객체는 HTML 요소와 관련된 작업을 도와주는 다양항 메
 
 <ul>
   <li>One</li>
-  <li id='even'>Two </li>
+  <li id="even">Two </li>
   <li>Three</li>
   <li>Four</li>
   <li>Five</li>
@@ -54,11 +54,11 @@ HTML `name` 속성의 원래 목적은 `<form>` 요소에 이름을 부여하는
 {% tab title="HTML" %}
 ```markup
 <h1>name 속성을 이용한 선택</h1>
-<p name='first'>first paragraph</p>
+<p name="first">first paragraph</p>
 
 <ul>
-  <li name='first'>One</li>
-  <li id="even">Two </li>
+  <li name="first">One</li>
+  <li>Two </li>
   <li>Three</li>
   <li>Four</li>
   <li>Five</li>
@@ -128,10 +128,10 @@ for (let i = 0; i < selectedItem.length; i++) {
 
 {% tab title="JavaScript" %}
 ```javascript
-let selectedItem = document.getElementsByClassName("odd"); 
+let selectedItem = document.getElementsByClassName('odd'); 
 
 for (let i = 0; i < selectedItem.length; i++) {
-    selectedItem.item(i).style.color = "red";
+    selectedItem.item(i).style.color = 'red';
 }
 ```
 {% endtab %}
@@ -141,20 +141,58 @@ for (let i = 0; i < selectedItem.length; i++) {
 
 CSS 스타일시트 문서 내부의 요소나 요소 집합을 선택할 때 사용되는 선택자\(selector\)는 `ID`와 `name` 속성, `HTML 요소`와 `class` 이름을 이용해서 요소를 선택할 수 있다. document 객체의 `querySelectorAll()` 메서드는 CSS 선택자 문자열을 인자로 받아서, 이 선택자와 일치하는 문서 내 모든 요소를 NodeList로 객체로 반환한다. NodeList는 메서드를 호출한 순간 선택자와 일치하는 요소를 그대로 가져오기는 하지만, 그 후에 일어나는 문서 내 변화를 반영하지는 않는다.
 
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<h1>CSS 선택자 이용한 선택</h1>
+<p class="odd">first paragraph</p>
+
+<ul>
+  <li class="odd">One</li>
+  <li>Two </li>
+  <li class="odd">Three</li>
+  <li>Four</li>
+  <li class="odd">Five</li>
+</ul>
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
 ```javascript
-let selectedItem = document.querySelectorAll("li.odd"); 
+let selectedItem = document.querySelectorAll('li.odd'); 
 
 for (let i = 0; i < selectedItem.length; i++) {
-    selectedItem.item(i).style.color = "red"; 
+    selectedItem.item(i).style.color = 'red'; 
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 더불어 `querySelector()`메서드는 `querySelectorAll()` 메서드와 달리 **요소 중 문서 순서상 첫 번째 요소만 반**환한다. 일치하는 요소가 없으면 `null`을 반환한다.
 
-```javascript
-let selectedItem = document.qureySelector("odd");
-selectedItem.style.color = "red";
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<h1>CSS 선택자 이용한 선택</h1>
+<p class="odd">first paragraph</p>
+
+<ul>
+  <li class="odd">One</li>
+  <li>Two </li>
+  <li class="odd">Three</li>
+  <li>Four</li>
+  <li class="odd">Five</li>
+</ul>
 ```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+let selectedItem = document.querySelector('p.odd');
+selectedItem.style.color = 'red';
+```
+{% endtab %}
+{% endtabs %}
 
 #### 6\) NodeList
 
