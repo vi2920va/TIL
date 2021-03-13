@@ -1,4 +1,8 @@
-# FORMS : textarea, fieldset, lengend...elements
+---
+description: 'FORMS : textarea, fieldset, lengend...elements'
+---
+
+# 폼 요소 3
 
 ### 1. &lt;textarea&gt; element
 

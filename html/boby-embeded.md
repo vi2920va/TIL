@@ -1,4 +1,8 @@
-# BOBY : embeded elements
+---
+description: 'BOBY : embeded elements'
+---
+
+# 임베디드 요소
 
 ### 1. Emebeded elements
 

@@ -1,4 +1,8 @@
-# HEAD : meta, link elements
+---
+description: 'HEAD : meta, link elements'
+---
+
+# 문서 메타데이터 요소들 2
 
 ### 1. &lt;head&gt; elements
 

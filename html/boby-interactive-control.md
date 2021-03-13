@@ -1,4 +1,8 @@
-# BOBY : Interactive control
+---
+description: 'BOBY : Interactive control'
+---
+
+# 인터렉티브 요소
 
 ### 1. Interactive control
 

@@ -1,4 +1,8 @@
-# ATTRIBUTES : user interaction attributes
+---
+description: 'ATTRIBUTES : user interaction attributes'
+---
+
+# 유저 인터랙션 속성
 
 ### 1. User interaction - attributes
 

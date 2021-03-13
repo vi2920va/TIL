@@ -1,4 +1,8 @@
-# BOBY : table elements
+---
+description: 'BOBY : table elements'
+---
+
+# 테이블 요소
 
 ### 1. &lt;table&gt; element
 

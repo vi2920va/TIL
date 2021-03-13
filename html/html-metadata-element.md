@@ -1,4 +1,8 @@
-# HEAD :  title, base, style elements
+---
+description: 'HEAD :  title, base, style elements'
+---
+
+# 문서
 
 ### 1. &lt;head&gt; elements
 

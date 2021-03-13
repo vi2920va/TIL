@@ -1,4 +1,8 @@
-# BOBY : script, noscript elements
+---
+description: 'BOBY : script, noscript elements'
+---
+
+# 스크립팅 요소들
 
 ### 1.  &lt;script&gt; element
 
