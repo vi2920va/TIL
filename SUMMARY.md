@@ -38,7 +38,7 @@
 
 * [CSS 개요](css/untitled.md)
 * [CSS 선택자](css/css-selector.md)
-* [CSS cascade and Inheritance](css/cascade-and-inheritance.md)
+* [CSS 상속 / 우선적용 규칙](css/cascade-and-inheritance.md)
 * [CSS typography](css/css-typography.md)
 * [CSS box-model](css/untitled-1.md)
 * [CSS list styling](css/css-list-styling.md)
