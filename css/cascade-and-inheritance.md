@@ -2,7 +2,7 @@
 description: CSS cascade and Inheritance
 ---
 
-# CSS 상속 / 우선적용 규칙
+# 상속 / 우선적용 규칙
 
 ### 1.**Inheritance**
 

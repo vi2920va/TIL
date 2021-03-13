@@ -2,7 +2,7 @@
 description: CSS typography
 ---
 
-# CSS 타이포그래피
+# 타이포그래피
 
 ### 1. Typhography
 
