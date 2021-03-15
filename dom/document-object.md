@@ -222,10 +222,6 @@ HTML 문서에서 지정한 요소 이름 HTML 요소를 만들어 반환한다.
 
 
 
-### 5. HTML 객체의 선택
-
-
-
 #### 3\) [matches\(IE 9+\)](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
 
 요소가 되었는지 확인하는 메서드.

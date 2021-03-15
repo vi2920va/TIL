@@ -21,7 +21,7 @@
 * [인용과 줄 바꿈](html/boby-quotation-line-break.md)
 * [어휘 요소들](html/boby-text-formatting.md)
 * [섹션/메인 요소](html/layout-1-less-than-header-greater-than-less-than-section-greater-than-less-than-article-greater-than.md)
-* [섹션/ 메인 요소](html/boby-container.md)
+* [컨테이너 요소들](html/boby-container.md)
 * [그룹핑 요소](html/boby-grouping.md)
 * [임베디드 요소](html/boby-embeded.md)
 * [테이블 요소](html/boby-table.md)

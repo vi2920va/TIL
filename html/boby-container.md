@@ -2,7 +2,7 @@
 description: 'BOBY : container elements'
 ---
 
-# 섹션/ 메인 요소
+# 컨테이너 요소들
 
 ### 1 . Smeantic element  
 
