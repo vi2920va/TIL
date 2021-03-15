@@ -1,4 +1,8 @@
-# JavaScript Function
+---
+description: JavaScript Function
+---
+
+# 함수
 
 ## Function
 

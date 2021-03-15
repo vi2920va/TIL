@@ -1,4 +1,8 @@
-# JavaScript  Closure, Hoisting
+---
+description: 'JavaScript  Closure, Hoisting'
+---
+
+# 클로저 / 호이스팅
 
 ### 1. 클로저\(Closure\) 
 

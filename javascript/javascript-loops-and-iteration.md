@@ -1,4 +1,8 @@
-# JavaScript Loops and iteration
+---
+description: JavaScript Loops and iteration
+---
+
+# 반복 처리
 
 ### 1. LOOPS AND ITERATION
 
