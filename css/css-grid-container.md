@@ -1,4 +1,8 @@
-# CSS grid container
+---
+description: CSS grid container
+---
+
+# 그리드 레이아웃
 
 ### 1. GRID
 

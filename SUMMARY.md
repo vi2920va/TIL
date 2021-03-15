@@ -57,7 +57,7 @@
 * [플렉시블 레이아웃 1](css/css-flex-container.md)
 * [플렉시블 레이아웃 2](css/css-flex-items.md)
 * [멀티 컬럼 레이아웃](css/untitled-2.md)
-* [CSS grid container](css/css-grid-container.md)
+* [그리드 레이아웃](css/css-grid-container.md)
 
 ## JavaScript
 
