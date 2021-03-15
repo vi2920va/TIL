@@ -1,4 +1,8 @@
-# JavaScript Object oriented programming
+---
+description: JavaScript Object oriented programming
+---
+
+# 객체 지향 프로그래밍
 
 ## 객체 지향 프로그래밍\(Object oriented programming\)
 

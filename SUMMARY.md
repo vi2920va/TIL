@@ -70,15 +70,15 @@
 * [함수](javascript/javascript-function.md)
 * [배열](javascript/javascript-array.md)
 * [클로저 / 호이스팅](javascript/javascript-closure-hoisting.md)
-* [JavaScript function call, apply, bind](javascript/untitled-1.md)
-* [JavaScript Object](javascript/javascript-standard-built-in-objects.md)
-* [JavaScript Object oriented programming](javascript/javascript-object-oriented-programming.md)
+* [함수 호출](javascript/untitled-1.md)
+* [객체 / 상속](javascript/javascript-standard-built-in-objects.md)
+* [객체 지향 프로그래밍](javascript/javascript-object-oriented-programming.md)
 
 ## DOM
 
-* [BOM, DOM intro](dom/document-object-model-intro.md)
-* [Document Object](dom/document-object.md)
-* [Node](dom/node-object.md)
+* [BOM, DOM 개요](dom/document-object-model-intro.md)
+* [문서 객체](dom/document-object.md)
+* [노드](dom/node-object.md)
 
 ## Git
 

@@ -1,4 +1,8 @@
-# JavaScript Object
+---
+description: JavaScript Object
+---
+
+# 객체 / 상속
 
 ## 객체\(Object\)
 

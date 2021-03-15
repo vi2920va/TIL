@@ -1,4 +1,8 @@
-# BOM, DOM intro
+---
+description: 'BOM, DOM intro'
+---
+
+# BOM, DOM 개요
 
 ### 1. Browser Object Model
 

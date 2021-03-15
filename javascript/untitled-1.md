@@ -1,4 +1,8 @@
-# JavaScript function call, apply, bind
+---
+description: 'JavaScript function call, apply, bind'
+---
+
+# 함수 호출
 
 ### 1. call 
 

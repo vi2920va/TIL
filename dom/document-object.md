@@ -1,4 +1,8 @@
-# Document Object
+---
+description: Document Object
+---
+
+# 문서 객체
 
 ## 문서 객체\(Document Object\)
 
