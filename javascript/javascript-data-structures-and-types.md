@@ -1,4 +1,8 @@
-# JavaScript Data structures and types
+---
+description: JavaScript Data structures and types
+---
+
+# 테이터 타입 / 리터럴
 
 ### 1. Data Types
 

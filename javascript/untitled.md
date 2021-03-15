@@ -1,4 +1,8 @@
-# JavaScript intro
+---
+description: JavaScript intro
+---
+
+# JavaScript 개요
 
 ## JavaScript
 

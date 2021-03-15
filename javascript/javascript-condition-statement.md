@@ -1,4 +1,8 @@
-# JavaScript Condition Statement and operators
+---
+description: JavaScript Condition Statement and operators
+---
+
+# 조건 처리 / 연산자
 
 ### 1. 조건문\(Condition Statement\)
 

@@ -1,4 +1,8 @@
-# JavaScript Variable
+---
+description: JavaScript Variable
+---
+
+# 변수
 
 ## JavaScript Declarations
 

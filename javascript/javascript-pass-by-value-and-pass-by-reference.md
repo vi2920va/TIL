@@ -1,4 +1,8 @@
-# JavaScript Pass by value and Pass by reference
+---
+description: JavaScript Pass by value and Pass by reference
+---
+
+# 값 복사/ 값 참조
 
 ### 1. 값 복사\(Pass by value\)
 

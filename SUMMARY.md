@@ -61,11 +61,11 @@
 
 ## JavaScript
 
-* [JavaScript intro](javascript/untitled.md)
-* [JavaScript Variable](javascript/javascript-variable.md)
-* [JavaScript Data structures and types](javascript/javascript-data-structures-and-types.md)
-* [JavaScript Condition Statement and operators](javascript/javascript-condition-statement.md)
-* [JavaScript Pass by value and Pass by reference](javascript/javascript-pass-by-value-and-pass-by-reference.md)
+* [JavaScript 개요](javascript/untitled.md)
+* [변수](javascript/javascript-variable.md)
+* [테이터 타입 / 리터럴](javascript/javascript-data-structures-and-types.md)
+* [조건 처리 / 연산자](javascript/javascript-condition-statement.md)
+* [값 복사/ 값 참조](javascript/javascript-pass-by-value-and-pass-by-reference.md)
 * [JavaScript Loops and iteration](javascript/javascript-loops-and-iteration.md)
 * [JavaScript Function](javascript/javascript-function.md)
 * [JavaScript Array](javascript/javascript-array.md)
