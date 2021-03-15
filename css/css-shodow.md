@@ -1,4 +1,8 @@
-# CSS box-shadow
+---
+description: CSS box-shadow
+---
+
+# 박스 그림자
 
 ### 1. BOX-SHADOW
 

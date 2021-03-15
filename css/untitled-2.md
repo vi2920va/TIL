@@ -1,4 +1,8 @@
-# CSS Multi-column layout
+---
+description: CSS Multi-column layout
+---
+
+# 멀티 컬럼 레이아웃
 
 ### 1. MULTI-COLUMN LAYOUT
 

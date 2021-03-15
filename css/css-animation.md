@@ -1,4 +1,8 @@
-# CSS animation
+---
+description: CSS animation
+---
+
+# 애니메이션
 
 ### 1. animation
 

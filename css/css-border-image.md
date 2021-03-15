@@ -1,4 +1,8 @@
-# CSS border-image
+---
+description: CSS border-image
+---
+
+# 보더 이미지
 
 ### 1. BORDER-IMAGE
 

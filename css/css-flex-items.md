@@ -1,4 +1,8 @@
-# CSS flex items
+---
+description: CSS flex items
+---
+
+# 플렉시블 레이아웃 2
 
 ### 1. FlEXBOX
 
