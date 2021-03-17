@@ -35,5 +35,7 @@ xhr.send();
 ```
 {% endcode %}
 
+#### 2\) GET, POST 방식
+
 
 
