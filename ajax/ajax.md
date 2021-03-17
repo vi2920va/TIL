@@ -23,5 +23,17 @@ let xhr = new XMLHttpRequest();
 ```
 {% endcode %}
 
+#### 1\) 서버 요청\(Request\)
+
+Ajax에서 XMLHttpRequest 객체를 사용하여 서버와 데이터를 교환한다. 따라서 서버에 요청을 보내기 위해서는 XMLHttpRequest 객체를 생성하고 난 후에 open\(\), send\(\) 메서드를 사용하여 요청을 보낼 수 있다. 여기서 open\(\) 메서드는 서버로 요청을 준비하기 위한 설정을 말하고, send\(\)메서드는 준비된 요청을 서버에 전달한다.
+
+{% code title="Sytax" %}
+```javascript
+let xhr = new XMLHttpRequest();
+xhr.open(method, url[, async]);
+xhr.send();
+```
+{% endcode %}
+
 
 
