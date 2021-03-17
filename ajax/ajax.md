@@ -37,5 +37,7 @@ xhr.send();
 
 #### 2\) GET, POST 방식
 
+GET 방식
+
 
 
